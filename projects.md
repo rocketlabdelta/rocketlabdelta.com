@@ -4,4 +4,4 @@ title: Projects
 permalink: /projects/
 ---
 
-# COMING SOON
+COMING SOON
