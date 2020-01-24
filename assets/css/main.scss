@@ -4,7 +4,21 @@
 
 @charset "utf-8";
 
-$base-font-family: 'Source Code Pro', monospace !default;
+@font-face {
+  font-family: 'alien_encounters_italic';
+  src: url('/assets/fonts/sfalienencounters-italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'alien_encounters_italic_solid';
+  src: url('/assets/fonts/sfalienencounterssolid-ital.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$base-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
 $base-font-size:   16px !default;
 $base-line-height: 1.5 !default;
 
@@ -41,6 +55,20 @@ header {
   }
 }
 
+h1 {
+  font-family: 'alien_encounters_italic';
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'alien_encounters_italic_solid';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $theme-color-highlight;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
 a {
   color: $theme-color-bright;
 
@@ -63,6 +91,7 @@ a {
 
   a {
     color: $theme-color-highlight;
+    font-family: 'alien_encounters_italic_solid';
     letter-spacing: .15em;
     padding: .5em .3em;
     text-decoration: none;
