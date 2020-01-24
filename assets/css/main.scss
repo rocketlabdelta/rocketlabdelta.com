@@ -11,12 +11,122 @@ $base-line-height: 1.5 !default;
 $theme-background-color: #000 !default;
 $theme-text-color:       #fff !default;
 
+$theme-color-darkest:   #18104B;
+$theme-color-dark:      #392759;
+$theme-color-bright:    #B51CCC;
+$theme-color-light:     #DA5AD1;
+$theme-color-contrast:  #DC94BA;
+$theme-color-highlight: #F2CF67;
+
+
 body {
   background-color: $theme-background-color;
   color: $theme-text-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height !important;
-  margin: 0;
-  padding: 0 1vw;
+  margin: 0 auto;
+  max-width: 44em;
+  padding: 1em;
+}
+
+header {
+  position: relative;
+
+  figure {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 10em;
+  }
+}
+
+a {
+  color: $theme-color-bright;
+
+  &:visited {
+    color: $theme-color-bright;
+  }
+
+  &:hover {
+    color: $theme-color-light;
+  }
+}
+
+.site-navigation {
+  display: inline-block;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  a {
+    color: $theme-color-highlight;
+    letter-spacing: .15em;
+    padding: .5em .3em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:visited {
+      color: $theme-color-highlight;
+    }
+
+    &:hover {
+      color: $theme-color-contrast;
+    }
+  }
+}
+
+.page-banner {
+  ul {
+    margin: 1em 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  li + li a { 
+    margin-left: .5em;
+  }
+}
+
+.home-banner {
+  font-size: 1.5em;
+  text-align: center;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: .5em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.img-wrapper {
+  display: block;
+}
+
+@media only screen and (min-device-width: 440px) {
+  .page-banner .site-navigation {
+    position: absolute;
+    right: 0;
+    top: .5em;
+  }
+
+  .home-banner {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) {
+  body {
+    font-size: 22px;
+  }
 }
