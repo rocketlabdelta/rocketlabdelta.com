@@ -29,6 +29,8 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - projects.md
+  - fleet.md
   - about.md
 
 # Exclude from processing.
