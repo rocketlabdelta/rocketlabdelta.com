@@ -7,9 +7,9 @@
   <nav role="navigation">
     <ul>
       {%- for path in page_paths -%}
-        {%- assign page = site.pages | where: "path", path | first -%}
-        {%- if page.title -%}
-        <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
+        {%- assign nav_page = site.pages | where: "path", path | first -%}
+        {%- if nav_page.title -%}
+        <li><a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | escape }}</a></li>
         {%- endif -%}
       {%- endfor -%}
     </ul>
