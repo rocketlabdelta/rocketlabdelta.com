@@ -7,5 +7,7 @@
   <title>{{ page.title }}</title>{%- if page.description -%}
   <meta name="description" content="{{ page.description }}" />{%- endif -%}{%- if site.author -%}
   <meta name="description" content="{{ site.author }}" />{%- endif -%}
+  <link rel="preload" as="font" type="font/woff2" href="{{ "/assets/fonts/sf-alien-encounters-italic.woff2" | relative_url }}" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="{{ "/assets/fonts/sf-alien-encounters-italic-solid.woff2" | relative_url }}" crossorigin>
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | relative_url }}">
 </head>
