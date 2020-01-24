@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 60 197 97">
 <filter id="drop-shadow" x="0" y="0">
   <feFlood flood-color="#392759" result="COLOR"></feFlood>
   <feConvolveMatrix result="BEVEL" in="SourceAlpha" kernelMatrix="1 0 0 1" order="2,2"></feConvolveMatrix>
