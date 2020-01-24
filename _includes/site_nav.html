@@ -1,6 +1,6 @@
 
 {%- assign page_paths = site.header_pages | default: default_paths -%}
-<nav role="navigation">
+<nav role="navigation" class="site-navigation">
   <ul>
     {%- for path in page_paths -%}
     {%- assign nav_page = site.pages | where: "path", path | first -%}
