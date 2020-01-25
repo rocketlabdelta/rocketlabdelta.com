@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Why I Like Rocketry
-date: 2020-01-25 08:07 -0500
-categories:
- - writing
+layout:      post
+title:       "Why I Like Rocketry"
+date:        2020-01-25 08:07 -0500
+description: "An outline of what's involved in hobby rocketry"
+categories:  writing
 ---
 
 Rocketry presents a wide variety of engineering challenges that are accessible to people who aren't trained as engineers.
@@ -18,13 +18,13 @@ For beginners, Estes has [ready-to-fly rocket kits][2] and if you want something
 When you're ready for more [SBR][4], for example, has well-designed HPR kits with very detailed instructions--you just have to follow them and put it together.
 
 I don't make very many rocket kits because I enjoy the process of making trade-offs when I design rockets from scratch.
-There are lots of things to consider, but most of them fall into one of five categories:
+There are lots of things to consider:
 
- 1. Motor selection and ignition: "right-sizing" for the rocket, the launch field, the waiver, and how far you want to walk 
- 2. Aerodynamics: rocket length & diameter, fin size & shape
- 3. Material selection and construction: airframes, nose cones, structural components, airfoil design, adhesives, etc.
+ 1. Motor selection, retention, and ignition: "right-sizing" for the rocket, the launch field, the waiver, and how far you want to walk 
+ 2. Aerodynamics: rocket length & diameter, fin size & shape, airfoil design, transitions, etc.
+ 3. Material selection and construction: airframes, nose cones, structural components, adhesives, etc.
  4. Recovery system: harness, fasteners, parachute(s), heat shielding and/or baffling (nylon parachutes melt under the direct heat of an ejection charge), flight electronics, parachute releases, recovery bags, etc.
- 5. Finishing: filling, painting, decals, etc.
+ 5. Finishing: filling, painting, cosmetic details, decals, etc.
 
 The most common thing to fail in an HPR flight is the recovery system.
 (This isn't that surprising because it is the most complicated part of a rocket flight.)
