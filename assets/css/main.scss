@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
   color: $theme-heading-color;
   letter-spacing: .15em;
+  line-height: 1.2;
   text-transform: uppercase;
   word-spacing: -.2em;
 }
@@ -115,20 +116,18 @@ abbr[title] {
 
 abbr[title]:hover::after,
 abbr[title]:focus::after {
-  content: attr(title);
-
-  position: absolute;
-  left: -.3em;
-  bottom: -2em;
-  width: auto;
-  white-space: nowrap;
-
   background-color: $theme-color-darkest;
-  color: $theme-text-color;
   border-radius: 3px;
+  bottom: -2em;
   box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+  color: $theme-text-color;
+  content: attr(title);
   font-size: 1em;
+  left: -.3em;
   padding: .3em;
+  position: absolute;
+  white-space: nowrap;
+  width: auto;
 }
 
 .page-banner {
@@ -147,7 +146,7 @@ abbr[title]:focus::after {
   text-align: center;
 
   ul {
-    margin: 0;
+    margin: 1em 0;
   }
 
   li {
@@ -186,9 +185,12 @@ abbr[title]:focus::after {
   }
 
   .post-title {
-    font-family: $accent-typeface;
     color: $theme-link-color;
     display: block;
+    font-family: $accent-typeface;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    word-spacing: -.2em;
 
     &:hover {
       color: $theme-active-color;
