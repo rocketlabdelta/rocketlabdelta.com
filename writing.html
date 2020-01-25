@@ -7,7 +7,10 @@ permalink: /writing/
 <ul class="post-listing">
   {% for post in site.posts %}
   <li class="post-summary">
-    <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+    <a href="{{ post.url }}" class="post-link">
+      <span class="post-title">{{ post.title }}</span>
+      {{ post.description }}
+    </a>
   </li>
   {% endfor %}
 </ul>

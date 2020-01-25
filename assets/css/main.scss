@@ -22,9 +22,6 @@ $base-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", 
 $base-font-size:   16px !default;
 $base-line-height: 1.5 !default;
 
-$theme-background-color: #000 !default;
-$theme-text-color:       #fff !default;
-
 $theme-color-darkest:   #18104B;
 $theme-color-dark:      #392759;
 $theme-color-bright:    #B51CCC;
@@ -32,6 +29,11 @@ $theme-color-light:     #DA5AD1;
 $theme-color-contrast:  #DC94BA;
 $theme-color-highlight: #F2CF67;
 
+$theme-background-color: #000 !default;
+$theme-text-color:       #fff !default;
+$theme-heading-color:    $theme-color-highlight;
+$theme-link-color:       $theme-color-highlight;
+$theme-active-color:     $theme-color-contrast;
 
 body {
   background-color: $theme-background-color;
@@ -64,7 +66,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $theme-color-highlight;
+  color: $theme-heading-color;
   letter-spacing: .15em;
   text-transform: uppercase;
   word-spacing: -.2em;
@@ -91,7 +93,7 @@ a {
   }
 
   a {
-    color: $theme-color-highlight;
+    color: $theme-link-color;
     font-family: 'alien_encounters_italic_solid';
     letter-spacing: .15em;
     padding: .5em .3em;
@@ -99,11 +101,11 @@ a {
     text-transform: uppercase;
 
     &:visited {
-      color: $theme-color-highlight;
+      color: $theme-link-color;
     }
 
     &:hover {
-      color: $theme-color-contrast;
+      color: $theme-active-color;
     }
   }
 }
@@ -138,6 +140,38 @@ a {
 
 .img-wrapper {
   display: block;
+}
+
+.post-listing {
+  margin:0;
+  padding:0;
+
+  .post-summary {
+    list-style-type: none;
+    margin-bottom: 1.5em;
+  }
+
+  .post-link {
+    text-decoration: none;
+    color: $theme-text-color;
+
+    &:visited {
+      color: $theme-text-color;
+    }
+
+    &:hover {
+      color: $theme-text-color;
+    }
+  }
+
+  .post-title {
+    color: $theme-link-color;
+    display: block;
+
+    &:hover {
+      color: $theme-active-color;
+    }
+  }
 }
 
 @media only screen and (min-device-width: 600px) {
