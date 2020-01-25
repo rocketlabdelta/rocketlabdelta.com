@@ -6,9 +6,10 @@
 
 @font-face {
   font-family: 'alien_encounters_italic_solid';
-  src: url('/assets/fonts/sf-alien-encounters-italic-solid.woff2') format('woff2');
+  src: local(sans-serif), url('/assets/fonts/sf-alien-encounters-italic-solid.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 $base-typeface: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
