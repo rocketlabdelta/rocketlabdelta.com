@@ -29,8 +29,10 @@ plugins:
   - jekyll-feed
 
 collections:
-  - projects
-  - fleet
+  projects:
+    output: true
+  fleet:
+    output: true
 
 header_pages:
   - writing.html
@@ -39,6 +41,14 @@ header_pages:
   - about.md
 
 permalink: /:categories/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "fleet"
+    values:
+      layout: "rocket"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
