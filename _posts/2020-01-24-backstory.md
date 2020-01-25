@@ -45,7 +45,7 @@ One of his teams was selected to participate in the NASA Student Launch Initiati
 
 My last rocketry endeavors before the long break were:
 
-* Overseer: A 4-inch diameter dual-altimeter, dual-deploy rocket I used to certify TRA Level 2 at LRDS 21 in Wayside, TX (2002)
+* Overseer: A 4-inch diameter dual-altimeter, dual-deploy rocket I used to certify TRA Level 2 at LDRS 21 in Wayside, TX (2002)
 * Optimistic: A 54mm minimum-diameter Dynacom filament-wound fiberglass rocket I flew to 8300 feet at LDRS 23 in Geneseo, NY (2004)
 
 *[BAR]: Born-Again Rocketeer
