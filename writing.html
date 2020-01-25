@@ -1,0 +1,13 @@
+---
+title: Writing
+layout: page
+permalink: /writing/
+---
+
+<ul class="post-listing">
+  {% for post in site.posts %}
+  <li class="post-summary">
+    <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

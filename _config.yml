@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - writing.html
   - projects.md
   - fleet.md
   - about.md
