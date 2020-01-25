@@ -52,16 +52,10 @@ My last rocketry endeavors before the long break were:
 
 # Why I Like Rocketry
 
-Rocketry attracts people for lots of different reasons.
-Some people are drawn to model-making and craft detailed scale replicas of historic rockets.
-Some people love the sound and fury of composite propellant and want to make as much fire and noise on the away-pad as possible.
-I fall somewhere in between.
-I like designing rockets that directly address the challenges of hobby rocketry.
-I also think motors in the E-K offer the best balance of cost and overall experience.
-
-What I like most about the hobby is that it presents a wide variety of engineering challenges that are accessible to people who aren't trained as engineers.
+Rocketry presents a wide variety of engineering challenges that are accessible to people who aren't trained as engineers.
 For example, even the most technical sections of the [Handbook of Model Rocketry][4] employ high-school-level physics.
-(This is a good thing! I had a blast in high school physics!) These challenges come in two flavors: building & flying.
+(This is a good thing! I had a blast in high school physics!)
+These challenges come in two flavors: building & flying.
 
 ## Building
 
@@ -90,17 +84,16 @@ Go to a rocket launch and watch for what goes wrong.
 Think about what you could to do mitigate the risk of that happening to you.
 
 I have also seen rockets fall to pieces under thrust.
-It's better to over-build and have it weigh a little more than for it to come apart and be hazardous to spectators.
+It's better to over-build and have it weigh a little more than for a rocket to break apart and be hazardous to spectators.
 
 ## Flying
 
-The bigger the rocket gets, the more complicated it is to fly.
-Rocketry is a very safe hobby and it stays that way because a lot of precautions are taken.
-So, to fly large rockets you need a large field and an FAA waiver.
-This means that virtually all rockets from mid-power on up are flown at launches organized by a regional rocket club.
+You need a big field and an FAA waiver to fly high-power rockets.
+Because of this, virtually all rockets from mid-power on up are flown at launches organized by a regional rocket club.
 Do some research and find where clubs are in your area.
-Because of the field size requirement launches are, as a rule, in a rural area so you'll probably have to drive for a while to get there.
-Both NAR and Tripoli have annual launches, NARAM and LDRS respectively, and they are defiantly worth the trip.
+The field size requirements mean that launches are, as a rule, in a rural area so you'll probably have to drive for a while to get there.
+Both NAR and Tripoli have annual launches, NARAM and LDRS respectively.
+They are defiantly worth the trip if you can make it.
 
 I like prepping my rockets in the field.
 This means:
