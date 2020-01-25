@@ -110,6 +110,31 @@ a {
   }
 }
 
+abbr[title] {
+  position: relative;
+
+  /* ensure consistent styling across browsers */
+  text-decoration: underline dotted; 
+}
+
+abbr[title]:hover::after,
+abbr[title]:focus::after {
+  content: attr(title);
+
+  position: absolute;
+  left: -.3em;
+  bottom: -2em;
+  width: auto;
+  white-space: nowrap;
+
+  background-color: $theme-color-darkest;
+  color: $theme-text-color;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+  font-size: 1em;
+  padding: .3em;
+}
+
 .page-banner {
   ul {
     margin: 1em 0;
