@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Rocket Lab Delta
+author: Dan Horst
 description: >- # this means to ignore newlines until "baseurl:"
   Rocketry projects and resources
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -35,9 +36,9 @@ collections:
     output: true
 
 header_pages:
-  - writing.html
   - projects.html
   - fleet.html
+  - writing.html
   - about.md
 
 permalink: /:categories/:title/
