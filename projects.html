@@ -1,0 +1,15 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+COMING SOON
+
+<ul class="post-listing">
+  {% for project in site.projects %}
+  <li class="post-summary">
+    <a href="{{ project.url }}" class="post-link">{{ project.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

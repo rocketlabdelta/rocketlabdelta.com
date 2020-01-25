@@ -28,10 +28,14 @@ url: "https://rocketlabdelta.com" # the base hostname & protocol for your site, 
 plugins:
   - jekyll-feed
 
+collections:
+  - projects
+  - fleet
+
 header_pages:
   - writing.html
-  - projects.md
-  - fleet.md
+  - projects.html
+  - fleet.html
   - about.md
 
 permalink: /:categories/:title/
