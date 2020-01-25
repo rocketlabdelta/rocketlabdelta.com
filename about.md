@@ -1,7 +1,8 @@
 ---
-layout: page
-title: About
-permalink: /about/
+title:       About
+description: "Rocket Lab Delta is the work of Dan Horst"
+layout:      page
+permalink:   /about/
 ---
 
 Rocket Lab Delta is the work of [Dan Horst][1] [TRA][2] #8886, [NAR][3] #70699.

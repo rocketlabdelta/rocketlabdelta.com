@@ -1,4 +1,5 @@
 ---
-title: Rocket Lab Delta
-layout: home
+title:       "Rocket Lab Delta"
+description: "Rocketry projects and writing by Dan Horst"
+layout:      home
 ---
