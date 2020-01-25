@@ -20,11 +20,11 @@ When you're ready for more [SBR][4], for example, has well-designed HPR kits wit
 I don't make very many rocket kits because I enjoy the process of making trade-offs when I design rockets from scratch.
 There are lots of things to consider:
 
- 1. Motor selection, retention, and ignition: "right-sizing" for the rocket, the launch field, the waiver, and how far you want to walk 
- 2. Aerodynamics: rocket length & diameter, fin size & shape, airfoil design, transitions, etc.
- 3. Material selection and construction: airframes, nose cones, structural components, adhesives, etc.
- 4. Recovery system: harness, fasteners, parachute(s), heat shielding and/or baffling (nylon parachutes melt under the direct heat of an ejection charge), flight electronics, parachute releases, recovery bags, etc.
- 5. Finishing: filling, painting, cosmetic details, decals, etc.
+ 1. **Motor selection retention, and ignition**: "right-sizing" for the rocket, the launch field, the waiver, and how far you want to walk 
+ 2. **Aerodynamics**: rocket length & diameter, fin size & shape, airfoil design, transitions, etc.
+ 3. **Material selection & construction**: airframes, nose cones, structural components, adhesives, etc.
+ 4. **Recovery system**: harness, fasteners, parachute(s), heat shielding and/or baffling (nylon parachutes melt under the direct heat of an ejection charge), flight electronics, parachute releases, recovery bags, etc.
+ 5. **Finishing**: filling, painting, cosmetic details, decals, etc.
 
 The most common thing to fail in an HPR flight is the recovery system.
 (This isn't that surprising because it is the most complicated part of a rocket flight.)
