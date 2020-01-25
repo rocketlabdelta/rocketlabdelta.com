@@ -114,11 +114,8 @@ a {
   }
 
   li {
-    display: inline;
-  }
-
-  li + li a { 
-    margin-left: .5em;
+    display: inline-block;
+    width: 9em;
   }
 }
 
@@ -143,11 +140,21 @@ a {
   display: block;
 }
 
-@media only screen and (min-device-width: 440px) {
-  .page-banner .site-navigation {
-    position: absolute;
-    right: 0;
-    top: .5em;
+@media only screen and (min-device-width: 600px) {
+  .page-banner {
+    .site-navigation {
+      position: absolute;
+      right: 0;
+      top: .5em;
+    }
+
+    li {
+      width: auto;
+    }
+
+    li + li a { 
+      margin-left: .5em;
+    }
   }
 
   .home-banner {
