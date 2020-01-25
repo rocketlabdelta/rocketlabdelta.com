@@ -2,6 +2,8 @@
 layout: post
 title: Why I Like Rocketry
 date: 2020-01-25 08:07 -0500
+categories:
+ - writing
 ---
 
 Rocketry presents a wide variety of engineering challenges that are accessible to people who aren't trained as engineers.
