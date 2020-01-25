@@ -1,0 +1,15 @@
+---
+layout: page
+title: Fleet
+permalink: /fleet/
+---
+
+COMING SOON
+
+<ul class="post-listing">
+  {% for rocket in site.fleet %}
+  <li class="post-summary">
+    <a href="{{ rocket.url }}" class="post-link">{{ rocket.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
