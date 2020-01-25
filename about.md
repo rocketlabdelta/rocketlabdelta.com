@@ -98,24 +98,25 @@ They are defiantly worth the trip if you can make it.
 I like prepping my rockets in the field.
 This means:
 
-- Assembling re-loadable motors like AeroTech RMS or Cesaroni ProX
+- Assembling re-loadable motors like [AeroTech][8] RMS or [Cesaroni][9] ProX
 - Packing the recovery system
 - Loading ejection charges
 - Testing flight electronics
 - Checking for the right amount of friction between rocket components that separate during flight
 
-There are lots of things to remember!
 Make a checklist!
+There are lots of things to remember!
 
 At launches, there are lots of people to meet and talk to where you already have something in common (besides the weather).
 It's fun to walk around and see what other people are doing and their take on the hobby. 
-Maybe I'll see you there sometime!
+Maybe I'll see you there someday!
 
 *[NAR]: National Association of Rocketry
 *[TRA]: Tripoli Rocketry Association
 *[BAR]: Born-Again Rocketeer
 *[HPR]: High Power Rocketry
 *[LDRS]: Large and Dangerous Rocket Ships
+*[NARAM]: National Association of Rocketry Annual Meet
 
 [1]: https://www.danhorst.com
 [2]: http://www.tripoli.org/
@@ -124,3 +125,5 @@ Maybe I'll see you there sometime!
 [5]: https://estesrockets.com/product-category/rockets/beginner/
 [6]: https://giantleaprocketry.com/products/components_fins.aspx#Acme_Fin_Cans
 [7]: http://www.fusionrocket.biz/
+[8]: http://www.aerotech-rocketry.com/
+[9]: http://www.pro38.com/
