@@ -1,0 +1,16 @@
+{
+  "short_name": "RLΔ",
+  "name": "Rocket Lab Delta",
+  "icons": [
+    {
+      "src": "/assets/images/RLD.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000"
+}
