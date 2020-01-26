@@ -3,4 +3,4 @@ description: "A 54mm minimum-diamater all-fiberglass rocket that flew to 8300 ft
 title: Optimistic
 ---
 
-PLACEHOLDER
+COMING SOON

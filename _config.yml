@@ -38,12 +38,17 @@ collections:
 header_pages:
   - projects.html
   - fleet.html
-  - writing.html
+  - blog.html
   - about.md
 
 permalink: /:categories/:title/
 
 defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
   -
     scope:
       path: ""

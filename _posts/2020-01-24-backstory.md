@@ -1,9 +1,8 @@
 ---
-layout:      post
 title:       "Backstory"
+description: "How I got into rocketry in the first place"
 date:        2020-01-24 19:39:46 -0500
-description: "How I got into rocketry in the first place."
-categories:  writing
+categories:  essays
 ---
 
 I am a BAR, having reconnected with rocketry in 2020 after leaving the hobby in the early 2000s.
