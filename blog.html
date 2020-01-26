@@ -1,0 +1,23 @@
+---
+title: Blog
+layout: page
+permalink: /blog/
+---
+
+<ul class="post-listing">
+  {% for post in site.posts %}
+  <li class="post-summary">
+    <a href="{{ post.url }}" class="post-link">
+      <span class="post-title">{{ post.title }}</span>
+      {{ post.description }}
+    </a>
+
+    <nav class="post-tags">
+      {% assign sortedCategories = post.categories | sort %}
+      {% for category in sortedCategories %}
+      <a class="post-tag" href="{{ site.base_url }}/{{ category }}">{{ category | capitalize }}</a>
+      {% endfor %}
+    </nav>
+  </li>
+  {% endfor %}
+</ul>
