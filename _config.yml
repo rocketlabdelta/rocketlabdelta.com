@@ -30,6 +30,8 @@ plugins:
   - jekyll-feed
 
 collections:
+  category:
+    output: true
   projects:
     output: true
   fleet:
@@ -49,6 +51,12 @@ defaults:
       path: ""
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "category"
   -
     scope:
       path: ""
