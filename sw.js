@@ -17,11 +17,11 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
   const pagesCacheName = version + 'pages';
   const imagesCacheName = version + 'images';
   const offlinePages = [
-    '/',
     '/projects/',
     '/fleet/',
     '/blog/',
-    '/about/'
+    '/about/',
+    '/'
   ];
 
   const staticAssets = [
@@ -31,18 +31,12 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
   ];
 
   function stashInCache(cacheName, request, response){
-    // We don't want to cache assets served by Chrome extensions
-    var isWebResource = (request.url.indexOf('http') === 0);
-
-    if(isWebResource){
-      caches.open(cacheName)
-        .then( cache => cache.put(request, response) );
-      }
-    }
+    caches.open(cacheName)
+      .then( cache => cache.put(request, response) );
   }
 
   function updateStaticCache(){
-    // Try to fetch static top level pages - can be done after install.
+    //try to fetch static top level pages - can be done after install.
     caches.open(pagesCacheName)
       .then( cache => {
         // These items must be cached for the Service Worker to complete installation
@@ -57,17 +51,19 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
   }
 
   // Limit the number of items in a specified cache.
-  function trimCache(cacheName, maxItems){
+  function trimCache(cacheName, maxItems) {
     caches.open(cacheName)
-      .then( cache => {
-        cache.keys()
-          .then(keys => {
-            if(keys.length > maxItems){
-              cache.delete(keys[0])
-                   .then(trimCache(cacheName, maxItems));
-            }
-          });
-      });
+    .then( cache => {
+      cache.keys()
+      .then(keys => {
+        if (keys.length > maxItems) {
+          cache.delete(keys[0])
+          .then( () => {
+            trimCache(cacheName, maxItems)
+          }); // end delete then
+        }
+      }); // end keys then
+    }); // end open then
   }
 
   // Remove caches whose name is no longer valid
@@ -133,7 +129,7 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
       });
     });
   }
-  
+
   self.addEventListener('fetch', event => {
     let request = event.request;
     let url = new URL(request.url);
@@ -143,35 +139,62 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
       return;
     }
 
+    // Temporary fix to address Chrome 71 bug where pdfs are returned blank
+    // https://bugs.chromium.org/p/chromium/issues/detail?id=918944
+    if( request.url.indexOf('.pdf') !== -1 ){
+      return;
+    }
+
     // Ignore non-GET requests
     if(request.method !== 'GET'){
       return;
     }
 
     // For HTML requests, try the network first, fall back to the cache, finally the offline page
-    if(request.headers.get('Accept').indexOf('text/html') !== -1){
+    if (request.headers.get('Accept').indexOf('text/html') !== -1) {
+
+      var newReq;
+
+      var reqHeaders = new Headers();
+      for( var i in request.headers ){
+        reqHeaders.set( i, request.headers[i] );
+      }
+      reqHeaders.set( 'X-CACHED', version );
+      newReq = new Request( url, {
+        method: "GET",
+        headers: reqHeaders,
+        mode: request.mode == 'navigate' ? 'cors' : request.mode,
+        credentials: request.credentials,
+        redirect: request.redirect
+      } );
 
       event.respondWith(
-        fetch(request)
+        fetch(newReq)
           .then( response => {
             // NETWORK
             // Stash a copy of this page in the pages cache
             let copy = response.clone();
-            if(offlinePages.includes(url.pathname) || offlinePages.includes(url.pathname + '/')){
-              stashInCache(staticCacheName, request, copy);
+            if (offlinePages.includes(url.pathname) || offlinePages.includes(url.pathname + '/')) {
+              stashInCache(staticCacheName, newReq, copy);
             } else {
-              stashInCache(pagesCacheName, request, copy);
+              stashInCache(pagesCacheName, newReq, copy);
             }
             return response;
           })
           .catch( () => {
+            var fallback = new Request( '/offline/', {
+              method: "GET",
+              headers: reqHeaders,
+              cache: "default"
+            } );
+
             // CACHE or FALLBACK
-            return caches.match(request)
-                .then( response => response || caches.match('/offline/') );
+            return caches.match(newReq)
+              .then( response => response || caches.match(fallback) );
           })
       );
       return;
-    }
+  }
 
     // Deal with cache busting CSS/JS
     let regex = /^(.+)\.(\d+)\.(js|css)$/;
