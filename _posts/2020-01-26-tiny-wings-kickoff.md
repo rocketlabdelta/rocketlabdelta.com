@@ -1,6 +1,6 @@
 ---
 title:       "Reexamining Rocket Fin Aerodynamics"
-description: "Kicking off the Tiny Wings project"
+description: "Project Kickoff: Tiny Wings"
 date:        2020-01-26 10:28 -0500
 categories:  updates
 ---
