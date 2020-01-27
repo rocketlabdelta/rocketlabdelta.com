@@ -37,11 +37,11 @@ Our final project was featured in the January/February issue of Sport Rocketry i
 The 3-inch launch vehicle I built for that project flew different payload configurations for several years starting in 2001.
 The rocket was retired after losing a fin to a hard landing in the Nevada desert at LDRS 26 (2007).
 
-My dad was a physics teacher at Goshen High School and coached at least one team for the [Team America Rocketry Challenge][2] from its inaugural year in 2002 until he retired in 2012.
+My dad was a physics teacher at Goshen High School and coached at least one team for [The American Rocketry Challenge][2] from its inaugural year in 2002 until he retired in 2012.
 Several of his teams made it to nationals.
 I missed the age cutoff to participate as a team member (only by a year!) so I served as an assistant coach for a few teams instead.
 I helped with web content, built a reference launch vehicle, and helped out where I could.
-One of the Goshen High School teams was selected to participate in the [NASA Student Launch Initiative][3] after placing well and I played an assisting role in that project too.
+One of the Goshen High School teams was selected to participate in [NASA Student Launch][3] after placing well and I played an assisting role in that project too.
 
 My last rocketry endeavors before the long break were:
 
