@@ -2,14 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@charset "utf-8";
-
 @font-face {
-  font-family: 'alien_encounters_italic_solid';
-  src: url('/assets/fonts/sf-alien-encounters-italic-solid.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
   font-display: fallback;
+  font-family: 'alien_encounters_italic_solid';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/fonts/sf-alien-encounters-italic-solid.woff2') format('woff2');
 }
 
 $base-typeface: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
@@ -18,12 +16,12 @@ $base-line-height: 1.5 !default;
 
 $accent-typeface: 'alien_encounters_italic_solid', $base-typeface;
 
-$theme-color-darkest:   #18104B;
+$theme-color-darkest:   #18104b;
 $theme-color-dark:      #392759;
-$theme-color-bright:    #B51CCC;
-$theme-color-light:     #DA5AD1;
-$theme-color-contrast:  #DC94BA;
-$theme-color-highlight: #F2CF67;
+$theme-color-bright:    #b51ccc;
+$theme-color-light:     #da5ad1;
+$theme-color-contrast:  #dc94ba;
+$theme-color-highlight: #f2cf67;
 
 $theme-background-color: #000 !default;
 $theme-text-color:       #fff !default;
@@ -31,12 +29,14 @@ $theme-heading-color:    $theme-color-highlight;
 $theme-link-color:       $theme-color-highlight;
 $theme-active-color:     $theme-color-contrast;
 
+$print-text-color:       #000;
+
 body {
   background-color: $theme-background-color;
   color: $theme-text-color;
   font-family: $base-typeface;
   font-size: $base-font-size;
-  line-height: $base-line-height !important;
+  line-height: $base-line-height;
   margin: 0 auto;
   max-width: 44em;
   padding: 1em;
@@ -53,7 +53,12 @@ header {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $theme-heading-color;
   font-family: $accent-typeface;
   font-weight: normal;
@@ -108,23 +113,23 @@ a {
 
 abbr[title] {
   position: relative;
-  text-decoration: underline dotted; 
-}
+  text-decoration: underline dotted;
 
-abbr[title]:hover::after,
-abbr[title]:focus::after {
-  background-color: $theme-color-darkest;
-  border-radius: 3px;
-  bottom: -2em;
-  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
-  color: $theme-text-color;
-  content: attr(title);
-  font-size: 1em;
-  left: -.3em;
-  padding: .3em;
-  position: absolute;
-  white-space: nowrap;
-  width: auto;
+  &:hover::after,
+  &:focus::after {
+    background-color: $theme-color-darkest;
+    border-radius: 3px;
+    bottom: -2em;
+    box-shadow: 1px 1px 5px 0 $theme-color-highlight;
+    color: $theme-text-color;
+    content: attr(title);
+    font-size: 1em;
+    left: -.3em;
+    padding: .3em;
+    position: absolute;
+    white-space: nowrap;
+    width: auto;
+  }
 }
 
 .page-banner {
@@ -161,8 +166,8 @@ abbr[title]:focus::after {
 }
 
 .post-listing {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 
   .post-summary {
     list-style-type: none;
@@ -170,8 +175,8 @@ abbr[title]:focus::after {
   }
 
   .post-link {
-    text-decoration: none;
     color: $theme-text-color;
+    text-decoration: none;
 
     &:visited {
       color: $theme-text-color;
@@ -198,7 +203,7 @@ abbr[title]:focus::after {
 
 @media only screen and (min-width: 320px) {
   .page-banner li {
-      margin-bottom: .5em;
+    margin-bottom: .5em;
   }
 }
 
@@ -216,10 +221,10 @@ abbr[title]:focus::after {
 
     li {
       width: auto;
-    }
 
-    li + li a { 
-      margin-left: .5em;
+      + li a {
+        margin-left: .5em;
+      }
     }
   }
 
@@ -234,13 +239,18 @@ abbr[title]:focus::after {
   }
 }
 
-@media print { 
+@media print {
   body,
-  h1, h2, h3, h4, h5, h6 {
-    color: #000;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $print-text-color;
   }
 
   nav {
     display: none;
-  } 
+  }
 }
