@@ -166,39 +166,58 @@ abbr:hover::after {
   display: block;
 }
 
+.post-link {
+  color: $theme-text-color;
+  display: block;
+  text-decoration: none;
+
+  &:visited {
+    color: $theme-text-color;
+  }
+
+  &:hover {
+    color: $theme-text-color;
+  }
+}
+
 .post-listing {
   margin: 0;
   padding: 0;
+}
 
-  .post-summary {
-    list-style-type: none;
-    margin-bottom: 1.5em;
+.post-summary {
+  list-style-type: none;
+  margin-bottom: 1.5em;
+}
+
+.post-tags {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
   }
+}
 
-  .post-link {
-    color: $theme-text-color;
-    text-decoration: none;
+.post-tag {
+  text-decoration: none;
+  text-transform: uppercase;
 
-    &:visited {
-      color: $theme-text-color;
-    }
-
-    &:hover {
-      color: $theme-text-color;
-    }
+  &:hover {
+    text-decoration: underline;
   }
+}
 
-  .post-title {
-    color: $theme-link-color;
-    display: block;
-    font-family: $accent-typeface;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    word-spacing: -.2em;
+.post-title {
+  color: $theme-link-color;
+  display: block;
+  font-family: $accent-typeface;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  word-spacing: -.2em;
 
-    &:hover {
-      color: $theme-active-color;
-    }
+  &:hover {
+    color: $theme-active-color;
   }
 }
 

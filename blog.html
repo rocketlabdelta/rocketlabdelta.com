@@ -12,11 +12,15 @@ permalink: /blog/
       {{ post.description }}
     </a>
 
-    <nav class="post-tags">
+    <nav>
+      <ul class="post-tags">
       {% assign sortedCategories = post.categories | sort %}
       {% for category in sortedCategories %}
-      <a class="post-tag" href="{{ site.base_url }}/{{ category }}">{{ category | capitalize }}</a>
+      <li>
+        <a class="post-tag" href="{{ site.base_url }}/{{ category }}"><small>{{ category }}</small></a>
+      </li>
       {% endfor %}
+      </ul>
     </nav>
   </li>
   {% endfor %}
