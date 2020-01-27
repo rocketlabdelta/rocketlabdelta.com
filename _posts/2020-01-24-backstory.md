@@ -37,16 +37,16 @@ Our final project was featured in the January/February issue of Sport Rocketry i
 The 3-inch launch vehicle I built for that project flew different payload configurations for several years starting in 2001.
 The rocket was retired after losing a fin to a hard landing in the Nevada desert at LDRS 26 (2007).
 
-My dad, now retired, was a physics teacher at Goshen High School and coached at least one team for the Team America Rocketry Challenge from its inaugural year in 2002 until he retired in 2012.
-Several of the teams made it to nationals under his leadership.
-I missed the age cutoff to participate as a team member (if only they had started it one year earlier!) so I was an assistant coach for several years instead.
+My dad was a physics teacher at Goshen High School and coached at least one team for the [Team America Rocketry Challenge][2] from its inaugural year in 2002 until he retired in 2012.
+Several of his teams made it to nationals.
+I missed the age cutoff to participate as a team member (only by a year!) so I served as an assistant coach for a few teams instead.
 I helped with web content, built a reference launch vehicle, and helped out where I could.
-One of his teams was selected to participate in the NASA Student Launch Initiative after placing well and I played a minor assisting role in that project too.
+One of the Goshen High School teams was selected to participate in the [NASA Student Launch Initiative][3] after placing well and I played an assisting role in that project too.
 
 My last rocketry endeavors before the long break were:
 
-* [Overseer][2]: A 4-inch diameter dual-altimeter, dual-deploy rocket I used to certify TRA Level 2 at LDRS 21 in Wayside, TX (2002)
-* [Optimistic][3]: A 54mm minimum-diameter Dynacom filament-wound fiberglass rocket I flew to 8300 feet at LDRS 23 in Geneseo, NY (2004)
+* [Overseer][4]: A 4-inch diameter dual-altimeter, dual-deploy rocket I used to certify TRA Level 2 at LDRS 21 in Wayside, TX (2002)
+* [Optimistic][5]: A 54mm minimum-diameter Dynacom filament-wound fiberglass rocket I flew to 8300 feet at LDRS 23 in Geneseo, NY (2004)
 
 *[BAR]: Born-Again Rocketeer
 *[HPR]: High Power Rocketry
@@ -54,5 +54,7 @@ My last rocketry endeavors before the long break were:
 *[TRA]: Tripoli Rocketry Association
 
 [1]: https://www.danhorst.com
-[2]: {{ "/fleet/overseer/" | relative_url }}
-[3]: {{ "/fleet/optimistic/" | relative_url }}
+[2]: https://rocketcontest.org/
+[3]: https://www.nasa.gov/stem/studentlaunch/home/
+[3]: {{ "/fleet/overseer/" | relative_url }}
+[4]: {{ "/fleet/optimistic/" | relative_url }}
