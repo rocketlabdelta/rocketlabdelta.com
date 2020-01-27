@@ -111,17 +111,17 @@ a {
   }
 }
 
-abbr[title] {
+abbr {
   position: relative;
   text-decoration: underline dotted;
 }
 
-a:focus abbr[title]::after,
-abbr[title]:focus::after,
-abbr[title]:hover::after {
+a:focus abbr::after,
+abbr:focus::after,
+abbr:hover::after {
   background-color: $theme-color-darkest;
-  border-radius: 2px;
   border: 1px solid $theme-color-highlight;
+  border-radius: 2px;
   bottom: -2.3em;
   color: $theme-text-color;
   content: attr(title);
