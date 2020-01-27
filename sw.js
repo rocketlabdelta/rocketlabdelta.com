@@ -98,14 +98,14 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
 
   // Pass offline pages cache for display on the Offline page
   self.addEventListener('message', event => {
-    if (event.data.command == 'getAvailableOffline') {
+    if (event.data.command === 'getAvailableOffline') {
       const pages = []
       caches.open(pagesCacheName).then(function (cache) {
         cache.keys().then(function (keys) {
           keys.forEach(function (request, index, array) {
             getResponseMeta(cache, request).then(meta => {
               if (meta) pages.push(meta)
-              if (index == array.length - 1) event.ports[0].postMessage({ offline_pages: pages })
+              if (index === array.length - 1) event.ports[0].postMessage({ offline_pages: pages })
             })
           })
         })
@@ -162,7 +162,7 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
       newReq = new Request(url, {
         method: 'GET',
         headers: reqHeaders,
-        mode: request.mode == 'navigate' ? 'cors' : request.mode,
+        mode: request.mode === 'navigate' ? 'cors' : request.mode,
         credentials: request.credentials,
         redirect: request.redirect
       })
