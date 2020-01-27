@@ -114,22 +114,23 @@ a {
 abbr[title] {
   position: relative;
   text-decoration: underline dotted;
+}
 
-  &:hover::after,
-  &:focus::after {
-    background-color: $theme-color-darkest;
-    border-radius: 3px;
-    bottom: -2em;
-    box-shadow: 1px 1px 5px 0 $theme-color-highlight;
-    color: $theme-text-color;
-    content: attr(title);
-    font-size: 1em;
-    left: -.3em;
-    padding: .3em;
-    position: absolute;
-    white-space: nowrap;
-    width: auto;
-  }
+a:focus abbr[title]::after,
+abbr[title]:focus::after,
+abbr[title]:hover::after {
+  background-color: $theme-color-darkest;
+  border-radius: 2px;
+  border: 1px solid $theme-color-highlight;
+  bottom: -2.3em;
+  color: $theme-text-color;
+  content: attr(title);
+  font-size: 1em;
+  left: -.3em;
+  padding: .3em;
+  position: absolute;
+  white-space: nowrap;
+  width: auto;
 }
 
 .page-banner {
