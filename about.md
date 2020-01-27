@@ -7,7 +7,7 @@ permalink:   /about/
 
 Rocket Lab Delta is the work of [Dan Horst][1] [TRA][2] #8886, [NAR][3] #70699.
 
-See [my backstory][4] and ["Why I Like Rocketry"][5] for more on why hobby rocketry is important to me.
+[My backstory][4] and ["Why I Like Rocketry"][5] help explain why hobby rocketry is important to me.
 
 
 *[NAR]: National Association of Rocketry
