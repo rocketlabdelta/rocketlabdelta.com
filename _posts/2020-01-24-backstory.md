@@ -56,5 +56,5 @@ My last rocketry endeavors before the long break were:
 [1]: https://www.danhorst.com
 [2]: https://rocketcontest.org/
 [3]: https://www.nasa.gov/stem/studentlaunch/home/
-[3]: {{ "/fleet/overseer/" | relative_url }}
-[4]: {{ "/fleet/optimistic/" | relative_url }}
+[4]: {{ "/fleet/overseer/" | relative_url }}
+[5]: {{ "/fleet/optimistic/" | relative_url }}
