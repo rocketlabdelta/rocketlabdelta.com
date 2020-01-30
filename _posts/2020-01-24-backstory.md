@@ -12,6 +12,11 @@ I was introduced to High Power Rocketry the next year by Kurt Cripe, a friend's 
 My first HPR launch was in Three Oaks, MI in the fall of 1996.
 My dad, Ken Horst, and I dove deep into rocketry after that.
 
+<figure>
+  <img src="{{ "/assets/photos/1996-early-model-rocket-launch.jpg" | relative_url }}" alt="Early model rocket launch in 1996" />
+  <figcaption>An early rocket launch with my dad & brother. Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup</figcaption>
+</figure>
+
 The basement workshop of my parent's home was christened "The Rocket Lab" and it was outfitted with progressively larger power tools so that we could fabricate more sophisticated rockets.
 Over the next 8 years, I spent countless hours in the shop learning and practicing how to build rockets that could withstand the forces of high-power flight and recovery.
 I fabricated dozens upon dozens of components -- fins, bulkheads, centering rings, pistons, "sleds" for electronics, etc. -- from balsa, aircraft-grade plywood, and G-10 fiberglass sheeting accented with aluminum, cork, cherry wood, all-thread, t-nuts, polystyrene, and stainless steel fittings.
@@ -20,10 +25,15 @@ I learned how to use different viscosities and formulations of cyanoacrylate (su
 I used fiberglass, Kevlar, and carbon fiber to strengthen airframes, laminate fins, and reinforce joints.
 I got quite good at filling wood grain, smoothing surfaces, and using spray paint.
 
-In the fall of 1998, I discovered the rocketry competition at the Elkhart County 4-H fair, one of the largest county fairs in the nation, and said to myself "I could do better than that" after looking at my competition.
+In the fall of 1997, I discovered the rocketry competition at the Elkhart County 4-H fair, one of the largest county fairs in the nation, and said to myself "I could do better than that" after looking at my competition.
 For the next four years, every year I was eligible to compete, my rocket was selected for the state fair.
 I still have two of my entries: a scratch-built 3" Ares (4×29mm), and a scratch-built 2-stage BT-60 WAC Corporal (3×18mm to 24mm).
 Neither one of them has flown but they were designed and built so that they could.
+
+<figure>
+  <img src="{{ "/assets/photos/1998-4-H-WAC-Corporal.jpg" | relative_url }}" alt="4-H WAC Corporal in 1998" />
+  <figcaption>My 4-H WAC Corporal. I turned both nose cones and built the telescoping stage coupler with heavy-gauge music wire.</figcaption>
+</figure>
 
 My dad and I started using avionics early on in our HPR models.
 We tried many different altimeters but used the BlackSky AltAcc the most.
