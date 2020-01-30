@@ -192,6 +192,16 @@ strong {
   display: block;
 }
 
+.footnotes {
+  border-top: 1px dotted $theme-color-highlight;
+  margin-top: 3em;
+  padding-top: 2em;
+
+  ol {
+    margin: 0;
+  }
+}
+
 .post-link {
   color: $theme-text-color;
   display: block;
