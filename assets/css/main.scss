@@ -105,14 +105,14 @@ a {
 
 abbr {
   position: relative;
-  text-decoration: underline dotted;
+  text-decoration: underline solid $theme-color-dark;
 }
 
 a:focus abbr::after,
 abbr:focus::after,
 abbr:hover::after {
   background-color: $theme-background-color;
-  border: 1px solid $theme-color-highlight;
+  border: 1px solid $theme-color-dark;
   border-radius: 2px;
   bottom: -2.3em;
   color: $theme-text-color;
