@@ -14,7 +14,7 @@ My dad, Ken Horst, and I dove deep into rocketry after that.
 
 <figure>
   <img src="{{ "/assets/photos/1996-early-model-rocket-launch.jpg" | relative_url }}" alt="Early model rocket launch in 1996" />
-  <figcaption>An early rocket launch with my dad & brother. Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup</figcaption>
+  <figcaption>An early rocket launch with my dad & brother (left). Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup</figcaption>
 </figure>
 
 The basement workshop of my parent's home was christened "The Rocket Lab" and it was outfitted with progressively larger power tools so that we could fabricate more sophisticated rockets.
@@ -46,6 +46,11 @@ My dad started the Goshen Radios Aloft Group (G-RAG) where we enlisted several H
 Our final project was featured in the January/February issue of Sport Rocketry in 2002.
 The 3-inch launch vehicle I built for that project flew different payload configurations for several years starting in 2001.
 The rocket was retired after losing a fin to a hard landing in the Nevada desert at LDRS 26 (2007).
+
+<figure>
+  <img src="{{ "/assets/photos/2001-G-RAG-3-payload.jpg" | relative_url }}" alt="G-RAG 3 payload" />
+  <figcaption>Avionics & telemetry payload for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then.</figcaption>
+</figure>
 
 My dad was a physics teacher at Goshen High School and coached at least one team for [The American Rocketry Challenge][2] from its inaugural year in 2002 until he retired in 2012.
 Several of his teams made it to nationals.
