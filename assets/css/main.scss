@@ -16,6 +16,8 @@ $base-line-height: 1.5 !default;
 
 $accent-typeface: 'alien_encounters_italic_solid', $base-typeface;
 
+$theme-content-width:   44em;
+
 $theme-color-darkest:   #18104b;
 $theme-color-dark:      #392759;
 $theme-color-bright:    #b51ccc;
@@ -31,15 +33,16 @@ $theme-active-color:     $theme-color-contrast;
 
 $print-text-color:       #000;
 
+html {
+  padding: 1em;
+}
+
 body {
   background-color: $theme-background-color;
   color: $theme-text-color;
   font-family: $base-typeface;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  margin: 0 auto;
-  max-width: 44em;
-  padding: 1em;
 }
 
 header {
@@ -85,18 +88,23 @@ a {
   }
 }
 
-main figure {
-  color: $theme-color-highlight;
-  margin: 0;
-  padding: 1em;
+main {
+  max-width: $theme-content-width;
+  margin: 0 auto 10em;
 
-  img {
-    width: 100%;
-  }
+  figure {
+    color: $theme-color-highlight;
+    margin: 0;
+    padding: 1em;
 
-  figcaption {
-    font-style: italic;
-    padding-top: .5em;
+    img {
+      width: 100%;
+    }
+
+    figcaption {
+      font-style: italic;
+      padding-top: .5em;
+    }
   }
 }
 
@@ -129,10 +137,10 @@ main figure {
 .color-swatch {
   display: inline-block;
   font-size: .8em;
-  height: 10vw;
-  margin: 1vw;
-  padding: 1vw;
-  width: 10vw;
+  height: 5em;
+  margin: 0 1% 2% 1%;
+  padding: 1em;
+  width: 29%;
 }
 
 .theme-color-darkest {
@@ -182,6 +190,9 @@ abbr:hover::after {
 }
 
 .page-banner {
+  max-width: $theme-content-width;
+  margin: 0 auto;
+
   ul {
     margin: 1em 0;
     max-width: 18em;
