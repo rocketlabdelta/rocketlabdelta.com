@@ -130,6 +130,11 @@ strong {
   font-weight: normal;
 }
 
+.site-logo-splash {
+  margin: 2em auto 0;
+  max-width: 60em;
+}
+
 .site-navigation {
   display: inline;
 
@@ -186,10 +191,6 @@ strong {
       margin-bottom: 0;
     }
   }
-}
-
-.img-wrapper {
-  display: block;
 }
 
 .footnotes {
