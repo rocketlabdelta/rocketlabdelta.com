@@ -85,6 +85,21 @@ a {
   }
 }
 
+main figure {
+  color: $theme-color-highlight;
+  margin: 0;
+  padding: 1em;
+
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    font-style: italic;
+    padding-top: .5em;
+  }
+}
+
 .site-navigation {
   display: inline;
 
@@ -109,6 +124,39 @@ a {
       color: $theme-active-color;
     }
   }
+}
+
+.color-swatch {
+  display: inline-block;
+  font-size: .8em;
+  height: 10vw;
+  margin: 1vw;
+  padding: 1vw;
+  width: 10vw;
+}
+
+.theme-color-darkest {
+  background-color: $theme-color-darkest;
+}
+
+.theme-color-dark {
+  background-color: $theme-color-dark;
+}
+
+.theme-color-bright {
+  background-color: $theme-color-bright;
+}
+
+.theme-color-light {
+  background-color: $theme-color-light;
+}
+
+.theme-color-contrast {
+  background-color: $theme-color-contrast;
+}
+
+.theme-color-highlight {
+  background-color: $theme-color-highlight;
 }
 
 abbr {
@@ -256,6 +304,10 @@ abbr:hover::after {
 @media only screen and (min-width: 1000px) {
   body {
     font-size: 22px;
+  }
+
+  main figure {
+    padding: 1em 2em;
   }
 }
 
