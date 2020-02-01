@@ -79,9 +79,10 @@ defaults:
 # their entries' file path in the `include:` list.
 #
 exclude:
-   - package.json
-   - package-lock.json
-   - fleet-spec.md
+  - package.json
+  - package-lock.json
+  - fleet-spec.md
+  - projects/todo.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
