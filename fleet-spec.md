@@ -1,0 +1,87 @@
+# Fleet Spec
+
+Rocket attributes
+
+- Class
+  - Model
+  - Mid-power
+  - Level 1
+  - Level 2
+  - Level 3
+- Configuration
+  - Single motor
+  - Cluster
+  - Staged
+- Nose cone
+  - Shape
+    - Ogive
+    - Elliptical
+    - Conical
+  - Material
+    - Plastic
+    - Wood
+    - Fiberglass
+- Airframe
+  - Diameter
+    - BT-20
+    - BT-50
+    - BT-55
+    - 29mm
+    - 38mm
+    - 54mm
+    - 63mm
+    - 75mm
+    - 98mm
+  - Material
+    - Cardboard
+    - Phenolic
+    - Polymer
+    - Fiberglass
+  - Reinforcement
+    - Fiberglass
+    - Kevlar
+    - Carbon fiber
+    - None
+- Fin
+  - Count
+    - 3
+    - 4
+  - Airfoil
+    - Rounded
+    - Streamlined
+    - Double-wedge
+    - Bi-convex
+  - Material
+    - Balsa
+    - Plywood
+    - Fiberglass
+    - Laminated
+  - Reinforcement
+    - Paper
+    - Fiberglass
+    - Carbon fiber
+- Motor mount
+  - 13mm
+  - 18mm
+  - 24mm
+  - 29mm
+  - 38mm
+  - 54mm
+  - 75mm
+  - 98mm
+- Centering rings
+  - Cardboard
+  - Plywood
+  - Fiberglass
+  - Carbon fiber
+  - None
+- Recovery
+  - Tumble
+  - Streamer
+  - Parachute
+  - Dual deployment
+- Avionics
+  - Altimeter
+  - Dual altimeter
+  - Timer
+  - Tracking device
