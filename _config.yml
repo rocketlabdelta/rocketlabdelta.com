@@ -81,6 +81,7 @@ defaults:
 exclude:
    - package.json
    - package-lock.json
+   - fleet-spec.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
