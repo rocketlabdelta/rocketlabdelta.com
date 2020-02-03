@@ -50,6 +50,19 @@
   - [John Coker's tip-to-tip fin layup jig][8]
 
 ## Level 1
+- 2.56" airframe
+- 38mm motor mount sized for a 38/270 case
+- 38mm Aeropac motor retainer
+- 38-29mm Aeropac motor adapter
+- Motor ejection baffel
+- Avionics bay (passive?)
+- Chute release
+- Descent chute
+- Blue tube
+- Airfoiled fins
+- Tip-to-top fiberglass on fin core _and_ fin surface
+- Fiberglassed airframe
+- Extended nose cone payload bay
 
 [1]: https://www.apogeerockets.com/Building_Supplies/Tools/Guillotine_Fin_Jig
 [2]: http://www.macklinmissileworks.com/shop/mid-size-guillotine-fin-jig-1
