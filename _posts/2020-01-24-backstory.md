@@ -69,8 +69,8 @@ My last rocketry endeavors before the long break were:
 *[TRA]: Tripoli Rocketry Association
 
 [1]: https://www.danhorst.com
-[2]: https://rocketcontest.org/
-[4]: {{ "/fleet/g-rag-3/" | relative_url }}
-[3]: https://www.nasa.gov/stem/studentlaunch/home/
-[4]: {{ "/fleet/overseer/" | relative_url }}
-[5]: {{ "/fleet/optimistic/" | relative_url }}
+[2]: {{ "/fleet/g-rag-3/" | relative_url }}
+[3]: https://rocketcontest.org/
+[4]: https://www.nasa.gov/stem/studentlaunch/home/
+[5]: {{ "/fleet/overseer/" | relative_url }}
+[6]: {{ "/fleet/optimistic/" | relative_url }}
