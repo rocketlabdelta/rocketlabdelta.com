@@ -12,7 +12,7 @@ I like rocketry for two primary reasons:
 
 <figure>
   <img src="{{ "/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg" | relative_url }}" alt="Family trip to Cape Canaveral" />
-  <figcaption>My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I, Apollo capsule (ground)</figcaption>
+  <figcaption>My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I</figcaption>
 </figure>
 
 Rocketry has a lot of engineering challenges that are accessible to people who aren't trained as engineers.
