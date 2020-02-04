@@ -5,9 +5,19 @@ date:        2020-01-25 08:07 -0500
 categories:  essays
 ---
 
-Rocketry presents a wide variety of engineering challenges that are accessible to people who aren't trained as engineers.
+I like rocketry for two primary reasons:
+
+1. It is a way of concretly connecting with things I think are cool like space travel, powered flight, and stuff that goes super fast.
+2. It presents a wide vairiety of challengs that I have fun solving in different ways.
+
+<figure>
+  <img src="{{ "/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg" | relative_url }}" alt="Family trip to Cape Canaveral" />
+  <figcaption>My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I, Apollo capsule (ground)</figcaption>
+</figure>
+
+Rocketry has a lot of engineering challenges that are accessible to people who aren't trained as engineers.
 For example, even the most technical sections of the [Handbook of Model Rocketry][1] employ high-school-level physics.
-(This is a good thing! I had a blast in high school physics!)
+(I had a blast in high school physics!)
 These challenges come in two flavors: building & flying.
 
 ## Building
@@ -19,7 +29,7 @@ When you're ready for more [SBR][4], for example, has well-designed HPR kits wit
 I don't make very many rocket kits because I enjoy the process of making trade-offs when I design rockets from scratch.
 There are lots of things to consider:
 
- 1. **Motor selection retention, and ignition**: "right-sizing" for the rocket, the launch field, the waiver, and how far you want to walk 
+ 1. **Motor selection retention, and ignition**: "right-sizing" for the rocket, the launch field, the waiver, and how far you want to walk
  2. **Aerodynamics**: rocket length & diameter, fin size & shape, airfoil design, transitions, etc.
  3. **Material selection & construction**: airframes, nose cones, structural components, adhesives, etc.
  4. **Recovery system**: harness, fasteners, parachute(s), heat shielding and/or baffling (nylon parachutes melt under the direct heat of an ejection charge), flight electronics, parachute releases, recovery bags, etc.
@@ -61,7 +71,7 @@ Make a checklist!
 There are lots of things to remember!
 
 At launches, there are lots of people to meet and talk to where you already have something in common (besides the weather).
-It's fun to walk around and see what other people are doing and their take on the hobby. 
+It's fun to walk around and see what other people are doing and their take on the hobby.
 Maybe I'll see you there someday!
 
 *[NAR]: National Association of Rocketry
