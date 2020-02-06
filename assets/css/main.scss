@@ -60,6 +60,7 @@ main {
     }
 
     figcaption {
+      display: block;
       font-style: italic;
       padding-top: .5em;
     }
@@ -339,7 +340,7 @@ strong {
   }
 
   main figure {
-    margin: 1em 2em;
+    margin: 2em;
   }
 }
 
