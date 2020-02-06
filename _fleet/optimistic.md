@@ -1,30 +1,31 @@
 ---
 description: "A 54mm minimum-diameter all-fiberglass rocket that flew to 8300 ft. in 2004"
 title: Optimistic
-class: Level 2
-configuration: Single motor
-nose_cone:
-  shape: Ogive
-  material: Fiberglass
-airframe:
-  diameter: 54mm
-  material: Fiberglass
-  reinforcement:
-  - Fiberglass
-  - Kevlar
-fins:
-  count: 4
-  airfoil: Double-wedge
-  material: Fiberglass
-  reinforcement:
-    - Fiberglass
-    - Carbon fiber
-motor_mount: 54mm
-centering_rings: none
-recovery: Parachute
-avionics:
-  - Altimeter
-  - Tracking device
+specifications:
+  class: Level 2
+  configuration: Single motor
+  nose_cone:
+    shape: Ogive
+    material: Fiberglass
+  airframe:
+    diameter: 54mm
+    material: Fiberglass
+    reinforcement:
+    - None
+  fins:
+    count: 4
+    material: Fiberglass
+    airfoil: Double-wedge
+    reinforcement:
+      - Fiberglass
+      - Carbon fiber
+  motor_mount:
+    diameter: 54mm
+    centering_rings: none
+  recovery: Parachute
+  avionics:
+    - Altimeter
+    - Tracking device
 ---
 
 <figure>
@@ -36,28 +37,74 @@ avionics:
 <figure>
   <div class="placeholder" style="padding-top:149.5%;"></div>
   <img src="{{ "/assets/photos/2004-optimistic-recovery.jpg" | relative_url }}" alt="After a successful recovery" />
-  <figcaption>After a successful recovery</figcaption>
+  <figcaption>After a successful recovery at LDRS 23, 2004</figcaption>
 </figure>
 
 ## Specifications
 
-- {{ page.class }}
-- {{ page.configuration }}
-- Nose cone
-  - {{ page.nose_cone.shape }}
-  - {{ page.nose_cone.material }}
-- Airframe
-  - {{ page.airframe.diameter }}
-  - {{ page.airframe.material }}
-  - {{ page.airframe.reinforcement | join: ', '` }}
-- Fins
-  - {{ page.fins.count }}
-  - {{ page.fins.airfoil }}
-  - {{ page.fins.material }}
-  - {{ page.fins.reinforcement | join: ', '` }}
-- {{ page.motor_mount }}
-- {{ page.centering_rings }}
-- {{ page.recovery }}
-- {{ page.avionics | join: ', ' }}
+- **Class**: {{ page.specifications.class }}
+- **Configuration**: {{ page.specifications.configuration }}
+- **Nose cone**
+  - **Shape**: {{ page.specifications.nose_cone.shape }}
+  - **Material**: {{ page.specifications.nose_cone.material }}
+- **Airframe**
+  - **Diameter**: {{ page.specifications.airframe.diameter }}
+  - **Material**: {{ page.specifications.airframe.material }}
+  - **Reinforcement**: {{ page.specifications.airframe.reinforcement | join: ', ' }}
+- **Fins**
+  - **Count**: {{ page.specifications.fins.count }}
+  - **Material**: {{ page.specifications.fins.material }}
+  - **Airfoil**: {{ page.specifications.fins.airfoil }}
+  - **Reinforcement**: {{ page.specifications.fins.reinforcement | join: ', ' }}
+- **Motor Mount**:
+  - **Diameter**: {{ page.specifications.motor_mount.diameter }}
+  - **Centering Rings**: {{ page.specifications.motor_mount.centering_rings }}
+- **Recovery**: {{ page.specifications.recovery }}
+- **Avionics**: {{ page.specifications.avionics | join: ', ' }}
+
+<dl class="specifications">
+  <dt>Class</dt>
+  <dd>{{ page.specifications.class }}</dd>
+  <dt>Configuration</dt>
+  <dd>{{ page.specifications.configuration }}</dd>
+  <dt>Nose cone</dt>
+  <dd>
+  <dt>Shape</dt>
+  <dd>{{ page.specifications.nose_cone.shape }}</dd>
+  <dt>Material</dt>
+  <dd>{{ page.specifications.nose_cone.material }}</dd>
+  </dd>
+  <dt>Airframe</dt>
+  <dd>
+  <dt>Diameter</dt>
+  <dd>{{ page.specifications.airframe.diameter }}</dd>
+  <dt>Material</dt>
+  <dd>{{ page.specifications.airframe.material }}</dd>
+  <dt>Reinforcement</dt>
+  <dd>{{ page.specifications.airframe.reinforcement | join: '</dd><dd>' }}</dd>
+  </dd>
+  <dt>Fins</dt>
+  <dd>
+  <dt>Count</dt>
+  <dd>{{ page.specifications.fins.count }}</dd>
+  <dt>Material</dt>
+  <dd>{{ page.specifications.fins.material }}</dd>
+  <dt>Airfoil</dt>
+  <dd>{{ page.specifications.fins.airfoil }}</dd>
+  <dt>Reinforcement</dt>
+  <dd>{{ page.specifications.fins.reinforcement | join: '</dd><dd>' }}</dd>
+  </dd>
+  <dt>Motor Mount</dt>
+  <dd>
+  <dt>Diameter</dt>
+  <dd>{{ page.specifications.motor_mount.diameter }}</dd>
+  <dt>Centering Rings</dt>
+  <dd>{{ page.specifications.motor_mount.centering_rings }}</dd>
+  </dd>
+  <dt>Recovery</dt>
+  <dd>{{ page.specifications.recovery }}</dd>
+  <dt>Avionics</dt>
+  <dd>{{ page.specifications.avionics | join: '</dd><dd>' }}</dd>
+</dl>
 
 *[LDRS]: Large and Dangerous Rocket Ships
