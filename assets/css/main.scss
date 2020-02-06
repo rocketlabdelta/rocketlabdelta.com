@@ -51,8 +51,9 @@ main {
 
   figure {
     color: $theme-color-highlight;
-    margin: 0;
-    padding: 1em;
+    margin: 1em;
+    padding: 0;
+    position: relative;
 
     img {
       width: 100%;
@@ -61,6 +62,15 @@ main {
     figcaption {
       font-style: italic;
       padding-top: .5em;
+    }
+
+    .placeholder {
+      background: no-repeat center url("/assets/svg/placeholder.svg");
+    }
+
+    .placeholder + img {
+      position: absolute;
+      top: 0;
     }
   }
 }
@@ -329,7 +339,7 @@ strong {
   }
 
   main figure {
-    padding: 1em 2em;
+    margin: 1em 2em;
   }
 }
 
