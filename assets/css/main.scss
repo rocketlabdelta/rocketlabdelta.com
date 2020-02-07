@@ -269,6 +269,22 @@ strong {
   }
 }
 
+.specifications {
+  dt {
+    color: $theme-color-highlight;
+
+    &::after {
+      content: ":";
+      color: $theme-text-color;
+    }
+  }
+
+  dl {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 .color-swatch {
   display: inline-block;
   font-size: .8em;

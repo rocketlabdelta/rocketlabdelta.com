@@ -42,49 +42,29 @@ specifications:
 
 ## Specifications
 
-- **Class**: {{ page.specifications.class }}
-- **Configuration**: {{ page.specifications.configuration }}
-- **Nose cone**
-  - **Shape**: {{ page.specifications.nose_cone.shape }}
-  - **Material**: {{ page.specifications.nose_cone.material }}
-- **Airframe**
-  - **Diameter**: {{ page.specifications.airframe.diameter }}
-  - **Material**: {{ page.specifications.airframe.material }}
-  - **Reinforcement**: {{ page.specifications.airframe.reinforcement | join: ', ' }}
-- **Fins**
-  - **Count**: {{ page.specifications.fins.count }}
-  - **Material**: {{ page.specifications.fins.material }}
-  - **Airfoil**: {{ page.specifications.fins.airfoil }}
-  - **Reinforcement**: {{ page.specifications.fins.reinforcement | join: ', ' }}
-- **Motor Mount**:
-  - **Diameter**: {{ page.specifications.motor_mount.diameter }}
-  - **Centering Rings**: {{ page.specifications.motor_mount.centering_rings }}
-- **Recovery**: {{ page.specifications.recovery }}
-- **Avionics**: {{ page.specifications.avionics | join: ', ' }}
-
 <dl class="specifications">
   <dt>Class</dt>
   <dd>{{ page.specifications.class }}</dd>
   <dt>Configuration</dt>
   <dd>{{ page.specifications.configuration }}</dd>
   <dt>Nose cone</dt>
-  <dd>
+  <dd><dl>
   <dt>Shape</dt>
   <dd>{{ page.specifications.nose_cone.shape }}</dd>
   <dt>Material</dt>
   <dd>{{ page.specifications.nose_cone.material }}</dd>
-  </dd>
+  </dl></dd>
   <dt>Airframe</dt>
-  <dd>
+  <dd><dl>
   <dt>Diameter</dt>
   <dd>{{ page.specifications.airframe.diameter }}</dd>
   <dt>Material</dt>
   <dd>{{ page.specifications.airframe.material }}</dd>
   <dt>Reinforcement</dt>
   <dd>{{ page.specifications.airframe.reinforcement | join: '</dd><dd>' }}</dd>
-  </dd>
+  </dl></dd>
   <dt>Fins</dt>
-  <dd>
+  <dd><dl>
   <dt>Count</dt>
   <dd>{{ page.specifications.fins.count }}</dd>
   <dt>Material</dt>
@@ -93,14 +73,14 @@ specifications:
   <dd>{{ page.specifications.fins.airfoil }}</dd>
   <dt>Reinforcement</dt>
   <dd>{{ page.specifications.fins.reinforcement | join: '</dd><dd>' }}</dd>
-  </dd>
+  </dl></dd>
   <dt>Motor Mount</dt>
-  <dd>
+  <dd><dl>
   <dt>Diameter</dt>
   <dd>{{ page.specifications.motor_mount.diameter }}</dd>
   <dt>Centering Rings</dt>
   <dd>{{ page.specifications.motor_mount.centering_rings }}</dd>
-  </dd>
+  </dl></dd>
   <dt>Recovery</dt>
   <dd>{{ page.specifications.recovery }}</dd>
   <dt>Avionics</dt>
