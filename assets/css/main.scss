@@ -67,7 +67,7 @@ main {
 
     .placeholder {
       background: no-repeat center url("/assets/svg/placeholder.svg");
-      border: 10px solid $theme-color-dark;
+      border: 1px solid $theme-color-dark;
     }
 
     .placeholder + img {
