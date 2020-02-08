@@ -2,6 +2,7 @@
 description: "A 54mm minimum-diameter all-fiberglass rocket that flew to 8300 ft. in 2004"
 title: Optimistic
 specifications:
+  make: Dynacom
   class: Level 2
   configuration: Single motor
   nose_cone:
@@ -43,6 +44,8 @@ specifications:
 ## Specifications
 
 <dl class="specifications">
+  <dt>Make</dt>
+  <dd>{{ page.specifications.make }}</dd>
   <dt>Class</dt>
   <dd>{{ page.specifications.class }}</dd>
   <dt>Configuration</dt>

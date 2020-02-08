@@ -2,6 +2,9 @@
 
 Rocket attributes
 
+- Make
+  - Manufacturer
+  - Scratch built
 - Class
   - Model
   - Mid-power
