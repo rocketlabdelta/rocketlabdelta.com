@@ -12,4 +12,4 @@ I'll post occasional updates in the blog, but the bulk of the work will happen o
 
 [^1]: Come to find out, certifications expire if you don't maintain active membership in a rocketry organization.
 
-[1]: {{ "/projects/tiny-wings" | relative_url }}
+[1]: {{ "/projects/tiny-wings" | absolute_url }}

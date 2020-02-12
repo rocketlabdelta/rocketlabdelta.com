@@ -12,7 +12,7 @@ I like rocketry for two primary reasons:
 
 <figure class="r4x3">
   <div class="placeholder"></div>
-  <img src="{{ "/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg" | relative_url }}" alt="Family trip to Cape Canaveral" />
+  <img src="{{ "/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg" | absolute_url }}" alt="Family trip to Cape Canaveral" />
   <figcaption>My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I</figcaption>
 </figure>
 
