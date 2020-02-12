@@ -12,7 +12,7 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
 (function () {
   'use strict'
 
-  const version = 'v2020-02-12T11:57:00::'
+  const version = 'v2020-02-12T12:05:00::'
   const staticCacheName = version + 'static'
   const pagesCacheName = version + 'pages'
   const imagesCacheName = version + 'images'
