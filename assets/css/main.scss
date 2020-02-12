@@ -84,7 +84,7 @@ header {
 
   figure {
     display: inline-block;
-    margin: 0 .5em 0 0;
+    margin: 0 1em 0 0;
     padding: 0;
     width: 5em;
   }
@@ -423,6 +423,12 @@ sup {
 .social-icon {
   stroke: $theme-color-bright;
   transition: all 150ms ease-in-out;
+}
+
+.rss {
+  float: right;
+  margin-top: -5em;
+  max-width: 4em;
 }
 
 dl {
