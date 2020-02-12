@@ -105,14 +105,19 @@ h6 {
 }
 
 a {
-  color: $theme-color-bright;
+  color: $theme-color-light;
+  transition: all 250ms ease-in-out;
 
   &:visited {
-    color: $theme-color-bright;
+    color: $theme-color-light;
+  }
+
+  &:focus {
+    color: $theme-color-highlight;
   }
 
   &:hover {
-    color: $theme-color-light;
+    color: $theme-color-highlight;
   }
 }
 
@@ -125,13 +130,13 @@ a:focus abbr::after,
 abbr:focus::after,
 abbr:hover::after {
   background-color: $theme-background-color;
-  border: 1px solid $theme-color-dark;
+  border: 1px solid $theme-color-contrast;
   border-radius: 2px;
-  bottom: -2.3em;
+  bottom: -2.2em;
   color: $theme-text-color;
   content: attr(title);
   font-size: 1em;
-  left: -.3em;
+  left: -.4em;
   padding: .3em;
   position: absolute;
   white-space: nowrap;
@@ -141,6 +146,10 @@ abbr:hover::after {
 strong {
   color: $theme-heading-color;
   font-weight: normal;
+}
+
+:focus {
+  outline: 1px solid $theme-color-contrast;
 }
 
 .site-logo-splash {
