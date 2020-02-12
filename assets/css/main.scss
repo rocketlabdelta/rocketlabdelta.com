@@ -265,8 +265,12 @@ sup {
   }
 }
 
-.r1x1 .placeholder {
-  padding-top: 100%;
+.r1x1 {
+  margin: 1em 4em;
+
+  .placeholder {
+    padding-top: 100%;
+  }
 }
 
 .r4x3 {
@@ -277,8 +281,12 @@ sup {
   }
 }
 
-.r3x4 .placeholder {
-  padding-top: 75%;
+.r3x4 {
+  margin: 1em 2em;
+
+  .placeholder {
+    padding-top: 75%;
+  }
 }
 
 .r3x2 {
@@ -289,8 +297,12 @@ sup {
   }
 }
 
-.r2x3 .placeholder {
-  padding-top: 66.66%
+.r2x3 {
+  margin: 1em 2em;
+
+  .placeholder {
+    padding-top: 66.66%
+  }
 }
 
 .r9x16 {
@@ -531,7 +543,13 @@ dl {
     font-size: 22px;
   }
 
-  main figure {
+.r1x1,
+.r4x3,
+.r3x4,
+.r3x2,
+.r2x3,
+.r9x16,
+.r16x9 {
     margin-bottom: 2em;
     margin-top: 2em;
   }
