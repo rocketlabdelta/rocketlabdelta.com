@@ -460,6 +460,12 @@ dl {
   }
 }
 
+@media only screen and (min-width: 1425px) {
+  .skip-link:focus {
+    left: -10em;
+  }
+}
+
 @media print {
   body,
   h1,
@@ -471,7 +477,13 @@ dl {
     color: $print-text-color;
   }
 
+  .skip-link-wrapper,
   nav {
     display: none;
+  }
+
+  .figure,
+  .figure .placeholder {
+    page-break-inside: avoid;
   }
 }
