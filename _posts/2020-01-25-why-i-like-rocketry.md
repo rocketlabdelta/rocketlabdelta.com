@@ -75,10 +75,12 @@ At launches, there are lots of people to meet and talk to where you already have
 It's fun to walk around and see what other people are doing and their take on the hobby.
 Maybe I'll see you there someday!
 
-*[NAR]: National Association of Rocketry
+*[FAA]: Federal Aviation Administration
 *[HPR]: High Power Rocketry
 *[LDRS]: Large and Dangerous Rocket Ships
 *[NARAM]: National Association of Rocketry Annual Meet
+*[NAR]: National Association of Rocketry
+*[RMS]: Reloadable Motor System
 
 [1]: https://www.amazon.com/Handbook-Model-Rocketry-7th-Official/dp/0471472425
 [2]: https://estesrockets.com/product-category/rockets/beginner/
