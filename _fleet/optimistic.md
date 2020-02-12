@@ -31,12 +31,14 @@ specifications:
 
 ## Backstory
 
-The "Optimistic" is a filament wound fiberglass rocket kit (the official name of which I have forgotten) that I built in 2004.
+The "Optimistic" is a Yellow Jacket kit from Dynacom I built in 2004.
+It is an all-filament-wound-fiberglass rocket with precise machining and close tolerances for its fiberglass, aluminum, and stainless steel parts.
+Dynacom is now long out of business[^1] and, even at that time, inventory was spotty so I consider myself lucky to have this rocket.
+
 I got this kit in a roundabout way.
-My dad was at a launch without me and he lost one of my rockets (a 2.6 diameter kit from Binder Design that I had modified the fin shape).
-He felt really bad and offered to buy me a replacement kit up to $200 (I thought this was _very_ generous but I didn't look a gift horse in the mouth.)
+My dad was at a launch without me and he lost one of my rockets[^2].
+He felt really bad and offered to buy me a replacement kit up to $200[^3].
 I had been wanting a Dynacom kit for a long time and this one was $199 -- a match made in heaven.
-Dynacom is now long out of business and, even at that time, inventory was spotty so I consider myself doubly lucky to have this rocket.
 
 I put it together with a few modifications:
 
@@ -48,8 +50,7 @@ I put it together with a few modifications:
     - Altimeter: AED R-DAS
     - Tracker: Adept 440Mhz radio beacon
 - **Recovery system**
-  - Shaped a 1/4-inch aluminum rod to fit precisely inside holes drilled to bisect a section of coupler
-  - The metal rod was slipped through a sewn loop of tubular Kevlar _before_ the coupler was bonder to the airframe to anchor it firmly
+  - I shaped a 1/4-inch aluminum rod to fit precisely inside holes drilled to bisect a section of coupler. The metal rod was slipped through a sewn loop of tubular Kevlar _before_ the coupler was bonder to the airframe to anchor it firmly.
     - During flight, a length of 5/8" tubular nylon was used to extend the recovery harness and attach to the payload bay
   - As pictured below, a small parachute was used for to slow descent
     - A Nomex chute protector was used to prevent damage from the motor ejection charge
@@ -127,3 +128,12 @@ I put it together with a few modifications:
 </dl>
 
 *[LDRS]: Large and Dangerous Rocket Ships
+
+[^1]: [According to the Wayback Machine][1] the last time Dynamic Composites maintained a web presence at dynacom-inc.com was in 2004. I got this kit the last year Eric Haberman was still doing business! You can still get fillament-wound fiberglass kits from places like [Mach 1 Rocketry][2] and [Wildman Rocketry][3].
+[^2]: The lost rocket was a 2.6 diameter kit from [Binder Design][4] that I had modified the fin shape. Binder Design has since changed hands and no longer offers any kits below 3" in size.
+[^3]: I thought this was _very_ generous so I didn't look a gift horse in the mouth.
+
+[1]: https://web.archive.org/web/20040415000000*/dynacom-inc.com
+[2]: https://www.mach1rocketry.com/
+[3]: https://wildmanrocketry.com/
+[4]: https://www.binderdesign.com/
