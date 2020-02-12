@@ -148,6 +148,10 @@ abbr:hover::after {
   width: auto;
 }
 
+small {
+  font-size: .8em;
+}
+
 strong {
   color: $theme-heading-color;
   font-weight: normal;
@@ -358,13 +362,18 @@ sup {
   margin-bottom: 1.5em;
 }
 
-.post-tags {
+.post-meta {
   margin: 0;
   padding: 0;
 
   li {
     display: inline;
   }
+}
+
+h1 + .post-meta {
+  margin-bottom: .5em;
+  margin-top: -1em;
 }
 
 .post-tag {
@@ -374,6 +383,11 @@ sup {
   &:hover {
     text-decoration: underline;
   }
+}
+
+.post-date {
+  color: $theme-color-highlight;
+  padding-left: 1em;
 }
 
 .post-title {

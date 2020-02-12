@@ -17,13 +17,14 @@ permalink: /blog/
     </a>
 
     <nav>
-      <ul class="post-tags">
+      <ul class="post-meta">
       {% assign sortedCategories = post.categories | sort %}
       {% for category in sortedCategories %}
       <li>
         <a class="post-tag" href="{{ category | absolute_url }}"><small>{{ category }}</small></a>
       </li>
       {% endfor %}
+      <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
       </ul>
     </nav>
   </li>
