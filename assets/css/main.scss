@@ -149,6 +149,11 @@ strong {
   font-weight: normal;
 }
 
+sup {
+  font-size: .6em;
+  vertical-align: super;
+}
+
 :focus {
   outline: 1px solid $theme-color-contrast;
   transition: all 150ms ease-in-out;
@@ -254,6 +259,12 @@ strong {
       margin-bottom: 0;
     }
   }
+}
+
+.footnote {
+  margin: 0 -.5em 0 0;
+  padding: 0 .5em 0 .1em;
+  text-decoration: none;
 }
 
 .footnotes {
