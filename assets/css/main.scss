@@ -48,9 +48,8 @@ body {
 }
 
 main {
-  margin: 0 auto 10em;
+  margin: 0 auto;
   max-width: $theme-content-width;
-  padding-bottom: 30vh;
 
   figure {
     color: $theme-color-highlight;
@@ -108,7 +107,7 @@ h6 {
 
 a {
   color: $theme-color-light;
-  transition: all 250ms ease-in-out;
+  transition: all 150ms ease-in-out;
 
   &:visited {
     color: $theme-color-light;
@@ -152,6 +151,7 @@ strong {
 
 :focus {
   outline: 1px solid $theme-color-contrast;
+  transition: all 150ms ease-in-out;
 }
 
 .skip-link-wrapper {
@@ -177,6 +177,7 @@ strong {
     left: 0;
     padding: .2em .4em;
     top: 0;
+    transition-property: background-color;
     width: auto;
     z-index: 1;
   }
@@ -259,6 +260,7 @@ strong {
   border-top: 1px dotted $theme-color-highlight;
   margin-top: 3em;
   padding-top: 2em;
+  padding-bottom: 100vh;
 
   ol {
     margin: 0;
