@@ -337,6 +337,42 @@ sup {
   }
 }
 
+.social-media {
+  text-align: center;
+}
+
+.social-header {
+  font-family: $base-typeface;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.social-link {
+  display: inline-block;
+  max-width: 7.5em;
+  padding: .5em;
+  text-decoration: none;
+
+  svg {
+    width: 100%;
+  }
+
+  &:hover .social-icon {
+    stroke: $theme-color-highlight;
+  }
+
+  &:focus .social-icon {
+    stroke: $theme-color-highlight;
+  }
+}
+
+.social-icon {
+  stroke: $theme-color-bright;
+  transition: all 150ms ease-in-out;
+}
+
 dl {
   dt {
     color: $theme-color-highlight;
