@@ -29,6 +29,42 @@ specifications:
     - Tracking device
 ---
 
+## Backstory
+
+The "Optimistic" is a filament wound fiberglass rocket kit (the official name of which I have forgotten) that I built in 2004.
+I got this kit in a roundabout way.
+My dad was at a launch without me and he lost one of my rockets (a 2.6 diameter kit from Binder Design that I had modified the fin shape).
+He felt really bad and offered to buy me a replacement kit up to $200 (I thought this was _very_ generous but I didn't look a gift horse in the mouth.)
+I had been wanting a Dynacom kit for a long time and this one was $199 -- a match made in heaven.
+Dynacom is now long out of business and, even at that time, inventory was spotty so I consider myself doubly lucky to have this rocket.
+
+I put it together with a few modifications:
+
+- **Payload bay**
+  - Upgraded the included stainless steel eye bolt on the payload bay to a stainless steel U-bolt
+  - Added a carbon-fiber honeycomb spacer on top of the G-10 plate with the U-bolt to provide a level surface
+  - Cut a small, ovular hole above the spacer to allow access to an arming switch after assembling the payload bay
+  - Cut a G-10 plate to fit vertically in the center of the payload bay for mounting avionics
+    - Altimeter: AED R-DAS
+    - Tracker: Adept 440Mhz radio beacon
+- **Recovery system**
+  - Shaped a 1/4-inch aluminum rod to fit precisely inside holes drilled to bisect a section of coupler
+  - The metal rod was slipped through a sewn loop of tubular Kevlar _before_ the coupler was bonder to the airframe to anchor it firmly
+    - During flight, a length of 5/8" tubular nylon was used to extend the recovery harness and attach to the payload bay
+  - As pictured below, a small parachute was used for to slow descent
+    - A Nomex chute protector was used to prevent damage from the motor ejection charge
+- **Fins**
+  - Filleted with thickened West Systems epoxy
+  - Fin roots were laminated with 2-inch-wide carbon fiber tape
+  - Tip-to-tip laminated with 6oz fiberglass
+- Bonded ACME Conformal rail guides (with a vertical offset to clear the motor retainer) to the airframe (I cut a hole for the lower rail guide in the fiberglass fin reinforcement when it had cured to the leather stage)
+
+## Flights
+
+1. Aerotech J460 (???), 8300 feet at LDRS 23 in Geneseo, NY (2004)
+
+## Gallery
+
 <figure>
   <div class="placeholder" style="padding-top:145.07%;"></div>
   <img src="{{ "/assets/photos/2004-optimistic-pre-flight.jpg" | relative_url }}" alt="At the pad at LDRS 23" />
