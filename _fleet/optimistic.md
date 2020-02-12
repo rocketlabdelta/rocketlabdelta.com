@@ -67,13 +67,13 @@ I put it together with a few modifications:
 ## Gallery
 
 <figure>
-  <div class="placeholder" style="padding-top:145.07%;"></div>
+  <div class="placeholder r3x2"></div>
   <img src="{{ "/assets/photos/2004-optimistic-pre-flight.jpg" | relative_url }}" alt="At the pad at LDRS 23" />
   <figcaption>At the pad at LDRS 23, 2004</figcaption>
 </figure>
 
 <figure>
-  <div class="placeholder" style="padding-top:149.5%;"></div>
+  <div class="placeholder r3x2"></div>
   <img src="{{ "/assets/photos/2004-optimistic-recovery.jpg" | relative_url }}" alt="After a successful recovery" />
   <figcaption>After a successful recovery at LDRS 23, 2004</figcaption>
 </figure>
