@@ -30,6 +30,10 @@ Rocket Lab Delta is the work of [Dan Horst][1] [TRA][2] #8886, [NAR][3] #70699.
   <svg role="img" viewBox="-1 -1 26 26" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path class="social-icon" d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"/></svg>
 </a>
 
+<a href="https://www.thingiverse.com/rocketlabdelta" class="social-link">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23"><title>Thingiverse</title><path class="social-icon" d="M9.88 9.01v9.82h2.91V9.01h4.18V6.25H5.66v2.69l4.22.07z"/><circle class="social-icon" cx="11.32" cy="11.32" r="10.82"/></svg>
+</a>
+
 <a href="https://www.youtube.com/channel/UCAn7I85_jvq5BKlNoPv6inw/" class="social-link">
   <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 26 26"><title>YouTube icon</title><path class="social-icon" d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
 </a>
