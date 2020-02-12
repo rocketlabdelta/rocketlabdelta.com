@@ -11,7 +11,7 @@ I like rocketry for two primary reasons:
 2. It presents a wide vairiety of challengs that I have fun solving in different ways.
 
 <figure>
-  <div class="placeholder" style="padding-top:133.3%;"></div>
+  <div class="placeholder r4x3"></div>
   <img src="{{ "/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg" | relative_url }}" alt="Family trip to Cape Canaveral" />
   <figcaption>My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I</figcaption>
 </figure>
