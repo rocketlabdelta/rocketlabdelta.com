@@ -265,31 +265,43 @@ sup {
   }
 }
 
-.r1x1 {
+.r1x1 .placeholder {
   padding-top: 100%;
 }
 
 .r4x3 {
-  padding-top: 133.33%
+  margin: 1em 6em;
+
+  .placeholder {
+    padding-top: 133.33%
+  }
 }
 
-.r3x4 {
+.r3x4 .placeholder {
   padding-top: 75%;
 }
 
-.r2x3 {
+.r3x2 {
+  margin: 1em 8em;
+
+  .placeholder {
+    padding-top: 150%;
+  }
+}
+
+.r2x3 .placeholder {
   padding-top: 66.66%
 }
 
-.r3x2 {
-  padding-top: 150%;
-}
-
 .r9x16 {
-  padding-top: 56.25%;
+  margin: 1em 12em;
+
+  .placeholder {
+    padding-top: 56.25%;
+  }
 }
 
-.r16x9 {
+.r16x9 .placeholder {
   padding-top: 177.78%;
 }
 
@@ -520,7 +532,8 @@ dl {
   }
 
   main figure {
-    margin: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
   }
 }
 
@@ -546,8 +559,13 @@ dl {
     display: none;
   }
 
-  .figure,
-  .figure .placeholder {
+  main .figure {
     page-break-inside: avoid;
+  }
+
+  .r3x2,
+  .r4x3,
+  .r16x9 {
+    max-width: 50%;
   }
 }
