@@ -248,7 +248,7 @@ sup {
   }
 
   li:nth-child(even) {
-    width: 6.5em;
+    width: 5em;
   }
 }
 
@@ -499,6 +499,7 @@ dl {
 
 @media only screen and (min-width: 410px) {
    header figure {
+     margin-right: 3em;
      width: 7.5em;
    }
 
