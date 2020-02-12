@@ -68,13 +68,13 @@ I put it together with a few modifications:
 
 <figure class="r3x2">
   <div class="placeholder"></div>
-  <img src="{{ "/assets/photos/2004-optimistic-pre-flight.jpg" | relative_url }}" alt="At the pad at LDRS 23" />
+  <img src="{{ "/assets/photos/2004-optimistic-pre-flight.jpg" | absolute_url }}" alt="At the pad at LDRS 23" />
   <figcaption>At the pad at LDRS 23, 2004</figcaption>
 </figure>
 
 <figure class="r3x2">
   <div class="placeholder"></div>
-  <img src="{{ "/assets/photos/2004-optimistic-recovery.jpg" | relative_url }}" alt="After a successful recovery" />
+  <img src="{{ "/assets/photos/2004-optimistic-recovery.jpg" | absolute_url }}" alt="After a successful recovery" />
   <figcaption>After a successful recovery at LDRS 23, 2004</figcaption>
 </figure>
 

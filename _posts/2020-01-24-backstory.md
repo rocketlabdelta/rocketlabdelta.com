@@ -14,7 +14,7 @@ My dad, Ken Horst, and I dove deep into rocketry after that.
 
 <figure class="r1x1">
   <div class="placeholder"></div>
-  <img src="{{ "/assets/photos/1996-early-model-rocket-launch.jpg" | relative_url }}" alt="Early model rocket launch in 1996" />
+  <img src="{{ "/assets/photos/1996-early-model-rocket-launch.jpg" | absolute_url }}" alt="Early model rocket launch in 1996" />
   <figcaption>An early rocket launch with my dad & brother (left). Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ Neither one of them has flown but they were designed and built so that they coul
 
 <figure class="r1x1">
   <div class="placeholder"></div>
-  <img src="{{ "/assets/photos/1998-4-H-WAC-Corporal.jpg" | relative_url }}" alt="4-H WAC Corporal in 1998" />
+  <img src="{{ "/assets/photos/1998-4-H-WAC-Corporal.jpg" | absolute_url }}" alt="4-H WAC Corporal in 1998" />
   <figcaption>My 4-H WAC Corporal. I turned both nose cones and built the telescoping stage coupler with heavy-gauge music wire.</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ The rocket was retired after losing a fin to a hard landing in the Nevada desert
 
 <figure class="r2x3">
   <div class="placeholder"></div>
-  <img src="{{ "/assets/photos/2001-G-RAG-3-payload.jpg" | relative_url }}" alt="G-RAG 3 payload" />
+  <img src="{{ "/assets/photos/2001-G-RAG-3-payload.jpg" | absolute_url }}" alt="G-RAG 3 payload" />
   <figcaption>Avionics &amp; telemetry payload for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then.</figcaption>
 </figure>
 
@@ -72,8 +72,8 @@ My last rocketry endeavors before the long break were:
 *[TRA]: Tripoli Rocketry Association
 
 [1]: https://www.danhorst.com
-[2]: {{ "/fleet/g-rag-3/" | relative_url }}
+[2]: {{ "/fleet/g-rag-3/" | absolute_url }}
 [3]: https://rocketcontest.org/
 [4]: https://www.nasa.gov/stem/studentlaunch/home/
-[5]: {{ "/fleet/overseer/" | relative_url }}
-[6]: {{ "/fleet/optimistic/" | relative_url }}
+[5]: {{ "/fleet/overseer/" | absolute_url }}
+[6]: {{ "/fleet/optimistic/" | absolute_url }}

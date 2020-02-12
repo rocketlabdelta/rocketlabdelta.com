@@ -64,8 +64,8 @@ Aside from the domain name registration, everything is free and I don't have to 
 [1]:  https://www.danhorst.com
 [2]:  http://www.tripoli.org/
 [3]:  https://www.nar.org/
-[4]:  {{ "/essays/backstory" | relative_url }}
-[5]:  {{ "/essays/why-i-like-rocketry" | relative_url }}
+[4]:  {{ "/essays/backstory" | absolute_url }}
+[5]:  {{ "/essays/why-i-like-rocketry" | absolute_url }}
 [6]:  https://www.instagram.com/rocketlabdelta/
 [7]:  https://twitter.com/rocketlabdelta
 [8]:  https://www.pinterest.com/rocketlabdelta/
