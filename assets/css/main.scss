@@ -27,6 +27,7 @@ $theme-color-highlight: #f2cf67;
 
 $theme-background-color: #000 !default;
 $theme-text-color:       #fff !default;
+$theme-overlay-color:    rgba(0,0,0,0.5);
 $theme-heading-color:    $theme-color-highlight;
 $theme-link-color:       $theme-color-highlight;
 $theme-active-color:     $theme-color-contrast;
@@ -47,8 +48,9 @@ body {
 }
 
 main {
-  max-width: $theme-content-width;
   margin: 0 auto 10em;
+  max-width: $theme-content-width;
+  padding-bottom: 30vh;
 
   figure {
     color: $theme-color-highlight;
@@ -150,6 +152,34 @@ strong {
 
 :focus {
   outline: 1px solid $theme-color-contrast;
+}
+
+.skip-link-wrapper {
+  margin: 0 auto;
+  max-width: $theme-content-width;
+  position: relative;
+}
+
+.skip-link {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+  &:focus {
+    background-color: $theme-overlay-color;
+    clip: auto;
+    height: auto;
+    left: 0;
+    padding: .2em .4em;
+    top: 0;
+    width: auto;
+    z-index: 1;
+  }
 }
 
 .site-logo-splash {
