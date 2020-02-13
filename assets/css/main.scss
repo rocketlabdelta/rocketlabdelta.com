@@ -27,7 +27,7 @@ $theme-color-highlight: #f2cf67;
 
 $theme-background-color: #000 !default;
 $theme-text-color:       #fff !default;
-$theme-overlay-color:    rgba(0,0,0,0.5);
+$theme-overlay-color:    rgba(0, 0, 0, .5);
 $theme-heading-color:    $theme-color-highlight;
 $theme-link-color:       $theme-color-highlight;
 $theme-active-color:     $theme-color-contrast;
@@ -44,7 +44,7 @@ body {
   font-family: $base-typeface;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  margin:0;
+  margin: 0;
 }
 
 main {
@@ -66,16 +66,16 @@ main {
       font-style: italic;
       padding-top: .5em;
     }
+  }
+}
 
-    .placeholder {
-      background: no-repeat center url("/assets/svg/placeholder.svg");
-      border: 1px solid $theme-color-dark;
-    }
+.placeholder {
+  background: no-repeat center url('/assets/svg/placeholder.svg');
+  border: 1px solid $theme-color-dark;
 
-    .placeholder + img {
-      position: absolute;
-      top: 0;
-    }
+  + img {
+    position: absolute;
+    top: 0;
   }
 }
 
@@ -281,7 +281,7 @@ sup {
   margin: 1em 4em;
 
   .placeholder {
-    padding-top: 133.33%
+    padding-top: 133.33%;
   }
 }
 
@@ -305,7 +305,7 @@ sup {
   margin: 1em 2em;
 
   .placeholder {
-    padding-top: 66.66%
+    padding-top: 66.66%;
   }
 }
 
@@ -330,8 +330,8 @@ sup {
 .footnotes {
   border-top: 1px dotted $theme-color-highlight;
   margin-top: 3em;
-  padding-top: 2em;
   padding-bottom: 100vh;
+  padding-top: 2em;
 
   ol {
     margin: 0;
@@ -415,10 +415,10 @@ h1 + .post-meta {
 
 .social-header {
   font-family: $base-typeface;
-  text-transform: none;
-  letter-spacing: normal;
   font-size: 1.5em;
+  letter-spacing: normal;
   margin-top: 0;
+  text-transform: none;
 }
 
 .social-link {
@@ -441,8 +441,8 @@ h1 + .post-meta {
 }
 
 .social-icon {
-  stroke: $theme-color-bright;
   fill: none;
+  stroke: $theme-color-bright;
   transition: all 150ms ease-in-out;
 }
 
@@ -457,14 +457,14 @@ dl {
     color: $theme-color-highlight;
 
     &::after {
-      content: ":";
       color: $theme-text-color;
+      content: ':';
     }
   }
 
   dl {
-    margin-top: 0;
     margin-bottom: 0;
+    margin-top: 0;
   }
 }
 
@@ -472,7 +472,7 @@ dl {
   display: inline-block;
   font-size: .8em;
   height: 5em;
-  margin: 0 1% 2% 1%;
+  margin: 0 1% 2%;
   padding: 1em;
   width: 29%;
 }
@@ -502,10 +502,10 @@ dl {
 }
 
 @media only screen and (min-width: 390px) {
-   header figure {
-     margin-right: 1.8em;
-     width: 7.5em;
-   }
+  header figure {
+    margin-right: 1.8em;
+    width: 7.5em;
+  }
 
   .page-banner {
     li {
@@ -528,9 +528,9 @@ dl {
 }
 
 @media only screen and (min-width: 460px) {
-   header figure {
-     margin-right: 3em;
-   }
+  header figure {
+    margin-right: 3em;
+  }
 
   .page-banner {
     ul {
@@ -598,7 +598,7 @@ dl {
   }
 
   .r3x4 {
-    margin: 2em 2em;
+    margin: 2em;
   }
 
   .r3x2 {
