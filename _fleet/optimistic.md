@@ -26,7 +26,7 @@ specifications:
   recovery: Parachute
   avionics:
     - Altimeter
-    - Tracking device
+    - Tracking beacon
 ---
 
 ## Backstory
