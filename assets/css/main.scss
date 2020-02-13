@@ -69,16 +69,6 @@ main {
   }
 }
 
-.placeholder {
-  background: no-repeat center url('/assets/svg/placeholder.svg');
-  border: 1px solid $theme-color-dark;
-
-  + img {
-    position: absolute;
-    top: 0;
-  }
-}
-
 header {
   position: relative;
 
@@ -160,6 +150,14 @@ strong {
 sup {
   font-size: .6em;
   vertical-align: super;
+}
+
+ul {
+  padding-left: .7em;
+
+  ul {
+    padding-left: 1.2em;
+  }
 }
 
 :focus {
@@ -266,6 +264,16 @@ sup {
     &:last-child {
       margin-bottom: 0;
     }
+  }
+}
+
+.placeholder {
+  background: no-repeat center url('/assets/svg/placeholder.svg');
+  border: 1px solid $theme-color-dark;
+
+  + img {
+    position: absolute;
+    top: 0;
   }
 }
 
@@ -620,6 +628,10 @@ dl {
   .rss {
     margin-top: -5em;
     max-width: 4em;
+  }
+
+  ul {
+    padding-left: 1.2em;
   }
 }
 
