@@ -367,7 +367,7 @@ sup {
   padding: 0;
 
   li {
-    display: inline;
+    display: inline-block;
   }
 }
 
@@ -377,17 +377,20 @@ h1 + .post-meta {
 }
 
 .post-tag {
-  text-decoration: none;
-  text-transform: uppercase;
+  width: 3.5em;
 
-  &:hover {
-    text-decoration: underline;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
 .post-date {
   color: $theme-color-highlight;
-  padding-left: 1em;
 }
 
 .post-title {
@@ -445,8 +448,8 @@ h1 + .post-meta {
 
 .rss {
   float: right;
-  margin-top: -5em;
-  max-width: 4em;
+  margin-top: -4em;
+  max-width: 2em;
 }
 
 dl {
@@ -517,6 +520,10 @@ dl {
 
   .social-link {
     max-width: 5em;
+  }
+
+  .rss {
+    max-width: 3em;
   }
 }
 
@@ -608,6 +615,11 @@ dl {
 
   .social-link {
     max-width: 6.25em;
+  }
+
+  .rss {
+    margin-top: -5em;
+    max-width: 4em;
   }
 }
 
