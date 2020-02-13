@@ -5,7 +5,7 @@ layout: default
 <ul class="post-meta">
   {% assign sortedCategories = page.categories | sort %}
   {% for category in sortedCategories %}
-  <li><a class="post-tag" href="{{ category | absolute_url }}">{{ category }}</a></li>
+  <li class="post-tag"><a href="{{ category | absolute_url }}">{{ category }}</a></li>
   {% endfor %}
   <li class="post-date">{{ page.date | date: "%Y-%m-%d" }}</li>
 </ul>
