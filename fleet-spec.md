@@ -87,4 +87,5 @@ Rocket attributes
   - Altimeter
   - Dual altimeter
   - Timer
-  - Tracking device
+  - Tracking beacon
+  - GPS telemetry
