@@ -32,10 +32,11 @@ specifications:
 
 ## Backstory
 
-The G-RAG 3 was a 3-inch diamaeter launch vehicle built to loft the 3rd project by the Goshen Radios Aloft Group (G-RAG).
+The G-RAG 3 is a 3-inch diamaeter launch vehicle built to loft the 3rd project of the Goshen Radios Aloft Group (G-RAG).
 G-RAG was a group of HAM radio and rocketry enthusiasts stared by my dad, Ken Horst, to help develop a real-time GPS telemetry package (see [Payload][1] below).
 It first flew in 2001.
 The GPS telemetry project was featured in the January/February issue of Sport Rocketry in 2002.
+It had several other successful flights on J&K motors with a variety of payload configurations.
 The rocket was retired after losing a fin to a hard landing in the Nevada desert at LDRS 26 (2007).
 
 ## Payload
@@ -46,7 +47,7 @@ The rocket was retired after losing a fin to a hard landing in the Nevada desert
   <figcaption>Avionics (dual BlackSky AltAcc) &amp; telemetry payload, see description below.</figcaption>
 </figure>
 
-We wanted to be able to have real-time GPS telemetry.
+We wanted to have real-time GPS telemetry while the rocket was in flight.
 To do this with off-the-shelf components in 2001 required:
 
 ### Telemetry Package
