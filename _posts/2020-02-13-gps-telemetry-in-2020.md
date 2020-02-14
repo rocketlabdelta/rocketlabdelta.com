@@ -75,7 +75,7 @@ If I wanted to buy a GPS telemetry solution _right now_ I would get the [GPS tra
 That doesn't leave me a good option unless I get a HAM license and/or spend a lot more on equipment (or a different phone, but that's unlikely to happen either).
 That's why I'm hoping the [FlightSketch SST][23] comes out soon.
 
-[^1] I mean, you could drive it around in a car if you wanted.
+[^1]: I mean, you could drive it around in a car if you wanted. Assuming you have at least a driver and someone to monitor the ground station. Also, you would need to be able to drive where you needed to go, which is frequently not the case when chasing rockets through farm fields etc.
 
 [1]:  {{ "/fleet/g-rag-3/" | absolute_url }}
 [2]:  {{ "/fleet/g-rag-3/#payload" | absolute_url }}
