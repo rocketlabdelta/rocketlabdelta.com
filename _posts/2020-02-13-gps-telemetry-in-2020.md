@@ -55,14 +55,14 @@ Here is a survey of what I could find from scouring the Internet:
 - [Multitronix TelemetryPro][7] has two variants of sophisticated trackers & receivers with 100-mile range ~$2000(!)
 - [Apogee Simple GPS tracker][8] is a one-piece custom-built ground station and small tracker ~$430 (this is one of those cases where, from my perspective, a smartphone app would have been preferable)
 - [Featherweight Altimiters has LoRa GPS Tracker][9] that can be purchased with a small Bluetooth ground station (iOS app; Android planned but not available) [~$350 (sale price)][10]
-- [BigRedBee has several VHF/UHF GPS APRS transmitter offerings][11] that operate on 70cm and 2m HAM radio bands ~$260-$360 _transmitter only_ ground station equipment not included.
+- [BigRedBee has several VHF/UHF GPS APRS transmitter offerings][11] that operate on 70cm and 2m HAM radio bands ~$260-$360 _transmitter only_, ground station equipment not included.
   - You _should_ be able to use something like the [Mobilinkd TNC3][12] ~$120 to bridge a HAM radio and your phone via Bluetooth as described in [this article][13].
 - [Altus Metrum][14] has several GPS-enabled products that use a 70cm HAM band and pair with their Bluetooth ground station, [TeleBT][15] ~$170, which needs to be connected to a directional antenna like a [70cm Arrow Antenna][16] ~$60:
   - [TeleGPS][17], tracker only ~$230 (~$460 total)
   - [TeleMetrum][18], dual-deploy recording altimeter with GPS telemetry ~$350 (~$580 total)
   - [TeleMega][19], dual-deploy recording altimeter with loads of options, onboard gyro, RC servo controller, and GPS telemetry ~$460 (~$690 total)
 - [Eggtimer Rocketry has several 900MHz & 70cm GPS transmitters][20] and they keep costs low by only offering the electronics as kits, you'll have to solder it yourself. [Their "starter sets" start at ~$90][21] for a pair RX and TX modules.
-- [FlightSketch][22] is working on a ["Super Simple Tracker"][23], a 900MHz LoRa/GPS unit. No information yet on pricing or availability yet but their other products are very reasonable _and_ they have an app-first approach for delivering features onto your phone.
+- [FlightSketch][22] is working on a ["Super Simple Tracker"][23], a 900MHz LoRa/GPS unit. No information yet on pricing or availability yet but their other products are very reasonable _and_ they have an app-first approach for delivering features via your phone.
 
 Another alternative is to get a cheap/used Android phone and use the [Insane Rockets][24] app to beam back telemetry information via a cellular data connection.
 Phones are really only suitable as payloads for larger rockets.
