@@ -73,11 +73,18 @@ This _also_ assumes there will be cell service at your launch site--this is not 
 There are lots of LoRa/GPS trackers on the market that could potentially be repurposed for rocketry, [like this one from Seed Studio][39], but they typically have lower GPS polling rates to save battery life.
 I haven't found anything that is dramatically cheaper for a whole _system_: transmitter, receiver, phone interface.
 
+## TLDR
+
 For my needs (small, light, works with a phone as a ground station), the best options are:
 
 1. [Missile Works T3][34] (RPSMA version with 4.7" rigid 1/2 wave dipole antenna), ~$170
 2. [GPS tracker by Featherweight Altimeters][10], ~$350 (the only problem is I don't have an iPhone)
 3. [FlightSketch SST][37]--only an announced product, not actually available
+
+NOTE: for the DIY inclined it shouldn't be _too_ hard to graft a [ublox][40] [GPS module][40a] to an off-the-shelf Zigbee wireless module--the [Missile Works T3][34] is basically just that.
+[Sparkfun][41] has a [GPS overview][41a] and [product guide][41b] that might help.
+
+*[TLDR]: Too Long; Didn't Read
 
 [^1]: I mean, you could drive it around in a car if you wanted. Assuming you have at least a driver and someone to monitor the ground station. Also, you would need to be able to drive where you needed to go, which is frequently not the case when chasing rockets through farm fields etc.
 
@@ -116,8 +123,12 @@ For my needs (small, light, works with a phone as a ground station), the best op
 [33]: https://www.missileworks.com/store/#!/RRC3-Xtreme-Altimeter/p/25239703/category=5760485
 [34]: https://www.missileworks.com/t3/
 [35]: https://www.missileworks.com/store/#!/T3-GPS-Tracking-System/p/90226446/category=25228124
-
 [36]: https://flightsketch.com/
 [37]: https://flightsketch.com/store/catalog/flightsketch-sst_228/
 [38]: https://play.google.com/store/apps/details?id=com.insanerocketry.insanerockets&hl=en_US
 [39]: https://www.seeedstudio.com/LoRaWAN-GPS-Tracker-with-9-axis-accelerometer-LGT92-p-2922.html
+[40]: https://www.u-blox.com/en
+[40a]: https://www.u-blox.com/en/positioning-chips-and-modules
+[41]: https://www.sparkfun.com
+[41a]: https://www.sparkfun.com/gps
+[41b]: https://www.sparkfun.com/pages/GPS_Guide
