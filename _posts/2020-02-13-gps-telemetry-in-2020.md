@@ -1,6 +1,6 @@
 ---
 title: GPS Telemetry in 2020
-description: "What is the best way to make sure I will find my rocket?"
+description: "What is the best way to make sure you will find your rocket?"
 date: 2020-02-13 08:26 -0500
 categories:  essays
 ---
@@ -62,18 +62,22 @@ Here is a survey of what I could find from scouring the Internet:
   - [TeleMetrum][18], dual-deploy recording altimeter with GPS telemetry ~$350 (~$580 total)
   - [TeleMega][19], dual-deploy recording altimeter with loads of options, onboard gyro, RC servo controller, and GPS telemetry ~$460 (~$690 total)
 - [Eggtimer Rocketry has several 900MHz & 70cm GPS transmitters][20] and they keep costs low by only offering the electronics as kits, you'll have to solder it yourself. [Their "starter sets" start at ~$90][21] for a pair RX and TX modules.
-- [FlightSketch][22] is working on a ["Super Simple Tracker"][23], a 900MHz LoRa/GPS unit. No information yet on pricing or availability yet but their other products are very reasonable _and_ they have an app-first approach for delivering features via your phone.
+- [ENTACore Electronics][22] [AIM XTRA GPS flight computer][23] is a full-on flight computer (barometric sensor, 3-axis accelerometer, hi-G linear accelerometer) with pyro channels and USB connectivity that transmits live telemetry on the 432-434 MHz band ~$420 for flight computer and ground station.
+- [Missle Works][24] has several [RTx/GPS Systems][25] (~[$260][26]-[$290][27]) that use standard Zigbee modules to transmit data to a ground station with [Bluetooth][28] (~$15), [USB/PC][29] (~$25), or [onboard LCD][30] (~$40) display options. The RTx system can also stream data from their [RRC3 altimeter][31] (~[$70][32]-[$80][33]). I think their [T3][34] (~[$155-$190][35]) tracker is a more interesting product as it is cheaper, smaller, lighter, and specifically meant for using a smartphone as part of your ground station (they only recommend Android apps but I bet there are iOS apps out there that could work).
+- [FlightSketch][36] is working on a ["Super Simple Tracker"][37], a 900MHz LoRa/GPS unit. No information yet on pricing or availability yet but their other products are very reasonable _and_ they have an app-first approach for delivering features via your phone.
 
-Another alternative is to get a cheap/used Android phone and use the [Insane Rockets][24] app to beam back telemetry information via a cellular data connection.
+Another alternative is to get a cheap/used Android phone and use the [Insane Rockets][38] app to beam back telemetry information via a cellular data connection.
 Phones are really only suitable as payloads for larger rockets.
 This _also_ assumes there will be cell service at your launch site--this is not always the case as fields big enough for rocketry are often in very rural areas.
 
-There are lots of LoRa/GPS trackers on the market that could potentially be repurposed for rocketry, [like this one from Seed Studio][25], but they typically have lower GPS polling rates to save battery life.
+There are lots of LoRa/GPS trackers on the market that could potentially be repurposed for rocketry, [like this one from Seed Studio][39], but they typically have lower GPS polling rates to save battery life.
 I haven't found anything that is dramatically cheaper for a whole _system_: transmitter, receiver, phone interface.
 
-If I wanted to buy a GPS telemetry solution _right now_ I would get the [GPS tracker by Featherweight Altimeters][10]--the only problem is I don't have an iPhone.
-That doesn't leave me a good option unless I get a HAM license and/or spend a lot more on equipment (or a different phone, but that's unlikely to happen either).
-That's why I'm hoping the [FlightSketch SST][23] comes out soon.
+For my needs (small, light, works with a phone as a ground station), the best options are:
+
+1. [Missile Works T3][34] (RPSMA version with 4.7" rigid 1/2 wave dipole antenna), ~$170
+2. [GPS tracker by Featherweight Altimeters][10], ~$350 (the only problem is I don't have an iPhone)
+3. [FlightSketch SST][37]--only an announced product, not actually available
 
 [^1]: I mean, you could drive it around in a car if you wanted. Assuming you have at least a driver and someone to monitor the ground station. Also, you would need to be able to drive where you needed to go, which is frequently not the case when chasing rockets through farm fields etc.
 
@@ -98,7 +102,22 @@ That's why I'm hoping the [FlightSketch SST][23] comes out soon.
 [19]: https://altusmetrum.org/TeleMega/
 [20]: http://eggtimerrocketry.com/home/eggfinder-gps-tracking-system/
 [21]: http://eggtimerrocketry.com/purchase/
-[22]: https://flightsketch.com/
-[23]: https://flightsketch.com/store/catalog/flightsketch-sst_228/
-[24]: https://play.google.com/store/apps/details?id=com.insanerocketry.insanerockets&hl=en_US
-[25]: https://www.seeedstudio.com/LoRaWAN-GPS-Tracker-with-9-axis-accelerometer-LGT92-p-2922.html
+[22]: http://entacore.com/electronics/home
+[23]: http://entacore.com/electronics/aimxtra
+[24]: https://www.missileworks.com/
+[25]: https://www.missileworks.com/rtx/
+[26]: https://www.missileworks.com/store/#!/RTx-GPS-Telematics-Standard-System/p/67718379/category=25228107
+[27]: https://www.missileworks.com/store/#!/RTx-GPS-Telematics-Navigator-System/p/67781466/category=25228107
+[28]: https://www.missileworks.com/store/#!/RTx-RRC3-Bluetooth-Master-Module/p/67977422/category=5895759
+[29]: https://www.missileworks.com/store/#!/USB-IO-Dongle/p/25232707/category=5895759
+[30]: https://www.missileworks.com/store/#!/LCD-Terminal/p/25232679/category=5895759
+[31]: https://www.missileworks.com/rrc3/
+[32]: https://www.missileworks.com/store/#!/RRC3-Sport-Altimeter/p/25239688/category=5760485
+[33]: https://www.missileworks.com/store/#!/RRC3-Xtreme-Altimeter/p/25239703/category=5760485
+[34]: https://www.missileworks.com/t3/
+[35]: https://www.missileworks.com/store/#!/T3-GPS-Tracking-System/p/90226446/category=25228124
+
+[36]: https://flightsketch.com/
+[37]: https://flightsketch.com/store/catalog/flightsketch-sst_228/
+[38]: https://play.google.com/store/apps/details?id=com.insanerocketry.insanerockets&hl=en_US
+[39]: https://www.seeedstudio.com/LoRaWAN-GPS-Tracker-with-9-axis-accelerometer-LGT92-p-2922.html
