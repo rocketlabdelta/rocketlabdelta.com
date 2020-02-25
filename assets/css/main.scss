@@ -27,7 +27,7 @@ $theme-color-highlight: #f2cf67;
 
 $theme-background-color: #000 !default;
 $theme-text-color:       #fff !default;
-$theme-overlay-color:    rgba(0, 0, 0, .5);
+$theme-overlay-color:    rgba(0, 0, 0, .6);
 $theme-heading-color:    $theme-color-highlight;
 $theme-link-color:       $theme-color-highlight;
 $theme-active-color:     $theme-color-contrast;
@@ -158,6 +158,10 @@ ul {
   ul {
     padding-left: 1.2em;
   }
+}
+
+dd + dt {
+  margin-top: .3em;
 }
 
 :focus {
@@ -414,6 +418,17 @@ h1 + .post-meta {
   }
 }
 
+.hidden-caption {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .social-media {
   margin-left: auto;
   margin-right: auto;
@@ -433,18 +448,31 @@ h1 + .post-meta {
   display: inline-block;
   max-width: 4em;
   padding: .5em;
+  position: relative;
   text-decoration: none;
 
   svg {
     width: 100%;
   }
 
-  &:hover .social-icon {
-    stroke: $theme-color-highlight;
-  }
+  &:focus,
+  &:hover {
+    .social-icon {
+      stroke: $theme-color-highlight;
+    }
 
-  &:focus .social-icon {
-    stroke: $theme-color-highlight;
+    .hidden-caption {
+      background-color: $theme-overlay-color;
+      bottom: 0;
+      clip: auto;
+      height: auto;
+      left: 0;
+      margin: auto;
+      padding: .2em 0;
+      transition-property: background-color;
+      width: 100%;
+      z-index: 1;
+    }
   }
 }
 
@@ -453,6 +481,7 @@ h1 + .post-meta {
   stroke: $theme-color-bright;
   transition: all 150ms ease-in-out;
 }
+
 
 .rss {
   float: right;
@@ -622,7 +651,8 @@ dl {
   }
 
   .social-link {
-    max-width: 6.25em;
+    max-width: 5.5em;
+    padding-bottom: 1.5em;
   }
 
   .rss {
@@ -632,6 +662,12 @@ dl {
 
   ul {
     padding-left: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .social-link {
+    max-width: 6.25em;
   }
 }
 
