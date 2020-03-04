@@ -43,17 +43,17 @@ You can still use electronics after the vendor has closed its doors but the cont
 
 Between 2001 and now, independent of hobby rocketry, smartphones have gone from not existing to being our de facto computing devices.
 Personally, I would prefer not to have to lug a laptop out to the launch site and have it set up next to an effectively immobile[^1] ground station when I have a smartphone in my pocket.
-Despite this, there are still a number of products that either assume you will use them with a PC or implement functionally, some times at considerable cost, that could be easily and cheaply provided by a smartphone app.
+Despite this, most rocketry electronics either assume you will use them with a PC or they implement functionally that could be provided by a smartphone app in a proprietary way.
 
 ## Commercially Available GPS Trackers for Rocketry
 
 [John Coker][5] has [a good write-up of GPS trackers c2015][6] it goes into way more technical detail then I am going to here.
-Start there for a good overview and an excellent discussion of antenna gain patterns.
+Start there for a good overview and an excellent discussion of antenna gain mechanics.
 However, it only covers a few products from 3 vendors--there's a lot more options out there.
 Here is a survey of what I could find from scouring the Internet:
 
 - [Multitronix TelemetryPro][7] has two variants of sophisticated trackers & receivers with 100-mile range ~$2000(!)
-- [Apogee Simple GPS tracker][8] is a one-piece custom-built ground station and small tracker ~$430 (this is one of those cases where, from my perspective, a smartphone app would have been preferable)
+- [Apogee Simple GPS tracker][8] is a one-piece custom-built ground station and small tracker ~$430 (a smartphone app would be a preferable alternative to custom, hand-held ground station)
 - [Featherweight Altimiters has LoRa GPS Tracker][9] that can be purchased with a small Bluetooth ground station (iOS app; Android planned but not available) [~$350 (sale price)][10]
 - [BigRedBee has several VHF/UHF GPS APRS transmitter offerings][11] that operate on 70cm and 2m HAM radio bands ~$260-$360 _transmitter only_, ground station equipment not included.
   - You _should_ be able to use something like the [Mobilinkd TNC3][12] ~$120 to bridge a HAM radio and your phone via Bluetooth as described in [this article][13].
@@ -67,11 +67,11 @@ Here is a survey of what I could find from scouring the Internet:
 - [FlightSketch][36] is working on a ["Super Simple Tracker"][37], a 900MHz LoRa/GPS unit. No information yet on pricing or availability yet but their other products are very reasonable _and_ they have an app-first approach for delivering features via your phone.
 
 Another alternative is to get a cheap/used Android phone and use the [Insane Rockets][38] app to beam back telemetry information via a cellular data connection.
-Phones are really only suitable as payloads for larger rockets.
-This _also_ assumes there will be cell service at your launch site--this is not always the case as fields big enough for rocketry are often in very rural areas.
+(Phones are only suitable payloads for large rockets.)
+This _also_ assumes there will be cell service at your launch site--most fields big enough for rocketry are in rural areas which can have poor network coverage.
 
 There are lots of LoRa/GPS trackers on the market that could potentially be repurposed for rocketry, [like this one from Seed Studio][39], but they typically have lower GPS polling rates to save battery life.
-I haven't found anything that is dramatically cheaper for a whole _system_: transmitter, receiver, phone interface.
+I haven't found anything from outside the rocketry world that is dramatically cheaper for a whole _system_: transmitter, receiver, phone interface.
 
 ## TLDR
 
@@ -81,12 +81,50 @@ For my needs (small, light, works with a phone as a ground station), the best op
 2. [GPS tracker by Featherweight Altimeters][10], ~$350 (the only problem is I don't have an iPhone)
 3. [FlightSketch SST][37]--only an announced product, not actually available
 
-NOTE: for the DIY inclined it shouldn't be _too_ hard to graft a [ublox][40] [GPS module][40a] to an off-the-shelf Zigbee wireless module--the [Missile Works T3][34] is basically just that.
-[Sparkfun][41] has a [GPS overview][41a] and [product guide][41b] that might help.
+---
+
+**UPDATE 2030-03-01**: I spent a _lot_ of time trying to find Android apps that would work with the Missile Works T3[^2].
+Ideally, the app would do three things:
+
+1. Track the GPS location of the transmitter (received via Bluetooth)
+2. Track your current position based on the built-in phone GPS
+3. Plot the heading and report the distance between your position and the beacon's position
+
+Of the three apps recommended by MissileWorks, only [RocketLocator][40] is still available in the [Google Play Store][40a] and it appears to meet the functional criteria.
+It is built around the [BluetoothGPS4Droid (SourceForge)][40b] ([Github mirror][40c]) library for interacting with Bluetooth GPS modules.
+That library hasn't been updated since 2013 and uses a [backport of a deprecated Bluetooth API][40d] to work with modern versions of Android.
+This isn't great but if it works, it works.
+The app itself was updated in 2019 with compatibility fixes--so that's a good sign--but it looks dated and is a bit rough around the edges.
+
+The next best option is to split the tasks up across multiple apps.
+
+**Transmitter tracking**: Android does not have native support for Bluetooth GPS devices--you need to rely on a third-party app.
+I found several apps that claim to support this but _by far_ the most common recommendation is [Bluetooth GPS][41] ([Garmin even recommends it][41a] for use with their [Glow 2 Bluetooth GPS][41b]).
+Unfortunately, the app hasn't been updated since 2015 and appears to be completely unsupported--it's starting to become incompatible with recent versions of Android.
+That doesn't look good.
+Bottom line: I can't confirm if the Missile Works T3 is compatible with [Bluetooth GPS][41] on Android 10 and if it _doesn't_ work there aren't any other good apps out there to fill this need[^3].
+
+As an alternative, it may be possible to connect a Window laptop[^4] to the ground station via [GPSDirect ][42][^5].
+
+**Phone tracking**: [GPS Status][43] is an excellent tracking app.
+
+- It is a modern app (supports Dark Mode, etc) and recently updated (2019-09).
+- Its pro mode removes adds for $1.99. I paid this immediately.
+- In "Radar" mode it supports tracking one or more locations at GPS coordinates you specify.
+- It supports "picture in picture" mode so it could be run "over top" of a transmitter tracking app (or anything else).
+
+---
+
+**NOTE**: for the DIY inclined it shouldn't be _too_ hard to graft a [ublox][44] [GPS module][44a] to an off-the-shelf Zigbee wireless module--the [Missile Works T3][34] is basically just that.
+[Sparkfun][45] has a [GPS overview][45a] and [product guide][45b] that might help.
 
 *[TLDR]: Too Long; Didn't Read
 
 [^1]: I mean, you could drive it around in a car if you wanted. Assuming you have at least a driver and someone to monitor the ground station. Also, you would need to be able to drive where you needed to go, which is frequently not the case when chasing rockets through farm fields etc.
+[^2]: I'm trying to get the app situation sorted before I buy it or reccomend that others do the same.
+[^3]: There are _lots_ of apps that make the GPS on your phone available over Bluetooth for _other_ devices. You can still get tablets without built-in GPS but aparently the market for apps that _consume_ GPS-over-Bluetooth isn't big enough to attract a lot of app developers.
+[^4]: The [GPD MicroPC][42a] comes to mind as a good option for a mobile ground station.
+[^5]: Most Bluetooth GPS devices don't work out-of-the-box with Windows either. It seems pretty common for Bluetooth-enabled GPS modules to simply treat the Bluetooth connection as if it were a serial data connection. The data feed needs to be parsed and translated into something that the location services part of the operating system can understand what is going on.
 
 [1]:  {{ "/fleet/g-rag-3/" | absolute_url }}
 [2]:  {{ "/fleet/g-rag-3/#payload" | absolute_url }}
@@ -127,8 +165,19 @@ NOTE: for the DIY inclined it shouldn't be _too_ hard to graft a [ublox][40] [GP
 [37]: https://flightsketch.com/store/catalog/flightsketch-sst_228/
 [38]: https://play.google.com/store/apps/details?id=com.insanerocketry.insanerockets&hl=en_US
 [39]: https://www.seeedstudio.com/LoRaWAN-GPS-Tracker-with-9-axis-accelerometer-LGT92-p-2922.html
-[40]: https://www.u-blox.com/en
-[40a]: https://www.u-blox.com/en/positioning-chips-and-modules
-[41]: https://www.sparkfun.com
-[41a]: https://www.sparkfun.com/gps
-[41b]: https://www.sparkfun.com/pages/GPS_Guide
+[40]: http://rocketlocator.com/
+[40a]: https://play.google.com/store/apps/details?id=com.frankdev.rocketlocator
+[40b]: https://sourceforge.net/p/bluegps4droid/home/Home/
+[40c]: https://github.com/somehume/bluegps4droid
+[40d]: https://code.google.com/archive/p/backport-android-bluetooth/
+[41]: https://play.google.com/store/apps/details?id=googoo.android.btgps
+[41a]: https://support.garmin.com/en-US/?faq=1BEq2yXIPj5SdcTfdXrdd6
+[41b]: https://buy.garmin.com/en-US/US/p/645104
+[42]: https://www.gpssensordrivers.com/
+[42a]: http://gpd.hk/gpdmicropc
+[43]: https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2&hl=en_US
+[44]: https://www.u-blox.com/en
+[44a]: https://www.u-blox.com/en/positioning-chips-and-modules
+[45]: https://www.sparkfun.com
+[45a]: https://www.sparkfun.com/gps
+[45b]: https://www.sparkfun.com/pages/GPS_Guide
