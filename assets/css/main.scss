@@ -164,6 +164,16 @@ dd + dt {
   margin-top: .3em;
 }
 
+hr {
+  border-color: $theme-color-highlight;
+  border-style: dotted;
+  border-width: 1px 0 0;
+  box-sizing: content-box;
+  height: 0;
+  margin: 3em 0;
+  overflow: visible;
+}
+
 :focus {
   outline: 1px solid $theme-color-contrast;
   transition: all 150ms ease-in-out;
