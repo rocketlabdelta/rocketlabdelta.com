@@ -19,7 +19,7 @@ No one wants to loose a rocket.
 They are expensive: components, all the time you spent getting things just right, avionics, reloadable motor hardware, etc.
 And, the whole point of flying a rocket is to get it back and do it again.
 
-In the late 90s/early 00s I used two methods of tracking:
+In the late 90s and early 00s I used two methods of tracking:
 
 - A 440MHz beacon made by Adept (now out of business; the beacon also required a HAM radio license, scanner, and directional gain antenna)
 - GPS telemetry
@@ -35,8 +35,7 @@ This is due, in part, to a proliferation of:
 - Tiny, cheap GPS modules driven my demand to put GPS receivers in smartphones and other consumer electronic devices
 - New licence-free radio standards like [Zigbee][3] and [LoRa][4]
 
-Another thing to note is that electronics vendors for hobby rocketry are themselves hobbyists or small businesses.
-As such, vendors come and go.
+Because electronics vendors for hobby rocketry are themselves hobbyists or small businesses there is a lot of turn-over.
 Virtually all the vendors I bought electronics from 20 years ago are out of business.
 Some are even zombies--I've come across several websites that _appear_ to have products for sale but links are broken or pages haven't been updated in years.
 You can still use electronics after the vendor has closed its doors but the control software (if there is any) will gradually become incompatible with modern computers.
@@ -111,7 +110,8 @@ Android does not have native support for Bluetooth GPS devices--you need to rely
 I found several apps that claim to support this but _by far_ the most common recommendation is [Bluetooth GPS][41] ([Garmin even recommends it][41a] for use with their [Glow 2 Bluetooth GPS][41b]).
 Unfortunately, the app hasn't been updated since 2015 and appears to be completely unsupported--it's starting to become incompatible with recent versions of Android.
 That doesn't look good.
-Bottom line: I can't confirm if the Missile Works T3 is compatible with [Bluetooth GPS][41] on Android 10 and if it _doesn't_ work there aren't any other good apps out there to fill this need[^3].
+
+**Bottom line**: I can't confirm if the Missile Works T3 is compatible with [Bluetooth GPS][41] on Android 10 and if it _doesn't_ work there aren't any other good apps out there to fill this need[^3].
 
 As an alternative, it may be possible to connect a Window laptop[^4] to the ground station via [GPSDirect][42][^5].
 
