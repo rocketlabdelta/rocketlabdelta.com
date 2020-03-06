@@ -7,8 +7,8 @@ categories:  essays
 
 I like rocketry for two primary reasons:
 
-1. It is a way of concretly connecting with things I think are cool like space travel, powered flight, and stuff that goes super fast.
-2. It presents a wide vairiety of challengs that I have fun solving in different ways.
+1. It is a way of concretely connecting with things I think are cool like space travel, powered flight, and stuff that goes super fast.
+2. It presents a wide variety of challenges that I have fun solving in different ways.
 
 <figure class="r4x3">
   <div class="placeholder"></div>
