@@ -73,6 +73,11 @@ This _also_ assumes there will be cell service at your launch site--most fields 
 There are lots of LoRa/GPS trackers on the market that could potentially be repurposed for rocketry, [like this one from Seed Studio][39], but they typically have lower GPS polling rates to save battery life.
 I haven't found anything from outside the rocketry world that is dramatically cheaper for a whole _system_: transmitter, receiver, phone interface.
 
+<aside>
+For the DIY inclined it shouldn&rsquo;t be <em>too</em> hard to graft a <a href="https://www.u-blox.com/en">ublox</a> <a href="https://www.u-blox.com/en/positioning-chips-and-modules">GPS module</a> to an off-the-shelf Zigbee wireless module&mdash;the <a href="https://www.missileworks.com/t3/">Missile Works T3</a> is basically just that.
+<a href="https://www.sparkfun.com">Sparkfun</a> has a <a href="https://www.sparkfun.com/gps">GPS overview</a> and <a href="https://www.sparkfun.com/pages/GPS_Guide">product guide</a> that might help.
+</aside>
+
 ## TLDR
 
 For my needs (small, light, works with a phone as a ground station), the best options are:
@@ -83,7 +88,9 @@ For my needs (small, light, works with a phone as a ground station), the best op
 
 ---
 
-**UPDATE 2030-03-01**: I spent a _lot_ of time trying to find Android apps that would work with the Missile Works T3[^2].
+## State of Android Apps
+
+I spent a _lot_ of time trying to find Android apps that would work with the Missile Works T3[^2].
 Ideally, the app would do three things:
 
 1. Track the GPS location of the transmitter (received via Bluetooth)
@@ -98,7 +105,8 @@ The app itself was updated in 2019 with compatibility fixes--so that's a good si
 
 The next best option is to split the tasks up across multiple apps.
 
-**Transmitter tracking**: Android does not have native support for Bluetooth GPS devices--you need to rely on a third-party app.
+### Transmitter tracking
+Android does not have native support for Bluetooth GPS devices--you need to rely on a third-party app.
 I found several apps that claim to support this but _by far_ the most common recommendation is [Bluetooth GPS][41] ([Garmin even recommends it][41a] for use with their [Glow 2 Bluetooth GPS][41b]).
 Unfortunately, the app hasn't been updated since 2015 and appears to be completely unsupported--it's starting to become incompatible with recent versions of Android.
 That doesn't look good.
@@ -106,17 +114,13 @@ Bottom line: I can't confirm if the Missile Works T3 is compatible with [Bluetoo
 
 As an alternative, it may be possible to connect a Window laptop[^4] to the ground station via [GPSDirect ][42][^5].
 
-**Phone tracking**: [GPS Status][43] is an excellent tracking app.
+### Phone tracking
+[GPS Status][43] is an excellent tracking app.
 
 - It is a modern app (supports Dark Mode, etc) and recently updated (2019-09).
 - Its pro mode removes adds for $1.99. I paid this immediately.
 - In "Radar" mode it supports tracking one or more locations at GPS coordinates you specify.
 - It supports "picture in picture" mode so it could be run "over top" of a transmitter tracking app (or anything else).
-
----
-
-**NOTE**: for the DIY inclined it shouldn't be _too_ hard to graft a [ublox][44] [GPS module][44a] to an off-the-shelf Zigbee wireless module--the [Missile Works T3][34] is basically just that.
-[Sparkfun][45] has a [GPS overview][45a] and [product guide][45b] that might help.
 
 *[TLDR]: Too Long; Didn't Read
 
@@ -176,8 +180,3 @@ As an alternative, it may be possible to connect a Window laptop[^4] to the grou
 [42]: https://www.gpssensordrivers.com/
 [42a]: http://gpd.hk/gpdmicropc
 [43]: https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2&hl=en_US
-[44]: https://www.u-blox.com/en
-[44a]: https://www.u-blox.com/en/positioning-chips-and-modules
-[45]: https://www.sparkfun.com
-[45a]: https://www.sparkfun.com/gps
-[45b]: https://www.sparkfun.com/pages/GPS_Guide
