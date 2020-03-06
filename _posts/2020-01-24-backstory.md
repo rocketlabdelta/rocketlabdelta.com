@@ -52,7 +52,7 @@ The rocket was retired after losing a fin to a hard landing in the Nevada desert
 <figure class="r2x3">
   <div class="placeholder"></div>
   <img src="{{ "/assets/photos/2001-G-RAG-3-payload.jpg" | absolute_url }}" alt="G-RAG 3 payload" />
-  <figcaption>Avionics &amp; telemetry payload for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then.</figcaption>
+  <figcaption>Avionics &amp; telemetry payload for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then. See <a href="{{ "/essays/gps-telemetry-in-2020/" | absolute_url }}">GPS Telemtry in 2020</a> for more options.</figcaption>
 </figure>
 
 My dad was a physics teacher at Goshen High School and coached at least one team for [The American Rocketry Challenge][3] from its inaugural year in 2002 until he retired in 2012.
