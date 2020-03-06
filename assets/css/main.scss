@@ -93,6 +93,16 @@ h6 {
   line-height: 1.2;
   text-transform: uppercase;
   word-spacing: -.2em;
+
+  abbr {
+    text-decoration: underline solid $theme-heading-color;
+  }
+
+  a:focus abbr::after,
+  abbr:focus::after,
+  abbr:hover::after {
+    color: $theme-heading-color;
+  }
 }
 
 h2 {
@@ -118,7 +128,7 @@ a {
 
 abbr {
   position: relative;
-  text-decoration: underline solid $theme-color-dark;
+  text-decoration: underline solid $theme-text-color;
 }
 
 a:focus abbr::after,
@@ -136,6 +146,7 @@ abbr:hover::after {
   position: absolute;
   white-space: nowrap;
   width: auto;
+  z-index: 1;
 }
 
 aside {
