@@ -1,16 +1,21 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
-<ul class="post-meta">
-  {% assign sortedCategories = page.categories | sort %}
-  {% for category in sortedCategories %}
-  <li class="post-tag"><a href="{{ category | absolute_url }}">{{ category }}</a></li>
-  {% endfor %}
-  <li class="post-date">{{ page.date | date: "%Y-%m-%d" }}</li>
-</ul>
+<header>
+  <h1>{{page.title}}</h1>
+  <ul class="post-meta">
+    {% assign sortedCategories = page.categories | sort %}
+    {% for category in sortedCategories %}
+    <li class="post-tag"><a href="{{ category | absolute_url }}">{{ category }}</a></li>
+    {% endfor %}
+    <li class="post-date">{{ page.date | date: "%Y-%m-%d" }}</li>
+  </ul>
+</header>
 
-{{ content }}
+<main id="main" role="main">
+  {{ content }}
+</main>
+
 <script>
   window.onload = function() { Array.from(document.querySelectorAll("abbr")).forEach(function(e) {e.setAttribute("tabindex", 0)})};
 </script>

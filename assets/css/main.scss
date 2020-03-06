@@ -47,36 +47,26 @@ body {
   margin: 0;
 }
 
+header,
 main {
   margin: 0 auto;
   max-width: $theme-content-width;
-
-  figure {
-    color: $theme-color-highlight;
-    margin: 1em;
-    padding: 0;
-    position: relative;
-
-    img {
-      width: 100%;
-    }
-
-    figcaption {
-      display: block;
-      font-style: italic;
-      padding-top: .5em;
-    }
-  }
 }
 
-header {
+main figure {
+  color: $theme-color-highlight;
+  margin: 1em;
+  padding: 0;
   position: relative;
 
-  figure {
-    display: inline-block;
-    margin: 0 1.5em 0 0;
-    padding: 0;
-    width: 5em;
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    display: block;
+    font-style: italic;
+    padding-top: .5em;
   }
 }
 
@@ -279,6 +269,13 @@ hr {
   }
 
   li:nth-child(even) {
+    width: 5em;
+  }
+
+  figure {
+    display: inline-block;
+    margin: 0 1.5em 0 0;
+    padding: 0;
     width: 5em;
   }
 }
@@ -568,12 +565,12 @@ dl {
 }
 
 @media only screen and (min-width: 390px) {
-  header figure {
-    margin-right: 1.8em;
-    width: 7.5em;
-  }
-
   .page-banner {
+    figure {
+      margin-right: 1.8em;
+      width: 7.5em;
+    }
+
     li {
       padding-bottom: .5em;
     }
@@ -594,11 +591,11 @@ dl {
 }
 
 @media only screen and (min-width: 460px) {
-  header figure {
-    margin-right: 3em;
-  }
-
   .page-banner {
+    figure {
+      margin-right: 3em;
+    }
+
     ul {
       max-width: 18em;
       padding-left: 1em;
