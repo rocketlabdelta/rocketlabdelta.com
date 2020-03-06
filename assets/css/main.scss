@@ -138,6 +138,14 @@ abbr:hover::after {
   width: auto;
 }
 
+aside {
+  border-color: $theme-color-highlight;
+  border-style: dotted;
+  border-width: 1px 0;
+  margin: 2em 0 2em 2em;
+  padding: 2em 0 2em .5em;
+}
+
 small {
   font-size: .8em;
 }
