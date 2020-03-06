@@ -11,15 +11,15 @@ Sending a rocket thousands of feet up into the atmosphere in only a few seconds 
 - Loose visual track of the rocket as it ascends into the sky due to cloud cover or it simply moving too fast
 - Loose visual track of the rocket as it descends and not know where it landed
 - Have the rocket severely weathercock (turn into the wind) and arc towards the horizon
-- Deploy a parachute that provides a safe descent rate at apogee, or other high altitude, either on purpose, or due to a dual-deploy malfunction, and have it be carried off by prevailing winds
+- Deploy a parachute that provides a safe descent rate at apogee, or another high altitude, either on purpose, or due to a dual-deploy malfunction, and have it be carried off by prevailing winds
 - Have everything work perfectly but still need to walk several miles to recover it
 
 There are ways to mitigate each of these occurrences but having a tracking device of some kind helps lend peace of mind.
-No one wants to loose a rocket.
+No one wants to lose a rocket.
 They are expensive: components, all the time you spent getting things just right, avionics, reloadable motor hardware, etc.
 And, the whole point of flying a rocket is to get it back and do it again.
 
-In the late 90s and early 00s I used two methods of tracking:
+In the late 90s and early aughts I used two methods of tracking:
 
 - A 440MHz beacon made by Adept (now out of business; the beacon also required a HAM radio license, scanner, and directional gain antenna)
 - GPS telemetry
@@ -33,7 +33,7 @@ They have gotten dramatically smaller, more sophisticated, and cheaper (at least
 This is due, in part, to a proliferation of:
 
 - Tiny, cheap GPS modules driven my demand to put GPS receivers in smartphones and other consumer electronic devices
-- New licence-free radio standards like [Zigbee][3] and [LoRa][4]
+- New license-free radio standards like [Zigbee][3] and [LoRa][4]
 
 Because electronics vendors for hobby rocketry are themselves hobbyists or small businesses there is a lot of turn-over.
 Virtually all the vendors I bought electronics from 20 years ago are out of business.
@@ -41,26 +41,26 @@ Some are even zombies--I've come across several websites that _appear_ to have p
 You can still use electronics after the vendor has closed its doors but the control software (if there is any) will gradually become incompatible with modern computers.
 
 Between 2001 and now, independent of hobby rocketry, smartphones have gone from not existing to being our de facto computing devices.
-Personally, I would prefer not to have to lug a laptop out to the launch site and have it set up next to an effectively immobile[^1] ground station when I have a smartphone in my pocket.
+I would prefer not to have to lug a laptop out to the launch site and have it set up next to an effectively immobile[^1] ground station when I have a smartphone in my pocket.
 Despite this, most rocketry electronics either assume you will use them with a PC or they implement functionally that could be provided by a smartphone app in a proprietary way.
 
 ## Commercially Available GPS Trackers for Rocketry
 
-[John Coker][5] has [a good write-up of GPS trackers c2015][6] it goes into way more technical detail then I am going to here.
+[John Coker][5] has [a good write-up of GPS trackers c2015][6] it goes into a lot of technical detail.
 Start there for a good overview and an excellent discussion of antenna gain mechanics.
-However, it only covers a few products from 3 vendors--there's a lot more options out there.
+However, it only covers a few products from 3 vendors--there are a lot more options out there.
 Here is a survey of what I could find from scouring the Internet:
 
-- [Multitronix TelemetryPro][7] has two variants of sophisticated trackers & receivers with 100-mile range ~$2000(!)
+- [Multitronix TelemetryPro][7] has two variants of sophisticated trackers & receivers with a 100-mile range ~$2000(!)
 - [Apogee Simple GPS tracker][8] is a one-piece custom-built ground station and small tracker ~$430 (a smartphone app would be a preferable alternative to custom, hand-held ground station)
 - [Featherweight Altimiters has LoRa GPS Tracker][9] that can be purchased with a small Bluetooth ground station (iOS app; Android planned but not available) [~$350 (sale price)][10]
-- [BigRedBee has several VHF/UHF GPS APRS transmitter offerings][11] that operate on 70cm and 2m HAM radio bands ~$260-$360 _transmitter only_, ground station equipment not included.
+- [BigRedBee has several VHF/UHF GPS APRS transmitter offerings][11] that operate on 70cm and 2m HAM radio bands ~$260-$360 for  _only_ a transmitter, ground station equipment not included.
   - You _should_ be able to use something like the [Mobilinkd TNC3][12] ~$120 to bridge a HAM radio and your phone via Bluetooth as described in [this article][13].
 - [Altus Metrum][14] has several GPS-enabled products that use a 70cm HAM band and pair with their Bluetooth ground station, [TeleBT][15] ~$170, which needs to be connected to a directional antenna like a [70cm Arrow Antenna][16] ~$60:
   - [TeleGPS][17], tracker only ~$230 (~$460 total)
   - [TeleMetrum][18], dual-deploy recording altimeter with GPS telemetry ~$350 (~$580 total)
   - [TeleMega][19], dual-deploy recording altimeter with loads of options, onboard gyro, RC servo controller, and GPS telemetry ~$460 (~$690 total)
-- [Eggtimer Rocketry has several 900MHz & 70cm GPS transmitters][20] and they keep costs low by only offering the electronics as kits, you'll have to solder it yourself. [Their "starter sets" start at ~$90][21] for a pair RX and TX modules.
+- [Eggtimer Rocketry has several 900MHz & 70cm GPS transmitters][20] and they keep costs low by only offering the electronic kits you have to solder yourself. [Their "starter sets" start at ~$90][21] for a pair of RX and TX modules.
 - [ENTACore Electronics][22] [AIM XTRA GPS flight computer][23] is a full-on flight computer (barometric sensor, 3-axis accelerometer, hi-G linear accelerometer) with pyro channels and USB connectivity that transmits live telemetry on the 432-434 MHz band ~$420 for flight computer and ground station.
 - [Missle Works][24] has several [RTx/GPS Systems][25] (~[$260][26]-[$290][27]) that use standard Zigbee modules to transmit data to a ground station with [Bluetooth][28] (~$15), [USB/PC][29] (~$25), or [onboard LCD][30] (~$40) display options. The RTx system can also stream data from their [RRC3 altimeter][31] (~[$70][32]-[$80][33]). I think their [T3][34] (~[$155-$190][35]) tracker is a more interesting product as it is cheaper, smaller, lighter, and specifically meant for using a smartphone as part of your ground station (they only recommend Android apps but I bet there are iOS apps out there that could work).
 - [FlightSketch][36] is working on a ["Super Simple Tracker"][37], a 900MHz LoRa/GPS unit. No information yet on pricing or availability yet but their other products are very reasonable _and_ they have an app-first approach for delivering features via your phone.
@@ -73,7 +73,7 @@ There are lots of LoRa/GPS trackers on the market that could potentially be repu
 I haven't found anything from outside the rocketry world that is dramatically cheaper for a whole _system_: transmitter, receiver, phone interface.
 
 <aside>
-For the DIY inclined it shouldn&rsquo;t be <em>too</em> hard to graft a <a href="https://www.u-blox.com/en">ublox</a> <a href="https://www.u-blox.com/en/positioning-chips-and-modules">GPS module</a> to an off-the-shelf Zigbee wireless module&mdash;the <a href="https://www.missileworks.com/t3/">Missile Works T3</a> is basically just that.
+For the DIY inclined it shouldn&rsquo;t be <em>too</em> hard to graft a <a href="https://www.u-blox.com/en">ublox</a> <a href="https://www.u-blox.com/en/positioning-chips-and-modules">GPS module</a> to an off-the-shelf Zigbee wireless module&mdash;the <a href="https://www.missileworks.com/t3/">Missile Works T3</a> is essentially just that.
 <a href="https://www.sparkfun.com">Sparkfun</a> has a <a href="https://www.sparkfun.com/gps">GPS overview</a> and <a href="https://www.sparkfun.com/pages/GPS_Guide">product guide</a> that might help.
 </aside>
 
@@ -83,7 +83,7 @@ For my needs (small, light, works with a phone as a ground station), the best op
 
 1. [Missile Works T3][34] (RPSMA version with 4.7" rigid 1/2 wave dipole antenna), ~$170
 2. [GPS tracker by Featherweight Altimeters][10], ~$350 (the only problem is I don't have an iPhone)
-3. [FlightSketch SST][37]--only an announced product, not actually available
+3. [FlightSketch SST][37]--only an announced product, not yet available
 
 ---
 
@@ -120,15 +120,15 @@ As an alternative, it may be possible to connect a Window laptop[^4] to the grou
 [GPS Status][43] is an excellent tracking app.
 
 - It is a modern app (supports Dark Mode, etc) and recently updated (2019-09).
-- Its pro mode removes adds for $1.99. I paid this immediately.
+- Its pro mode removes adds for $1.99. I paid for this immediately.
 - In "Radar" mode it supports tracking one or more locations at GPS coordinates you specify.
 - It supports "picture in picture" mode so it could be run "over top" of a transmitter tracking app (or anything else).
 
 *[TLDR]: Too Long; Didn't Read
 
-[^1]: I mean, you could drive it around in a car if you wanted. Assuming you have at least a driver and someone to monitor the ground station. Also, you would need to be able to drive where you needed to go, which is frequently not the case when chasing rockets through farm fields etc.
-[^2]: I'm trying to get the app situation sorted before I buy it or reccomend that others do the same.
-[^3]: There are _lots_ of apps that make the GPS on your phone available over Bluetooth for _other_ devices. You can still get tablets without built-in GPS but aparently the market for apps that _consume_ GPS-over-Bluetooth isn't big enough to attract a lot of app developers.
+[^1]: I mean, you could drive it around in a car if you wanted. Assuming you have at least a driver and someone to monitor the ground station. Also, you would need to be able to drive where you needed to go, which is frequently not the case when chasing rockets through farm fields, etc.
+[^2]: I'm trying to get the app situation sorted before I buy it or recommend that others do the same.
+[^3]: There are _lots_ of apps that make the GPS on your phone available over Bluetooth for _other_ devices. You can still get tablets without built-in GPS but apparently, the market for apps that _consume_ GPS-over-Bluetooth isn't big enough to attract a lot of app developers.
 [^4]: The [GPD MicroPC][42a] comes to mind as a good option for a mobile ground station.
 [^5]: Most Bluetooth GPS devices don't work out-of-the-box with Windows either. It seems pretty common for Bluetooth-enabled GPS modules to simply treat the Bluetooth connection as if it were a serial data connection. The data feed needs to be parsed and translated into something that the location services part of the operating system can understand what is going on.
 
