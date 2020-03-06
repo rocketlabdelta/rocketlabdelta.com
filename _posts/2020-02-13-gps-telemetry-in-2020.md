@@ -106,15 +106,17 @@ The app itself was updated in 2019 with compatibility fixes--so that's a good si
 The next best option is to split the tasks up across multiple apps.
 
 ### Transmitter tracking
+
 Android does not have native support for Bluetooth GPS devices--you need to rely on a third-party app.
 I found several apps that claim to support this but _by far_ the most common recommendation is [Bluetooth GPS][41] ([Garmin even recommends it][41a] for use with their [Glow 2 Bluetooth GPS][41b]).
 Unfortunately, the app hasn't been updated since 2015 and appears to be completely unsupported--it's starting to become incompatible with recent versions of Android.
 That doesn't look good.
 Bottom line: I can't confirm if the Missile Works T3 is compatible with [Bluetooth GPS][41] on Android 10 and if it _doesn't_ work there aren't any other good apps out there to fill this need[^3].
 
-As an alternative, it may be possible to connect a Window laptop[^4] to the ground station via [GPSDirect ][42][^5].
+As an alternative, it may be possible to connect a Window laptop[^4] to the ground station via [GPSDirect][42][^5].
 
 ### Phone tracking
+
 [GPS Status][43] is an excellent tracking app.
 
 - It is a modern app (supports Dark Mode, etc) and recently updated (2019-09).
