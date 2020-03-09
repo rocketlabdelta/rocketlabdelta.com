@@ -57,7 +57,7 @@ I put it together with a few modifications:
   - Filleted with thickened West Systems epoxy
   - Fin roots were laminated with 2-inch-wide carbon fiber tape
   - Tip-to-tip laminated with 6oz fiberglass
-- Bonded ACME Conformal rail guides (with a vertical offset to clear the motor retainer) to the airframe (I cut a hole for the lower rail guide in the fiberglass fin reinforcement when it had cured to the leather stage)
+- Bonded a pair of 54mm offset[^4] rail [Acme Conformal® Launch Guides][1] directly to the airframe. I cut a hole for the lower rail guide in the fiberglass cloth fin reinforcement after it cured to the leather stage.
 
 ## Flights
 
@@ -128,11 +128,14 @@ I put it together with a few modifications:
 
 *[LDRS]: Large and Dangerous Rocket Ships
 
-[^1]: [According to the Wayback Machine][1] the last time Dynamic Composites maintained a web presence at dynacom-inc.com was in 2004. I got this kit the last year Eric Haberman was still in the rocket business! These days, you can get fillament-wound fiberglass kits from places like [Mach 1 Rocketry][2] and [Wildman Rocketry][3].
-[^2]: The lost rocket was a 2.6 diameter kit from [Binder Design][4] that I had modified the fin shape. Binder Design has since changed hands and no longer offers any kits below 3" in size.
+[^1]: [According to the Wayback Machine][2] the last time Dynamic Composites maintained a web presence at dynacom-inc.com was in 2004. I got this kit the last year Eric Haberman was still in the rocket business! These days, you can get fillament-wound fiberglass kits from places like [Mach 1 Rocketry][3] and [Wildman Rocketry][4].
+[^2]: The lost rocket was a 2.6 diameter kit from [Binder Design][5] that I had modified the fin shape. Binder Design has since changed hands and no longer offers any kits below 3" in size.
 [^3]: I thought this was _very_ generous so I didn't look a gift horse in the mouth.
+[^4]: I used the "54mm with fin can" variant so the vertical offset would clear the aluminum motor retainer provided with the Yellow Jacket kit. These were made to pair with the Giant Leap [Acme™ Fin Cans][6] but they worked perfectly here.
 
-[1]: https://web.archive.org/web/20040415000000*/dynacom-inc.com
-[2]: https://www.mach1rocketry.com/
-[3]: https://wildmanrocketry.com/
-[4]: https://www.binderdesign.com/
+[1]: https://giantleaprocketry.com/products/components_launch_systems.aspx
+[2]: https://web.archive.org/web/20040415000000*/dynacom-inc.com
+[3]: https://www.mach1rocketry.com/
+[4]: https://wildmanrocketry.com/
+[5]: https://www.binderdesign.com/
+[6]: https://giantleaprocketry.com/products/components_fins.aspx
