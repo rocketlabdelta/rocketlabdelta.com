@@ -15,12 +15,12 @@ My dad, Ken Horst, and I dove deep into rocketry after that.
 <figure class="r1x1">
   <div class="placeholder"></div>
   <img src="{{ "/assets/photos/1996-early-model-rocket-launch.jpg" | absolute_url }}" alt="Early model rocket launch in 1996" />
-  <figcaption>An early rocket launch with my dad & brother (left). Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup</figcaption>
+  <figcaption>An early rocket launch with my dad & brother (left). The hood of the car is up because we used the car battery to set off the motor igniters. Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup</figcaption>
 </figure>
 
 The basement workshop of my parent's home was christened "The Rocket Lab" and it was outfitted with progressively larger power tools so that we could fabricate more sophisticated rockets.
 Over the next 8 years, I spent countless hours in the shop learning and practicing how to build rockets that could withstand the forces of high-power flight and recovery.
-I fabricated dozens upon dozens of components -- fins, bulkheads, centering rings, pistons, "sleds" for electronics, etc. -- from balsa, aircraft-grade plywood, and G-10 fiberglass sheeting accented with aluminum, cork, cherry wood, all-thread, t-nuts, polystyrene, and stainless steel fittings.
+I fabricated dozens upon dozens of components--fins, bulkheads, centering rings, pistons, "sleds" for electronics, etc.--from balsa, aircraft-grade plywood, and G-10 fiberglass sheeting accented with aluminum, cork, cherry wood, all-thread, t-nuts, polystyrene, and stainless steel fittings.
 I used a lathe to turn many a nose cone from poplar and, occasionally, basswood.
 I learned how to use different viscosities and formulations of cyanoacrylate (super glue) and epoxy to make bonds and reinforce surfaces.
 I used fiberglass, Kevlar, and carbon fiber to strengthen airframes, laminate fins, and reinforce joints.
@@ -34,7 +34,7 @@ Neither one of them has flown but they were designed and built so that they coul
 <figure class="r1x1">
   <div class="placeholder"></div>
   <img src="{{ "/assets/photos/1998-4-H-WAC-Corporal.jpg" | absolute_url }}" alt="4-H WAC Corporal in 1998" />
-  <figcaption>My 4-H WAC Corporal. I turned both nose cones and built the telescoping stage coupler with heavy-gauge music wire.</figcaption>
+  <figcaption>My 4-H WAC Corporal. I turned both nose cones and built the telescoping stage coupler with heavy-gauge music wire and aluminum tubing.</figcaption>
 </figure>
 
 My dad and I started using avionics early on in our HPR models.
@@ -52,7 +52,7 @@ The rocket was retired after losing a fin to a hard landing in the Nevada desert
 <figure class="r2x3">
   <div class="placeholder"></div>
   <img src="{{ "/assets/photos/2001-G-RAG-3-payload.jpg" | absolute_url }}" alt="G-RAG 3 payload" />
-  <figcaption>Avionics &amp; telemetry payload for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then. See <a href="{{ "/essays/gps-telemetry-in-2020/" | absolute_url }}">GPS Telemtry in 2020</a> for more options.</figcaption>
+  <figcaption>Avionics &amp; telemetry payload and ground station for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then. See <a href="{{ "/essays/gps-telemetry-in-2020/" | absolute_url }}">GPS Telemtry in 2020</a> to see what you can do almost 20 years later.</figcaption>
 </figure>
 
 My dad was a physics teacher at Goshen High School and coached at least one team for [The American Rocketry Challenge][3] from its inaugural year in 2002 until he retired in 2012.
