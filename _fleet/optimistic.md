@@ -38,8 +38,7 @@ Dynacom is now long out of business[^1] and, even at that time, inventory was sp
 I got this kit in a roundabout way.
 My dad was at a launch without me and he lost one of my rockets[^2].
 He felt really bad and offered to buy me a replacement kit up to $200[^3].
-I had been wanting a Dynacom kit for a long time and this one was $199 -- a match made in heaven.
-
+I had been wanting a Dynacom kit for a long time and this one was $199--a match made in heaven.
 I put it together with a few modifications:
 
 - **Payload bay**
@@ -47,7 +46,7 @@ I put it together with a few modifications:
   - Added a carbon-fiber honeycomb spacer on top of the G-10 plate with the U-bolt to provide a level surface
   - Cut a small, ovular hole above the spacer to allow access to an arming switch after assembling the payload bay
   - Cut a G-10 plate to fit vertically in the center of the payload bay for mounting avionics
-    - Altimeter: AED R-DAS
+    - Altimeter: AED R-DAS mini
     - Tracker: Adept 440Mhz radio beacon
 - **Recovery system**
   - I shaped a 1/4-inch aluminum rod to fit precisely inside holes drilled to bisect a section of coupler. The metal rod was slipped through a sewn loop of tubular Kevlar _before_ the coupler was bonder to the airframe to anchor it firmly.
@@ -129,7 +128,7 @@ I put it together with a few modifications:
 
 *[LDRS]: Large and Dangerous Rocket Ships
 
-[^1]: [According to the Wayback Machine][1] the last time Dynamic Composites maintained a web presence at dynacom-inc.com was in 2004. I got this kit the last year Eric Haberman was still doing business! You can still get fillament-wound fiberglass kits from places like [Mach 1 Rocketry][2] and [Wildman Rocketry][3].
+[^1]: [According to the Wayback Machine][1] the last time Dynamic Composites maintained a web presence at dynacom-inc.com was in 2004. I got this kit the last year Eric Haberman was still in the rocket business! These days, you can get fillament-wound fiberglass kits from places like [Mach 1 Rocketry][2] and [Wildman Rocketry][3].
 [^2]: The lost rocket was a 2.6 diameter kit from [Binder Design][4] that I had modified the fin shape. Binder Design has since changed hands and no longer offers any kits below 3" in size.
 [^3]: I thought this was _very_ generous so I didn't look a gift horse in the mouth.
 
