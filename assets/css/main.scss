@@ -428,6 +428,11 @@ h1 + .post-meta {
   }
 }
 
+header .post-tag {
+  margin-right: .5em;
+  width: auto;
+}
+
 .post-date {
   color: $theme-color-highlight;
 }
