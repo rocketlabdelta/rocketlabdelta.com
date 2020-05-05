@@ -147,6 +147,13 @@ aside {
   padding: 2em 0 2em .5em;
 }
 
+blockquote {
+  border-left: 1px solid $theme-color-bright;
+  color: $theme-color-highlight;
+  margin: 1em 0 1em .8em;
+  padding-left: 1em;
+}
+
 small {
   font-size: .8em;
 }
@@ -448,6 +455,11 @@ header .post-tag {
   &:hover {
     color: $theme-active-color;
   }
+}
+
+.status {
+  color: $theme-color-bright;
+  padding-left: .5em;
 }
 
 .hidden-caption {
