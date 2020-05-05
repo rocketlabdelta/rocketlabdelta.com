@@ -1,6 +1,7 @@
 ---
 title:       "Tiny Wings"
 description: "What kind of airfoil is best for rocket fins?"
+status:      "Planning"
 ---
 
 What kind of airfoil is best for rocket fins? It depends.
