@@ -25,7 +25,7 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
   ]
 
   const staticAssets = [
-    '/assets/js/turbolinks.js',
+    '/assets/js/vendor/turbolinks.js',
     '/assets/css/main.css',
     '/assets/fonts/sf-alien-encounters-italic-solid.woff2',
     '/assets/svg/placeholder.svg',
