@@ -14,7 +14,7 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
 (function () {
   'use strict'
 
-  const version = 'v2020-05-05T15:30:00::'
+  const version = 'v2020-05-20T12:00:00::'
   const staticCacheName = version + 'static'
   const pagesCacheName = version + 'pages'
   const imagesCacheName = version + 'images'
@@ -27,7 +27,6 @@ Thanks to [Jeremy][1], [Filament Group][2], and [Erik][3] for this, and everythi
   ]
 
   const staticAssets = [
-    '/assets/js/vendor/turbolinks.js',
     '/assets/css/main.css',
     '/assets/fonts/sf-alien-encounters-italic-solid.woff2',
     '/assets/svg/placeholder.svg',
