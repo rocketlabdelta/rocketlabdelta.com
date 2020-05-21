@@ -313,6 +313,13 @@ hr {
     position: absolute;
     top: 0;
   }
+
+  + iframe {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
 }
 
 .r1x1 {
