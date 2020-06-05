@@ -69,8 +69,17 @@ Another alternative is to get a cheap/used Android phone and use the [Insane Roc
 (Phones are only suitable payloads for large rockets.)
 This _also_ assumes there will be cell service at your launch site--most fields big enough for rocketry are in rural areas which can have poor network coverage.
 
-There are lots of LoRa/GPS trackers on the market that could potentially be repurposed for rocketry, [like this one from Seed Studio][39], but they typically have lower GPS polling rates to save battery life.
-I haven't found anything from outside the rocketry world that is dramatically cheaper for a whole _system_: transmitter, receiver, phone interface.
+There are trackers in the consumer electronics market that could be repurposed for rocketry like [this LoRa/GPS from Seed Studio][39], a [GSM/GPS units from Trackimo][39a], or even an [LTE-M/WiFi/GPS dog collar from fi][39b].
+These have design goals that line up with their intended uses so they usually make one or more of the following trade-offs that make them less than ideal for rocketry:
+
+- Larger packages that weigh more
+- Non-removable batteries
+- Not be ruggedized for the forces of flight and (worst case) impact
+- Lose satellite fix under high speeds
+- Have low GPS polling rates to save battery life
+
+These aren't deal breakers, but I haven't found any consumer products that are dramatically cheaper for a whole _system_: transmitter, receiver, phone interface _and_ makes good design trade-offs.
+A possible exception are GPS trackers meant for falconry (yes really) like those from [Marshall Radio][39c] but a full GPS system can easily add up to north of $1500.
 
 <aside>
 For the DIY inclined it shouldn&rsquo;t be <em>too</em> hard to graft a <a href="https://www.u-blox.com/en">ublox</a> <a href="https://www.u-blox.com/en/positioning-chips-and-modules">GPS module</a> to an off-the-shelf Zigbee wireless module&mdash;the <a href="https://www.missileworks.com/t3/">Missile Works T3</a> is essentially just that.
@@ -171,6 +180,9 @@ As an alternative, it may be possible to connect a Window laptop[^4] to the grou
 [37]: https://flightsketch.com/store/catalog/flightsketch-sst_228/
 [38]: https://play.google.com/store/apps/details?id=com.insanerocketry.insanerockets&hl=en_US
 [39]: https://www.seeedstudio.com/LoRaWAN-GPS-Tracker-with-9-axis-accelerometer-LGT92-p-2922.html
+[39a]: https://trackimo.com/
+[39b]: https://tryfi.com/
+[39c]: https://marshallradio.com/
 [40]: http://rocketlocator.com/
 [40a]: https://play.google.com/store/apps/details?id=com.frankdev.rocketlocator
 [40b]: https://sourceforge.net/p/bluegps4droid/home/Home/
