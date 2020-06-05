@@ -41,7 +41,7 @@ collections:
 header_pages:
   - projects.html
   - fleet.html
-  - blog.html
+  - updates.html
   - about.md
 
 permalink: /:categories/:title/
