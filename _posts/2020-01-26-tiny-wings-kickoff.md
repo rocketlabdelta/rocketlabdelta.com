@@ -2,7 +2,7 @@
 title:       "Reexamining Rocket Fin Aerodynamics"
 description: "Project Kickoff: Tiny Wings"
 date:        2020-01-26 10:28 -0500
-categories:  updates
+categories:  status
 ---
 
 The [Tiny Wings][1] project will determine the fin design for my second[^1] HPR Level 1 certification launch vehicle.
