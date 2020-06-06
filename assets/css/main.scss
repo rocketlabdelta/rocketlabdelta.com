@@ -48,7 +48,8 @@ body {
 }
 
 header,
-main {
+main,
+.previous-next {
   margin: 0 auto;
   max-width: $theme-content-width;
 }
@@ -383,11 +384,29 @@ hr {
 .footnotes {
   border-top: 1px dotted $theme-color-highlight;
   margin-top: 3em;
-  padding-bottom: 100vh;
+  padding-bottom: 2em;
   padding-top: 2em;
 
   ol {
     margin: 0;
+  }
+}
+
+.previous-next {
+  position: relative;
+}
+
+.previous,
+.next {
+  display: inline-block;
+  margin-bottom: 1em;
+  text-decoration: none;
+
+  small {
+    color: $theme-color-highlight;
+    display: block;
+    letter-spacing: .1em;
+    text-transform: uppercase;
   }
 }
 
@@ -615,6 +634,18 @@ dl {
 
   .rss {
     max-width: 3em;
+  }
+
+  .previous,
+  .next {
+    width: 50%;
+  }
+
+  .next {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
   }
 }
 

@@ -17,8 +17,18 @@ layout: default
 </main>
 
 <nav class="previous-next">
-  <a href="#">Previous Update</a>
-  <a href="#">Next Update</a>
+  {% if page.previous.url %}
+    <a class="previous" href="{{ page.previous.url }}">
+      <small>Previous Update</small>
+      {{ page.previous.title }}
+    </a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{ page.next.url }}">
+      <small>Next Update</small>
+      {{ page.next.title }}
+    </a>
+  {% endif %}
 </nav>
 
 <script>
