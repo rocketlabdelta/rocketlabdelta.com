@@ -191,6 +191,10 @@ hr {
   overflow: visible;
 }
 
+.previous-next + hr {
+  margin-top: 2em;
+}
+
 :focus {
   outline: 1px solid $theme-color-contrast;
   transition: all 150ms ease-in-out;
@@ -393,6 +397,7 @@ hr {
 }
 
 .previous-next {
+  margin: 3em auto 2em;
   position: relative;
 }
 
@@ -461,9 +466,22 @@ h1 + .post-meta {
   }
 }
 
-header .post-tag {
-  margin-right: .5em;
-  width: auto;
+.author-name {
+  color: $theme-color-highlight;
+}
+
+header {
+  .post-meta li {
+    margin-right: .5em;
+  }
+
+  .post-date {
+    color: $theme-text-color;
+  }
+
+  .post-tag {
+    width: auto;
+  }
 }
 
 .post-date {
@@ -575,6 +593,15 @@ dl {
   }
 }
 
+footer {
+  text-align: center;
+  margin-bottom: 40vh;
+}
+
+.license {
+  display: block;
+}
+
 .color-swatch {
   display: inline-block;
   font-size: .8em;
@@ -638,7 +665,7 @@ dl {
 
   .previous,
   .next {
-    width: 50%;
+    max-width: 50%;
   }
 
   .next {

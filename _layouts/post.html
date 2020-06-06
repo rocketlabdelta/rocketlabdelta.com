@@ -4,17 +4,21 @@ layout: default
 <header>
   <h1>{{page.title}}</h1>
   <ul class="post-meta">
+    <li class="post-author">by <span class="author-name">{{ page.author }}</span></li>
+    <li class="post-date">{{ page.date | date: "%Y-%m-%d" }}</li>
     {% assign sortedCategories = page.categories | sort %}
     {% for category in sortedCategories %}
     <li class="post-tag"><a href="{{ category | absolute_url }}">{{ category }}</a></li>
     {% endfor %}
-    <li class="post-date">{{ page.date | date: "%Y-%m-%d" }}</li>
   </ul>
 </header>
 
 <main id="main" role="main">
   {{ content }}
 </main>
+
+{% if page.previous.url or page.next.url %}
+<hr />
 
 <nav class="previous-next">
   {% if page.previous.url %}
@@ -30,6 +34,13 @@ layout: default
     </a>
   {% endif %}
 </nav>
+{% endif %}
+
+<hr />
+<footer>
+  <a class="license" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="/assets/images/cc-by.png"/></a>
+  This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License
+</footer>
 
 <script>
   window.onload = function() { Array.from(document.querySelectorAll("abbr")).forEach(function(e) {e.setAttribute("tabindex", 0)})};

@@ -52,6 +52,7 @@ defaults:
       path: ""
     values:
       layout: "post"
+      author: "Dan Horst"
   -
     scope:
       path: ""
