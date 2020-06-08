@@ -298,7 +298,7 @@ hr {
   text-align: center;
 
   ul {
-    margin: 1em 0;
+    margin: 1em auto;
   }
 
   li {
@@ -721,6 +721,15 @@ footer {
 
   .home-banner {
     font-size: 2em;
+
+    ul {
+      width: 14em;
+    }
+
+    li {
+      display: inline-block;
+      width: 7em;
+    }
   }
 
   .social-media {
