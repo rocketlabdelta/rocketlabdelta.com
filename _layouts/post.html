@@ -37,6 +37,12 @@ layout: default
       <small>Next Update</small>
       {{ page.next.title }}
     </a>
+  {% else %}
+    <span class="next">
+      <small>Next Update</small>
+      Working on it!<br/>
+      Subscribe to the <a href="https://rocketlabdelta.com/feed.xml">RSS feed</a>.
+    </span>
   {% endif %}
 </nav>
 {% endif %}
