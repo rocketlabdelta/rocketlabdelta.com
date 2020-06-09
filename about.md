@@ -9,6 +9,8 @@ Rocket Lab Delta is the work of [Dan Horst][1] [TRA][2] #8886, [NAR][3] #70699.
 
 [My backstory][4] and ["Why I Like Rocketry"][5] talk about why hobby rocketry is important to me.
 
+## Contact
+
 There are no comments on this site but I'd still love to hear from you. The best way to get in touch is <a href="mailto:rocketlabdelta@gmail.com">email (rocketlabdelta@gmail.com)</a> or <a href="https://www.instagram.com/rocketlabdelta">Instagram (@rocketlabdelta)</a>.
 
 ## Social Media
