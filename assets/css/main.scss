@@ -582,6 +582,13 @@ header {
   max-width: 2em;
 }
 
+.call-to-action {
+  font-family: $accent-typeface;
+  font-size: 0;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
 dl {
   dt {
     color: $theme-color-highlight;
@@ -777,6 +784,10 @@ footer {
     margin-top: -5em;
     max-width: 4em;
     padding-bottom: .5em;
+  }
+
+  .call-to-action {
+    font-size: .95em;
   }
 
   ul {
