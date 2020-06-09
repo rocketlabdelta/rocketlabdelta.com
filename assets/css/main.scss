@@ -299,14 +299,13 @@ hr {
 
   ul {
     margin: 1em auto;
+    max-width: 15em;
   }
 
   li {
+    display: inline-block;
     margin-bottom: .5em;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
+    width: 7em;
   }
 }
 
@@ -721,15 +720,6 @@ footer {
 
   .home-banner {
     font-size: 2em;
-
-    ul {
-      width: 14em;
-    }
-
-    li {
-      display: inline-block;
-      width: 7em;
-    }
   }
 
   .social-media {
