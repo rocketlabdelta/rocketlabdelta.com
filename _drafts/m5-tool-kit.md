@@ -1,7 +1,7 @@
 ---
 title:       "Jamie Hyneman's Tools"
 description: "Essential tools for getting things done"
-categories:  updates
+categories:  notes
 ---
 
 [Jamie Hyneman][1] of [MythBusters][2] fame did a walk-through of his personal "don't touch" tool kit as "bonus" web content in 2008.

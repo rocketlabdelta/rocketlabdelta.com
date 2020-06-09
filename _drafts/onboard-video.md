@@ -1,13 +1,13 @@
 ---
 title:       "Onboad Video"
 description: "What sort of video camera is best for rocketry?"
-categories:  essays
+categories:  notes
 ---
 
 **_Did a rocket really fly if you don't have video of it?_**
 
-Ever since the [Estes Cineroc][1] sent 8mm film cameras aloft in the 1970s onboard video has been a part of rocketry.
-Digital video has had some catching up to do but nowadays, with advancements in tiny digital cameras being driven by smartphones, we have lots of options.
+Ever since the [Estes Cineroc][1] sent 8mm film cameras aloft in the 1970s onboard video has been a part of hobby rocketry.
+Digital video has been a long timne coming[^1] but the advancements in tiny digital cameras driven by smartphones have given us lots of options.
 
 ## Action Cameras
 
@@ -18,28 +18,33 @@ They briefly experimented with a smaller form factor in the form of the Hero Ses
 
 Another popular choice for rocketry is the [Mobius Mini action camera][5].
 I've seen rockets where these were mounted downward-facing on the outside of the airframe and others where they were outward facing from inside the airframe.
-They're nice because they offer a small, enclosed package with mounting hardware and have an internal battery[^1].
+They're nice because they offer a small, enclosed package with mounting hardware and have an internal battery[^2].
 
 ## Drone Cameras
 
-Aside from action cameras, products designed for drones[^2] are a good source of video cameras for rocketry.
+Aside from action cameras, products designed for drones[^3] are a good source of video cameras for rocketry.
 These cameras are designed to minimize size and weight--exactly what you want for rockets.
 Most of them have the camera modules on a tether which allows greater mounting flexibility.
 However, there is a higher learning curve because these are enthusiast/DIY products instead of consumer products..
 The [RunCam Split 3 Nano][6], for example, has an exposed 29mm square control board that needs a 5V regulated power supply.
 Thankfully, [Sparkfun][7] has your back with easy-to-use LiPo [boosters][8] and [chargers][9].
-You also need to select an appropriate capacity battery.
+
+You will need to select an appropriate capacity battery.
 The Split 3 Nano is rated at 650mA @5V.
 So, for a 30 minute recording we'll need to do a little calculation:
+
+
 
 Using discrete components is more complicated than cameras with a built-in battery & charger, but the overall video package
 
 ## Spy Cameras
 
-[^1]: Charged via _mini_ USB. Boo. USB-C plz or, if you insist on be a barbarian, at least use _micro_ USB.
-[^2]: Drone cameras are often built to both transmit _and_ record video. For most rocket flights, video telemetry is a bonus--it's the recording you really want.
+[^1]: If you don't count sending aloft miniDV camcorders like [the Gates Brothers used to do][1a].
+[^2]: Charged via _mini_ USB. Boo. USB-C plz or, if you insist on being a barbarian, at least use _micro_ USB.
+[^3]: Drone cameras are often built to both transmit _and_ record video. For most rocket flights, video telemetry is a bonus--it's the recording you really want.
 
 [1]: http://www.rcgrabbag.com/estes-cineroc-1970/
+[1a]: http://web.archive.org/web/20020610065318/http://www.gbrocketry.com/movie_theater.htm
 [2]: https://gopro.com/
 [3]: https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html/#hero8black
 [4]: https://gopro.com/en/us/out-of-the-box-experience/hero-5-session

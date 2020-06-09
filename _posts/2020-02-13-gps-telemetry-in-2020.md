@@ -2,7 +2,7 @@
 title: GPS Telemetry in 2020
 description: "What is the best way to make sure you will find your rocket?"
 date: 2020-02-13 08:26 -0500
-categories:  essays
+categories:  notes
 ---
 
 It's _really_ easy to lose a high-power rocket.

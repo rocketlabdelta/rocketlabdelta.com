@@ -1,7 +1,7 @@
 ---
 title:       "3D Printing Rocket Parts"
 description: "When is additive manufacturing the right tool for the job?"
-categories:  essays
+categories:  notes
 ---
 
 [Custom Nose Cones and Transitions](https://www.apogeerockets.com/Advanced_Construction_videos/Rocketry_Video_305)
