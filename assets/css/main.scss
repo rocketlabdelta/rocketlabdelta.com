@@ -49,6 +49,7 @@ body {
 
 header,
 main,
+.latest-update,
 .previous-next {
   margin: 0 auto;
   max-width: $theme-content-width;
@@ -264,6 +265,7 @@ hr {
   }
 }
 
+
 .page-banner {
   min-height: 6em;
   margin: 0 auto;
@@ -306,6 +308,10 @@ hr {
     display: inline-block;
     margin-bottom: .5em;
     width: 7em;
+  }
+
+  + hr {
+    margin-top: 0em;
   }
 }
 
