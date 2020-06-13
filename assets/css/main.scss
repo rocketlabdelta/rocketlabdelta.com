@@ -193,6 +193,7 @@ hr {
 }
 
 .previous-next + hr {
+  margin-bottom: 4em;
   margin-top: 2em;
 }
 
@@ -393,7 +394,7 @@ hr {
 .footnotes {
   border-top: 1px dotted $theme-color-highlight;
   margin-top: 3em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   padding-top: 2em;
 
   ol {
@@ -605,6 +606,10 @@ dl {
   }
 }
 
+.divider {
+  color: $theme-color-highlight;
+}
+
 footer {
   margin-bottom: 40vh;
   padding-top: 1em;
@@ -613,6 +618,7 @@ footer {
 
 .license {
   display: block;
+  margin-top: -.5em;
 }
 
 .color-swatch {
