@@ -1,9 +1,9 @@
 ---
-title:       "Rockets on Rails"
-description: "Brief overview of launch rails and rail guides in hobby rocketry"
-categories:  notes
+title: Rockets on Rails
+description: Brief overview of launch rails and rail guides in hobby rocketry
+categories: notes
+date: 2020-06-13 09:22 -0400
 ---
-
 Rail guide series
 
 1. Rockets on Rails
