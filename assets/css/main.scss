@@ -576,7 +576,6 @@ header {
   transition: all 150ms ease-in-out;
 }
 
-
 .rss {
   float: right;
   margin-top: -4em;
@@ -604,6 +603,22 @@ dl {
     margin-bottom: 0;
     margin-top: 0;
   }
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+th {
+  color: $theme-color-highlight;
+  font-weight: normal;
+  text-align: left;
+}
+
+td {
+  padding-right: .5em;
+  vertical-align: top;
 }
 
 .divider {

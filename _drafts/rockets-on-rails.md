@@ -39,7 +39,7 @@ They were mounted to the airframe with 8/32 Phillips pan head screw.
 That style of rail guide is still in use today and is commonly referred to as a "rail button" (they look a little like a button because they're round).
 Rail guides don't have to be round though, nor do they have to be the same size.
 
-> Rail _buttons_ or rail _guides_?
+> Rail _buttons_ or rail _guides_?  
 > Rail guides can be any shape or size. Rail buttons are round rail guides. (I don't think this distinction is helpful. I call them all rail guides because that's what Blacksky called them when they were first introduced.)
 
 ## Sizes
