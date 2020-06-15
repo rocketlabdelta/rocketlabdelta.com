@@ -4,10 +4,16 @@ description: "Finding the best rail guide for your rocket"
 categories:  notes
 ---
 
+---
+
 Rail guide series
 
 1. [Rockets on Rails]({{ "/notes/rockets-on-rails/" | absolute_url }})
 2. Rail Guides
+	1. [Varieties]({{"notes/rail-guides/#varieties" | absolute_url }})
+	2. [Selection]({{"notes/rail-guides/#selection" | absolute_url }})
+	3. [Placement]({{"notes/rail-guides/#placement" | absolute_url }})
+	4. [Mounting]({{"notes/rail-guides/#mounting" | absolute_url }})
 3. [Launch Rails]({{ "/notes/launch-rails/" | absolute_url }})
 
 ---
@@ -32,7 +38,7 @@ There are lots of options for 1010/standard size rail guides:
 | [Conformal Rail Guide][24]      | [Rosenfield Aerospace][25] | Surface                 | 3D printed plastic | $2.99             | 29mm to 5.54" LOC airframes; diameter specific             |
 | [Universal Rail Guide][26]      | [Apogee Components][27]    | Surface                 | Cast urethane      | $3.28             | Any airframe size                                          |
 | [Fly-Away Rail Guide][28]       | [Apogee Components][27]    | N/A                     | Plywood            | $5.48-$13.60      | Leaves rocket on rail exit; 13mm to 54mm sizes             |
-| [Flyaway Rail Guide][29]        | [Wildman Rocketry][21]     | N/A                     | Plastic, aluminum  | $30.00-$100.00    | Leaves rocket on rail exit; 38mm to 98mm sizes             | 
+| [Flyaway Rail Guide][29]        | [Wildman Rocketry][21]     | N/A                     | Plastic, aluminum  | $30.00-$100.00    | Leaves rocket on rail exit; 38mm to 98mm sizes             |
 
 ## Selection
 
@@ -50,7 +56,7 @@ T-Nut on plywood
 Into internal comment e.g. shock cord anchor, centering ring
 
 
-[11]: {{ "/notes/launch-rails/" | absolute_url }}
+[1]: {{ "/notes/launch-rails/" | absolute_url }}
 [11]: https://scpconcepts.com/airfoil-rail-guides/
 [12]: https://scpconcepts.com/rocketry/
 [13]: https://aeropack.net/ldRailGuides.asp

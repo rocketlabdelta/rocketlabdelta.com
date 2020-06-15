@@ -4,9 +4,14 @@ description: Brief overview of launch rails and rail guides in hobby rocketry
 categories: notes
 date: 2020-06-13 09:22 -0400
 ---
+
+---
+
 Rail guide series
 
 1. Rockets on Rails
+	1. [History]({{ "/notes/rockets-on-rails/#history" | absolute_url }})
+	2. [Sizes]({{ "/notes/rockets-on-rails/#sizes" | absolute_url }})
 2. [Rail Guides]({{ "/notes/rail-guides/" | absolute_url }})
 3. [Launch Rails]({{ "/notes/launch-rails/" | absolute_url }})
 
@@ -52,21 +57,6 @@ There are 4 sizes of commercially available rail guides:
 | Mini          | [2020][8] (20mm)                           |
 | Standard/1010 | [1010][9] (1"), Blacksky rails             |
 | 1515          | [1515][10] (1.5")                          |
-
-Over the years there has been a lot of innovation in the size, shape, and mounting method for rail guides.
-
-- Low cost (3-piece)
-  - [1010 Delrin Railbuttons](https://rail-buttons.com/1010delrin.html)
-- Low drag
-  - [Airfoil Rail Guides](https://scpconcepts.com/airfoil-rail-guides/) (CNC machined Delrin, teardrop airfoil)
-  - [Aero Pack low-drag rail guides](https://aeropack.net/ldRailGuides.asp) (machined Delrin, recessed mounting screw)
-  - [Rail-Buttons.com Recessed Mount 1010 Delrin Railbuttons](https://rail-buttons.com/1010delrin.html) (injection moulded Delrin, recessed mounting screw; less expensive)
-  - [Apogee Components Fly-Away Rail Guide](https://www.apogeerockets.com/Launch-Accessories/Fly-Away-Rail-Guides/54mm-Fly-Away-Rail-Guide-1-pk)
-- Surface mounted, diameter-specific
-  - [ACME Conformal Rail Guides from Giant Leap Rocketry](https://giantleaprocketry.com/products/components_launch_systems.aspx#Acme_Conformal_Launch_Guides) (extruded aluminum)
-  - [Rosenfield Aerospace Conformal Rail Guides](https://www.rosenfieldaerospace.com/Conformal_Rail_Guide_for_LOC_Body_Tubes/p2900834_12834730.aspx) (3D printed plastic)
-- Surface mounted, diameter-independent
-  - [Apogee Components Universal Rail Guides](https://www.apogeerockets.com/Building-Supplies/Launch-Lugs-Rail-Buttons/Rail-Buttons-Guides/Universal-Rail-Guides) (3D printed plastic)
 
 <figure class="r3x4">
   <div class="placeholder"></div>
