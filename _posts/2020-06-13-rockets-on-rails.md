@@ -83,5 +83,5 @@ See [selecting a rail guide][13] for how I decide between them.
 [9]:  https://8020.net/1010-s.html
 [10]: https://8020.net/1515-s.html
 [11]: https://rail-buttons.com
-[12]: {{ "/notes/rail-guides/#varieties" | absolute_url }}
-[12]: {{ "/notes/rail-guides/#selection" | absolute_url }}
+[12]: {{ "/lists/rail-guides/" | absolute_url }}
+[13]: {{ "/notes/rail-guides/#selection" | absolute_url }}

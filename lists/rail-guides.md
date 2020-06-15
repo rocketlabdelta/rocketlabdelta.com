@@ -10,4 +10,4 @@ layout:      default
   {%- include list-rail-guides.html -%}
 </section>
 
-<p class="centered">Read more in <a href="{{'notes/rail-guides/' | absolute_url }}">Rail Guide Series</a></p>
+<p class="centered">Read more in the <a href="{{'notes/rail-guides/' | absolute_url }}">Rail Guide Series</a></p>
