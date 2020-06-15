@@ -55,20 +55,22 @@ main,
   max-width: $theme-content-width;
 }
 
-main figure {
-  color: $theme-color-highlight;
-  margin: 1em;
-  padding: 0;
-  position: relative;
+main {
+  figure {
+    color: $theme-color-highlight;
+    margin: 1em;
+    padding: 0;
+    position: relative;
 
-  img {
-    width: 100%;
-  }
+    img {
+      width: 100%;
+    }
 
-  figcaption {
-    display: block;
-    font-style: italic;
-    padding-top: .5em;
+    figcaption {
+      display: block;
+      font-style: italic;
+      padding-top: .5em;
+    }
   }
 }
 
@@ -95,6 +97,10 @@ h6 {
   abbr:hover::after {
     color: $theme-heading-color;
   }
+}
+
+.centered {
+  text-align: center;
 }
 
 h2 {
@@ -621,6 +627,41 @@ td {
   vertical-align: top;
 }
 
+thead tr {
+  border-bottom: 1px solid $theme-color-highlight;
+}
+
+.wide-table-wrapper {
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+
+  &::before {
+    color: $theme-color-contrast;
+    content: "More\2192";
+    display: block;
+    font-size: .6em;
+    letter-spacing: .13em;
+    line-height: 1;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  table {
+    min-width: 80em;
+  }
+
+  cite {
+    display: block;
+    text-align: right;
+  }
+}
+
+.refrence-list table {
+  margin:2em auto;
+}
+
+
 .divider {
   color: $theme-color-highlight;
 }
@@ -825,6 +866,22 @@ footer {
 @media only screen and (min-width: 1425px) {
   .skip-link:focus {
     left: -10em;
+  }
+
+  .wide-table-wrapper {
+    left: -5em;
+    width: $theme-content-width + 10;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .wide-table-wrapper {
+    left: -18em;
+    width: $theme-content-width + 36;
+
+    &::before {
+      display: none;
+    }
   }
 }
 
