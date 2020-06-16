@@ -93,3 +93,4 @@ On the [Rocketry Forum][11], [Mike Mulligan][12] suggests [cutting the ACME conf
 [13]: https://www.rocketryforum.com/threads/buttons-or-conformal-rail-guides.159723/#post-2005202"
 
 [old]: http://archive.rocketreviews.com/reviews/all/bs_railsystem.shtml
+[forum]: https://www.rocketryforum.com/threads/rail-guide-placement.63945/#post-686591
