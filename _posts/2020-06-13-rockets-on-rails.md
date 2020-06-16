@@ -51,12 +51,12 @@ Rail guides don't have to be round though, nor do they have to be the same size.
 
 There are 4 sizes of commercially available rail guides:
 
-| Guide Size    | Rail                                       |
-|---------------|--------------------------------------------|
-| Micro         | [MakerBeam][6] (10mm)/[OpenBeam][7] (15mm) |
-| Mini          | [2020][8] (20mm)                           |
-| Standard/1010 | [1010][9] (1"), Blacksky rails             |
-| 1515          | [1515][10] (1.5")                          |
+| Guide Size    | Rail                                            |
+|---------------|-------------------------------------------------|
+| Micro         | [MakerBeam][6] (10mm) _or_ [OpenBeam][7] (15mm) |
+| Mini          | [2020][8] (20mm)                                |
+| Standard/1010 | [1010][9] (1"), Blacksky rails                  |
+| 1515          | [1515][10] (1.5")                               |
 
 <figure class="r3x4">
   <div class="placeholder"></div>
