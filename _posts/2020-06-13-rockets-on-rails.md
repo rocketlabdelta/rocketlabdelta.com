@@ -12,8 +12,8 @@ Rail guide series
 1. Rockets on Rails
 	1. [History]({{ "/notes/rockets-on-rails/#history" | absolute_url }})
 	2. [Sizes]({{ "/notes/rockets-on-rails/#sizes" | absolute_url }})
-2. [Rail Guides]({{ "/notes/rail-guides/" | absolute_url }})
-3. [Launch Rails]({{ "/notes/launch-rails/" | absolute_url }})
+2. Rail Guides <small>COMING SOON</small>
+3. Launch Rails <small>COMING SOON</small>
 
 ---
 
@@ -33,7 +33,7 @@ This flexibility can cause "rod whip" where the rod can spring back and hit the 
 
 Blacksky, the now-defunct consumer rocketry company founded by [Scott Bartel][2], almost[^1] single-handedly introduced launch rails to hobby rocketry to solve these problems.
 [In 1999 they offered free "standard" rails to 100 rocket clubs][3] and, since then, rails become a fixture of high power launches[^2].
-The Blacksky standard rails were 2 3-foot lengths of extruded aluminum channel joined by a stainless steel bracket on the back[^3].
+The Blacksky standard rails were 2 2-foot lengths of extruded aluminum channel joined by a stainless steel bracket on the back[^3].
 The larger "ProRail" system came in 6-foot lengths and was significantly stronger.
 Both Blacksky rails used the same size of rail guides.
 Either by coincidence--or maybe even by design--Blacksky rail guides were _also_ compatible with the 1", or 1010, aluminum profiles made by [8020][5].
@@ -68,8 +68,8 @@ The smaller two sizes--mini and micro--are available from [Rail-buttons.com][11]
 1010/starndard is the most common size so there are a [variety of different styles and materials available from many different rocketry vendors][12].
 See [selecting a rail guide][13] for how I decide between them.
 
-[^1]: I have heard of people using sailboat masts as improvised launch rails in the 90s. They mounted screws most of the way into the airframe and then slid the screw head down the channel of the mast.
-[^2]: Because they were the de facto standard, you still see "Blacksky compatible" in marketing copy for rails and guides on the websites of some rocketry vendor 20 years later.
+[^1]: I have heard of people using sailboat masts as improvised launch rails in the 90s. They sunk screws most of the way into the airframe and then slid the screw head down the channel of the mast.
+[^2]: Because they were the de facto standard, you still see "Blacksky compatible" in marketing copy for rails and rail guides on some rocketry vendor websites 20 years later.
 [^3]: My dad and I were early adopters of launch rails and used them with rockets down to 38mm in diameter. My dad also used them extensively with his [TARC teams][4].
 
 [1]:  https://estesrockets.com/product-category/rockets/launch-sets/
