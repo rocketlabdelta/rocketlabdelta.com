@@ -33,19 +33,20 @@ This flexibility can cause "rod whip" where the rod can spring back and hit the 
 
 Blacksky, the now-defunct consumer rocketry company founded by [Scott Bartel][2], almost[^1] single-handedly introduced launch rails to hobby rocketry to solve these problems.
 [In 1999 they offered free "standard" rails to 100 rocket clubs][3] and, since then, rails become a fixture of high power launches[^2].
-The Blacksky standard rails were 2 2-foot lengths of extruded aluminum channel joined by a stainless steel bracket on the back[^3].
-The larger "ProRail" system came in 6-foot lengths and was significantly stronger.
+The Blacksky standard rails were 2 2-foot lengths of black-anodized extruded 6063 aluminum C-channel joined by a stainless steel bracket on the back[^3].
+The larger "ProRail" was significantly stronger and came in 6-foot lengths of black-anodized 6063 extruded aluminum I-beam with a C-channel on one side.
+
 Both Blacksky rails used the same size of rail guides.
-Either by coincidence--or maybe even by design--Blacksky rail guides were _also_ compatible with the 1", or 1010, aluminum profiles made by [8020][5].
-These are readily available from industrial suppliers or directly from the manufacturer in a wide variety of lengths and confutations.
+Either by coincidence--or maybe even by design--Blacksky rail guides are _also_ compatible with the 1", or 1010, aluminum profiles made by [8020][5].
+These X-shaped profiles are readily available from industrial suppliers, rocketry vendors, or directly from the manufacturer in a wide variety of lengths and configurations.
 
 The original Blacksky rail guides were machined from 3/8" Delrin (acetal/Polyoxymethylene) bar stock with a profile of a squat capital "I".
-They were mounted to the airframe with 8/32 Phillips pan head screw.
+They also offed "pro" guides that were the same size but made with Teflon-coated red-anodized aluminum.
+Both styles were mounted to the airframe with 8/32 pan head screw, Philips head for the standard guides, Socket head for the aluminum guides.
 That style of rail guide is still in use today and is commonly referred to as a "rail button" (they look a little like a button because they're round).
-Rail guides don't have to be round though, nor do they have to be the same size.
 
 > Rail _buttons_ or rail _guides_?  
-> Rail guides can be any shape or size. Rail buttons are round rail guides. (I don't think this distinction is helpful. I call them all rail guides because that's what Blacksky called them when they were first introduced.)
+> Rail guides can be any shape or size. Rail buttons are small, round rail guides. (I call them all rail guides because it's a more general term and that's what Blacksky called them when they were first introduced.)
 
 ## Sizes
 
