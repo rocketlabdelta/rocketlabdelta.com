@@ -70,6 +70,10 @@ main {
       display: block;
       font-style: italic;
       padding-top: .5em;
+
+      em {
+        font-style: normal;
+      }
     }
   }
 }
@@ -632,7 +636,8 @@ thead tr {
 }
 
 .wide-table-wrapper {
-  overflow-y: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
   position: relative;
   width: 100%;
 
