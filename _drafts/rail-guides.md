@@ -13,7 +13,7 @@ Rail guide series
 	1. [Varieties]({{"notes/rail-guides/#varieties" | absolute_url }})
 	2. [Selection]({{"notes/rail-guides/#selection" | absolute_url }})
 	3. [Placement]({{"notes/rail-guides/#placement" | absolute_url }})
-	4. [Mounting]({{"notes/rail-guides/#mounting" | absolute_url }})
+	4. [Anchoring]({{"notes/rail-guides/#anchoring" | absolute_url }})
 3. [Launch Rails]({{ "/notes/launch-rails/" | absolute_url }})
 
 ---
@@ -48,7 +48,7 @@ They're cheaper than the Aero Pack guides and perfectly decent quality so they w
   <figcaption>The surface of the moulded rail guide (left) isn't <em>quite</em> as consistent as the machined rail guide (right)</figcaption>
 </figure>
 
-I've also had good luck with the [ACME Conformal Rail guides][10] for minimum-diameter rockets.
+I've also had good luck using [ACME Conformal Rail guides][10] on minimum-diameter rockets.
 
 <figure class="r3x4">
   <div class="placeholder"></div>
@@ -56,11 +56,11 @@ I've also had good luck with the [ACME Conformal Rail guides][10] for minimum-di
   <figcaption>Detail view of the ACME Conformal Rail guide (54mm offset) on the <a href="{{ '/fleet/optimistic/' | absolute_url }}">Optimistic</a></figcaption>
 </figure>
 
-On the [Rocketry Forum][11], [Mike Mulligan][12] suggests [cutting the ACME conformal rail guides in half][13] and that sounds like a good idea to me!
+On the [Rocketry Forum][11], [Mike Mulligan][12] suggests [cutting the ACME conformal rail guides in half][13]. That sounds like a good idea to me!
 
 <figure class="r3x4">
   <div class="placeholder"></div>
-  <img loading="lazy" src="{{ '/assets/photos/mugs914-rail-guide.jpg' | absolute_url }}" alt="Common rail sizes for rocketry" />
+  <img loading="lazy" src="{{ '/assets/photos/mugs914-rail-guide.jpg' | absolute_url }}" alt="Half an ACME conformal rail guide, pointy side up, near the aft end of a white roxket./>
   <figcaption><cite>Good tip from <a href="https://www.rocketryforum.com/threads/buttons-or-conformal-rail-guides.159723/#post-2005202">Mike Mulligan (Mugs914) over at The Rocketry Forum</a></cite></figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ It's important that the rail guides are firmly attached to your rocket but you c
 There isn't a clear winner here--the best method will depend on the size, weight, and configuration of the rocket.
 I like to be able to remove and replace the mounting hardware so I favor options like the internal T-nut, weld nut, or nut holder--something that adds metal threads to the airframe.
 
-[^1]: You might be able to get away with one, long rail guide on a small, squat rocket but I don't think it's worth it.
+[^1]: I have seen 3 rail guides used on _vwry_ long, slender rockets and, occaisionally, on two-stage rockets but those are exceptional cases. You might be able to get away with one, long rail guide--like tge PML linear rail lug--on a small, squat rocket but I don't think it's worth it. Fly-away rail guides are a better choice if you are trying to minimize paracitic drag.
 
 [1]:  {{ "/notes/launch-rails/" | absolute_url }}
 [2]:  https://scpconcepts.com/airfoil-rail-guides/
