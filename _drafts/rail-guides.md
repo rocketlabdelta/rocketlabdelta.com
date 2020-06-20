@@ -40,7 +40,7 @@ My favorites are:
 2. [Low-drag airframe mount rail guide from Aero Pack][6] are nicely machined Delrin mounted using a countersunk machine screw into a [provided weld nut][7]. These are the nicest button-style guides I've found.
 
 The [new-style moulded Delrin rail buttons from Rail-Buttons.com][8] are _almost_ as nice as the ones from Aero Pack but I don't like the surface finish as much and they don't come with [an anchor][9] of any kind.
-They're cheaper that the Aero Pack guides and perfectly decent quality so they would be a good choice for most people.
+They're cheaper than the Aero Pack guides and perfectly decent quality so they would be a good choice for most people.
 
 <figure class="r2x3">
   <div class="placeholder"></div>
@@ -67,7 +67,7 @@ On the [Rocketry Forum][11], [Mike Mulligan][12] suggests [cutting the ACME conf
 
 ## Placement
 
-While most rockets only have one launch lug, virtually all rockets use _two_ rail guides[^1].
+While most rockets only have one launch lug, all rockets use _two_ rail guides[^1].
 The [original recommendation from Blacksky][14] was to mount one at the base of the rocket and the other 1&ndash;2 caliber below the center of gravity.
 This method is [casually endorsed by John Coker][15], and it's what I've always done (because I followed the instructions that came with my first rail guides).
 There are other opinions too:
@@ -92,8 +92,8 @@ It's important that the rail guides are firmly attached to your rocket but you c
 - Plastic nut holder e.g. [Nut Holder Kit for 1010 Rail Buttons][20] by [SMT Designs][21]
 - T-Nut on a small piece of plywood e.g. [Certify Level 1 by John Coker][22]
 
-There isn't a clear winner here--the best method will depend on the size, weight, and configuration.
-I like to be able to removing and replace the mounting hardware so I favor options like the T-nut and the weld nut that add metal threads to the airframe.
+There isn't a clear winner here--the best method will depend on the size, weight, and configuration of the rocket.
+I like to be able to remove and replace the mounting hardware so I favor options like the internal T-nut, weld nut, or nut holder--something that adds metal threads to the airframe.
 
 [^1]: You might be able to get away with one, long rail guide on a small, squat rocket but I don't think it's worth it.
 
