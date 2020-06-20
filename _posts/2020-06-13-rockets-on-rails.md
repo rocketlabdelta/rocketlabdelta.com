@@ -25,7 +25,7 @@ This is usually done with a launch _rod_ or a launch _rail_.
 
 Model rockets are typically flown with the launch pads included with [the nearly-ubiquitous Estes launch sets][1].
 They are small, plastic tripods with a 1/8" diameter rod sticking straight up.
-High-power rockets started out as scaled up model rockets so the rod size grew as the rockets got bigger and heavier--3/16", 1/4", 1/2", 3/4" and so on.
+High-power rockets started out as scaled-up model rockets so the rod size grew as the rockets got bigger and heavier--3/16", 1/4", 1/2", 3/4" and so on.
 
 This presents a problem because larger rockets _also_ need to be guided for a longer distance than model rockets to achieve a safe speed.
 An 8-foot 1/2" rod is flexible enough so that when a large rocket is loaded onto the pad the rod can bend and sway in the wind.
@@ -46,7 +46,7 @@ Both styles were mounted to the airframe with 8/32 pan head screw, Philips head 
 That style of rail guide is still in use today and is commonly referred to as a "rail button" (they look a little like a button because they're round).
 
 > Rail _buttons_ or rail _guides_?  
-> Rail guides can be any shape or size. Rail buttons are small, round rail guides. (I call them all rail guides because it's a more general term and that's what Blacksky called them when they were first introduced.)
+> Rail guides can be any shape or size. Rail buttons are small, round rail guides. I call them all rail guides because it's a more general term and that's what Blacksky called them when they were first introduced.
 
 ## Sizes
 
