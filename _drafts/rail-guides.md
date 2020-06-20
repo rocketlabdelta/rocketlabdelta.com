@@ -18,7 +18,7 @@ Rail guide series
 
 ---
 
-If to fly using a [launch rail][1] you have to decide what kind of rail guide (or "button" if you must) to use and how to attach it to your rocket.
+To fly using a [launch rail][1] you have to decide what kind of rail guide (or "button" if you must) to use and how to attach it to your rocket.
 
 ## Varieties
 
@@ -31,7 +31,7 @@ There are _lots_ of options for 1010/standard size rail guides:
 
 ## Selection
 
-You can spend between ¢46 and $100 to add a rail guide to your rocket.
+You can spend between 46¢ and $100 to add a rail guide to your rocket.
 Given the field, which one would you choose?
 
 My favorites are:
@@ -67,16 +67,35 @@ On the [Rocketry Forum][11], [Mike Mulligan][12] suggests [cutting the ACME conf
 
 ## Placement
 
+While most rockets only have one launch lug, virtually all rockets use _two_ rail guides[^1].
+The [original recommendation from Blacksky][14] was to mount one at the base of the rocket and the other 1&ndash;2 caliber below the center of gravity.
+This method is [casually endorsed by John Coker][15], and it's what I've always done (because I followed the instructions that came with my first rail guides).
+There are other opinions too:
+
+> You should place the two buttons so that they are on either side of the Center-of-Gravity (CG) of the rocket.
+> Further apart is better if you have room.  
+> <cite>Tim Van Milligan <a href="https://www.apogeerockets.com/education/downloads/Newsletter489.pdf">Peak of Flight #489</a>, p. 2</cite>
+
+> Install one rail button 1" from the aft end of the rocket, and another 4" from the front of the airframe.  
+> <cite>Mike Westerfield, <a href="https://www.oreilly.com/library/view/make-high-power-rockets/9781680454796/">Make: High Power Rockets</a> Figure 3-52, p. 57</cite>
+
+All told, it doesn't seem to matter a whole lot where they are placed as long as you have two of them anchored to the airframe in a straight line.
 
 ## Anchoring
 
-- Direct to airframe (backed with epoxy clay)
-- Weld nut
-- DIY weld nut
-- Plastic nut bracket
-- T-Nut on plywood
-- Into internal comment e.g. shock cord anchor, centering ring
+It's important that the rail guides are firmly attached to your rocket but you can accomplish that in a lot of different ways:
 
+- Directly into the airframe (backed with epoxy clay) see [Peak of Flight #489][16]
+- Weld nut e.g. [low drag rail guides (RG10A) from Aero Pack][17], other styles of weld nut can be [sourced from McMaster-Carr][18]
+- Into internal structure like a centering ring e.g. [blukhead mount (RG10B) rail guides from Aero Pack][18]
+- DIY weld nut e.g. a piece of aluminum tapped for a machine screw, [Make: High Power Rockets][19] p. 56
+- Plastic nut holder e.g. [Nut Holder Kit for 1010 Rail Buttons][20] by [SMT Designs][21]
+- T-Nut on a small piece of plywood e.g. [Certify Level 1 by John Coker][22]
+
+There isn't a clear winner here--the best method will depend on the size, weight, and configuration.
+I like to be able to removing and replace the mounting hardware so I favor options like the T-nut and the weld nut that add metal threads to the airframe.
+
+[^1]: You might be able to get away with one, long rail guide on a small, squat rocket but I don't think it's worth it.
 
 [1]:  {{ "/notes/launch-rails/" | absolute_url }}
 [2]:  https://scpconcepts.com/airfoil-rail-guides/
@@ -91,6 +110,12 @@ On the [Rocketry Forum][11], [Mike Mulligan][12] suggests [cutting the ACME conf
 [11]: https://www.rocketryforum.com/
 [12]: https://www.rocketryforum.com/members/mugs914.11309/
 [13]: https://www.rocketryforum.com/threads/buttons-or-conformal-rail-guides.159723/#post-2005202"
-
-[old]: http://archive.rocketreviews.com/reviews/all/bs_railsystem.shtml
-[forum]: https://www.rocketryforum.com/threads/rail-guide-placement.63945/#post-686591
+[14]: http://archive.rocketreviews.com/reviews/all/bs_railsystem.shtml
+[15]: https://www.rocketryforum.com/threads/rail-guide-placement.63945/#post-686591
+[16]: https://www.apogeerockets.com/education/downloads/Newsletter489.pdf
+[17]: https://aeropack.net/ldRailGuides.asp
+[18]: https://www.mcmaster.com/weld-nuts/
+[19]: https://www.oreilly.com/library/view/make-high-power-rockets/9781680454796/
+[20]: https://www.smtdesigns.com/store/6-32-nut-holder-kit-for-1010-rail-buttons
+[21]: https://www.smtdesigns.com/
+[22]: https://www.youtube.com/watch?v=Xtr3758PvzA
