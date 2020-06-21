@@ -14,16 +14,11 @@ date: 2020-06-21 09:30 -0400
 
 ---
 
-## TLDR
-
-Rail guides are better than launch lugs for all but the smallest rockets.
-[Aero Pack rail guies][16] are great quality and come with everything you need.
-
----
-
 A rocket must be traveling fast enough so that the air rushing past its fins generates enough lift to achieve stable flight.
-To ensure a safe, stable trajectory the rocket must be guided upwards until it's going fast enough.
-This is usually done with a launch _rod_ or a launch _rail_.
+Until then, it must be guided upwards by a launch rod, rail, or tower.
+Launch towers are larger and more complicated than the alternatives and are not generally used outside of competition rocketry or large, experimental projects.
+Launch rods work well for small rockets but launch rails are a better for medium to large rockets.
+Launch rails will be an option at virtually all club launches so all you need to do to use them is choose a pair of rail guides and attach them to your rocket.
 
 ## History
 
