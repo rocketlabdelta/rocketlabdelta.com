@@ -118,7 +118,7 @@ On the [Rocketry Forum][21], [Mike Mulligan][22] suggests [cutting the ACME conf
 
 ## Placement
 
-While most rockets only have one launch lug, all rockets use _two_ rail guides[^4].
+While most rockets only have one launch lug, rockets need _at least_ two rail guides[^4].
 The [original recommendation from Blacksky][24] was to mount one at the base of the rocket and the other 1&ndash;2 caliber below the center of gravity.
 This method is [casually endorsed by John Coker][25], and it's what I've always done (because I followed the instructions that came with my first rail guides).
 There are other opinions too:
@@ -127,7 +127,7 @@ There are other opinions too:
 > Further apart is better if you have room.  
 > <cite>Tim Van Milligan <a href="https://www.apogeerockets.com/education/downloads/Newsletter489.pdf">Peak of Flight #489</a>, p. 2</cite>
 
-> Install one rail button 1" from the aft end of the rocket, and another 4" from the front of the airframe.  
+> Install one rail button 1" from the aft end of the rocket, and another [1.5 caliber] from the front of the airframe.  
 > <cite>Mike Westerfield, <a href="https://www.oreilly.com/library/view/make-high-power-rockets/9781680454796/">Make: High Power Rockets</a> Figure 3-52, p. 57</cite>
 
 All told, it doesn't seem to matter a whole lot where they are placed as long as you have two of them anchored to the airframe in a straight line.
@@ -153,7 +153,7 @@ I like to have the ability to remove and replace the rail guide if needed so I f
 [^1]: I have heard of people using sailboat masts as improvised launch rails in the 90s. They sunk screws most of the way into the airframe and then slid the screw head down the channel of the mast.
 [^2]: Because they were the de facto standard, you still see "Blacksky compatible" in marketing copy for rails and rail guides on some rocketry vendor websites 20 years later.
 [^3]: My dad and I were early adopters of launch rails and used them with rockets down to 38mm in diameter. My dad also used them extensively with his [TARC teams][4].
-[^4]: I have seen 3 rail guides used on _very_ long, slender rockets and, occasionally, on two-stage rockets but those are exceptional cases. You might be able to get away with one, long rail guide--like the [PML linear rail lug][34]--on a small, squat rocket but I don't think it's worth it. Fly-away rail guides like the ones from [Apogee Components][35] or [Additive Aerospace][36] are a better choice if you are trying to minimize parasitic drag.
+[^4]: Two rail guides are sufficient for typical rockets. I have seen 3 rail guides used on _very_ long, slender rockets and, occasionally, on two-stage rockets but those are exceptional cases. You might be able to get away with one, long rail guide--like the [PML linear rail lug][34]--on a small, squat rocket but I don't think it's worth it. Fly-away rail guides like the ones from [Apogee Components][35] or [Additive Aerospace][36] are a better choice if you are trying to minimize parasitic drag.
 
 [1]:  https://estesrockets.com/product-category/rockets/launch-sets/
 [2]:  https://www.linkedin.com/in/scott-bartel-7a0b4236
