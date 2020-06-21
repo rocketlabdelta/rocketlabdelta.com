@@ -37,6 +37,54 @@
 
     <hr />
 
+    <section class="post-index">
+      <article class="post-listing">
+        <h2>Essays</h2>
+        <ul>
+          {% for post in site.categories['essays'] %}
+          <li class="post-summary">
+            <a href="{{ post.url }}" class="post-link">
+              <span class="post-title">{{ post.title }}</span>
+              {{ post.description }}
+            </a>
+            <nav>
+              <ul class="post-meta">
+              {% assign sortedCategories = post.categories | sort %}
+              {% for category in sortedCategories %}
+              <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
+              {% endfor %}
+              <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
+              </ul>
+            </nav>
+          </li>
+          {% endfor %}
+        </ul>
+      </article>
+
+      <article class="post-listing">
+        <h2>Notes</h2>
+        <ul>
+          {% for post in site.categories['notes'] %}
+          <li class="post-summary">
+            <a href="{{ post.url }}" class="post-link">
+              <span class="post-title">{{ post.title }}</span>
+              {{ post.description }}
+            </a>
+            <nav>
+              <ul class="post-meta">
+              {% assign sortedCategories = post.categories | sort %}
+              {% for category in sortedCategories %}
+              <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
+              {% endfor %}
+              <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
+              </ul>
+            </nav>
+          </li>
+          {% endfor %}
+        </ul>
+      </article>
+    </section>
+
     <main role="main">
       {{ content }}
     </main>

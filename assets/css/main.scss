@@ -450,6 +450,24 @@ hr {
   padding: 0;
 }
 
+.post-index {
+  margin: 2em auto;
+  max-width: $theme-content-width;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.post-list-heading {
+  display: inline-block;
+}
+
 .post-summary {
   list-style-type: none;
   margin-bottom: 1.5em;
@@ -859,6 +877,11 @@ footer {
 
   ul {
     padding-left: 1.2em;
+  }
+
+  .post-index .post-listing {
+    display: table-cell;
+    max-width: 20em;
   }
 }
 
