@@ -45,7 +45,7 @@ Either by coincidence--or maybe even by design--Blacksky rail guides are _also_ 
 These X-shaped profiles are readily available from industrial suppliers, rocketry vendors, or directly from the manufacturer in a wide variety of lengths and configurations.
 
 The original Blacksky rail guides were machined from 3/8" Delrin (acetal/Polyoxymethylene) bar stock with a profile of a squat capital "I".
-They also offed "pro" guides that were the same size but made with Teflon-coated red-anodized aluminum.
+They also offered "pro" guides that were the same size but made with Teflon-coated red-anodized aluminum.
 Both styles were mounted to the airframe with 8/32 pan head screw, Philips head for the standard guides, Socket head for the aluminum guides.
 That style of rail guide is still in use today and is commonly referred to as a "rail button" (they look a little like a button because they're round).
 
@@ -91,13 +91,13 @@ My favorites are:
 1. [SC Precision Airfoil Rail Guide][12] (when I'm feeling fancy--it's $5 more per pair than my second choice). According to [analysis presented by Tim Van Milligan at NARCON 2017][13] (and [referenced on the Apogee Components product page][14]), an airfoil rail guide with a rounded top edge has a coefficient of drag of .24 which is vastly better than the .57 of a conventional button-style rail guide. The drag coefficient is a _multiplier_ in the [drag equation][15] so lower is a lot better--especially at higher speeds (there's a velocity squared in there).
 2. [Low-drag airframe mount rail guide from Aero Pack][16] are nicely machined Delrin mounted using a countersunk machine screw into a [provided weld nut][17]. These are the nicest button-style guides I've found.
 
-The [new-style moulded Delrin rail buttons from Rail-Buttons.com][18] are _almost_ as nice as the ones from Aero Pack but the surface finish isn't as smooth and they don't come with [an anchor][19] of any kind--just a machine screw.
+The [new-style molded Delrin rail buttons from Rail-Buttons.com][18] are _almost_ as nice as the ones from Aero Pack but the surface finish isn't as smooth and they don't come with [an anchor][19] of any kind--just a machine screw.
 They're cheaper than the Aero Pack guides and perfectly decent quality so they are a good choice for most people.
 
 <figure class="r2x3">
   <div class="placeholder"></div>
-  <img loading="lazy" src="{{ '/assets/photos/rail-guide-surface-comparison.jpg' | absolute_url }}" alt="Moulded rail guide on the left, machiened rail guide on the right" />
-  <figcaption>The surface of the Rail-buttons.com moulded rail guide (left) isn't <em>quite</em> as consistent as the Aero Pack machined rail guide (right)</figcaption>
+  <img loading="lazy" src="{{ '/assets/photos/rail-guide-surface-comparison.jpg' | absolute_url }}" alt="Molded rail guide on the left, machiened rail guide on the right" />
+  <figcaption>The surface of the Rail-buttons.com molded rail guide (left) isn't <em>quite</em> as consistent as the Aero Pack machined rail guide (right)</figcaption>
 </figure>
 
 I've also had good luck using [ACME Conformal Rail guides][20] on minimum-diameter rockets.
@@ -119,7 +119,7 @@ On the [Rocketry Forum][21], [Mike Mulligan][22] suggests [cutting the ACME conf
 ## Placement
 
 While most rockets only have one launch lug, rockets need _at least_ two rail guides[^4].
-The [original recommendation from Blacksky][24] was to mount one at the base of the rocket and the other 1&ndash;2 caliber below the center of gravity.
+The [original recommendation from Blacksky][24] was to mount one at the base of the rocket and the other 1&ndash;2 calibers below the center of gravity.
 This method is [casually endorsed by John Coker][25], and it's what I've always done (because I followed the instructions that came with my first rail guides).
 There are other opinions too:
 
