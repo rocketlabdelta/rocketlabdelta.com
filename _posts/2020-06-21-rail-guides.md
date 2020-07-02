@@ -5,6 +5,8 @@ categories: notes
 date: 2020-06-21 09:30 -0400
 ---
 
+### Sections
+
 1. [History]({{ "/notes/rail-guides/#history" | absolute_url }})
 2. [Sizes]({{ "/notes/rail-guides/#sizes" | absolute_url }})
 3. [Varieties]({{"notes/rail-guides/#varieties" | absolute_url }})
@@ -143,7 +145,11 @@ There isn't a clear winner here.
 The best anchoring method will depend on the size, weight, and configuration of the rocket.
 I like to have the ability to remove and replace the rail guide if needed so I favor options that add metal threads to the airframe like a plywood-mounted internal T-nut, a weld nut, or a plastic nut holder.
 
-*[TLDR]: Too Long; Didn't Read
+<p class="divider">* * *</p>
+
+Launch rails are better than launch rods for most rockets.
+There are a lot of options to choose from when selecting and mounting rail guides but there aren't many _bad_ ones.
+Pick any pair you like, or go with one of [my recommendations][37], [fasten them securely to your rocket][19], and fly higher & safer.
 
 [^1]: I have heard of people using sailboat masts as improvised launch rails in the 90s. They sunk screws most of the way into the airframe and then slid the screw head down the channel of the mast.
 [^2]: Because they were the de facto standard, you still see "Blacksky compatible" in marketing copy for rails and rail guides on some rocketry vendor websites 20 years later.
@@ -186,3 +192,4 @@ I like to have the ability to remove and replace the rail guide if needed so I f
 [34]: https://publicmissiles.com/product/hardware
 [35]: https://www.apogeerockets.com/Launch-Accessories/Fly-Away-Rail-Guides
 [36]: https://www.additiveaerospace.com/products/fly-away-rail-guides
+[37]: {{ "/notes/rail-guides/#selection" | absolute_url }}
