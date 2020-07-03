@@ -1,6 +1,6 @@
 ---
 title:       "Rail Guide List"
-description: "Varieties of standard rail guides"
+description: "Varieties of standard (1010) rail guides"
 layout:      default
 ---
 
@@ -10,4 +10,4 @@ layout:      default
   {%- include list-rail-guides.html -%}
 </section>
 
-<p class="centered">Read more in the <a href="{{'notes/rail-guides/' | absolute_url }}">Rail Guide Series</a></p>
+<p class="centered">Read more in my <a href="{{'notes/rail-guides/' | absolute_url }}">notes on rail guides</a>.</p>
