@@ -2,6 +2,7 @@
 title:       "Rail Guide List"
 description: "Varieties of standard (1010) rail guides"
 layout:      default
+category:    lists
 ---
 
 <h1 class="centered">Standard Rail Guides</h1>
