@@ -86,7 +86,7 @@ Given the field, which one would you choose?
 My favorites are:
 
 1. [SC Precision Airfoil Rail Guide][12] (when I'm feeling fancy--it's $5 more per pair than my second choice). According to [analysis presented by Tim Van Milligan at NARCON 2017][13] (and [referenced on the Apogee Components product page][14]), an airfoil rail guide with a rounded top edge has a coefficient of drag of .24 which is vastly better than the .57 of a conventional button-style rail guide. The drag coefficient is a _multiplier_ in the [drag equation][15] so lower is a lot better--especially at higher speeds (there's a velocity squared in there).
-2. [Low-drag airframe mount rail guide from Aero Pack][16] are nicely machined Delrin mounted using a countersunk machine screw into a [provided weld nut][17]. These are the nicest button-style guides I've found.
+2. [Low-drag airframe mount rail guide from Aero Pack][16] are nicely machined Delrin mounted using a countersunk machine screw into a provided [weld nut][17]. These are the nicest button-style guides I've found.
 
 The [new-style molded Delrin rail buttons from Rail-Buttons.com][18] are _almost_ as nice as the ones from Aero Pack but the surface finish isn't as smooth and they don't come with [an anchor][19] of any kind--just a machine screw.
 They're cheaper than the Aero Pack guides and perfectly decent quality so they are a good choice for most people.
