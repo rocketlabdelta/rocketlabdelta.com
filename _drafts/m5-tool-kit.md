@@ -15,6 +15,8 @@ I heard about this this via [Cool Tools][5] a blog which I find endlessly helpfu
 
 The video is 20 minutes long so I took some notes:
 
+## Standard Kit
+
 - The toolbox itself is from "someplace in New York"
 - Everything is in a precise order so he knows exactly where things are
 - Many of his tools are marked with yellow spray paint
@@ -51,14 +53,49 @@ The video is 20 minutes long so I took some notes:
   - Multi-bit screwdriver (for less common bits and sizes)
   - Top pouch
     - Silicone grease
-    - Tire inflator nozzle for an air compressor hose
+    - Tire inflater nozzle for an air compressor hose
     - Extra X-Acto blades
     - Dental floss
     - Razor blades
     - Sharpening stone
 - Third leaf
+  - Ball peen hammer
+  - Tools for tightening things (two each so you can both hold and tighten
+    - Large Vise-Grip locking pliers
+    - Channel locks (one is larger)
+    - Adjustable wrenches
+    - [Vise-Grip chain clamp][12]
+  - Large flat head screwdriver
+  - Brass hammer (won't mar metal; made from a screwdriver and brass bar stock)
+  - Standard pliers
+  - Cable cutters
+  - Nibbler (for making square holes)
+  - File
+  - Automotive sliding wrench/monkey wrench (like an extra-wide adjustable wrench but oriented so that the jaws thread far down the handle; unknown make)
+  - Tape measure
+  - Small (stubby) flat head screwdriver
+  - "Widow maker" adjustable circle cutter for a drill press similar to a [BigHorn Adjustable Hole Saw][13]
+  - Ball-end hex key set (the ball end lets you turn a socket-head screw off-angle)
+  - Electrical tape (and extra role; is a good general-purpose way of holding things together)
+  - "old fashioned" [friction tape][14] (since it self-adheres and is reusable it has lots of applications)
+  - Pair of small c-clamps
+  - Small box of assorted hose clamps
+  - Metric Allen wrenches
+- Container of bits
+  - Countersink
+  - Hex shank to socket adapter bits (different sizes)
+  - Selection of taps for threading holes
+  - Short 3/8" socket extension
+  - Tungsten Carbide burr (for drills/air tools; looks similar to this [SA-1 Carbide Burr Die Grinder Bit][15])
+  - Set of Torx bits
+  - "Thing for cleaning out little holes" (I can't find what this is exactly)
+- Quick reference card
+  - Drill bit size conversion from fractional to decimal
+  - Drill bit sizes for tapping holes
 
-https://youtu.be/Xq7HtTmUMS0?t=485
+## Electrical Kit
+
+https://youtu.be/Xq7HtTmUMS0?t=994
 
 [^1]: I've found so many interesting and helpful things on this site, which I have been following for about 15 years, that it has become a punchline in my household. Q: "Guess where I found it?" A: "Cool Tools"
 
@@ -73,3 +110,7 @@ https://youtu.be/Xq7HtTmUMS0?t=485
 [9]:  https://www.amazon.com/Milwaukee-48-22-0305-Compatible-Reciprocating-Included/dp/B003KINVKA
 [10]: https://www.knipex.com/index.php?id=1216&L=1&page=group_detail&parentID=1367&groupID=1478
 [11]: https://www.dewalt.com/products/accessories/fastening-and-screwdriving-bits/sleeves-holders-and-drive-guides/drive-guides
+[12]: https://www.irwin.com/tools/locking-tools/the-original-locking-chain-clamp
+[13]: https://www.bighorncorp.com/big-horn-19239-adjustable-hole-saw-1-1-2-inch-to-11-3-4-inch-40mm-300mm
+[14]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Temflex-Cotton-Friction-Tape-1755/?N=5002385+3294280628&rt=rud
+[15]: https://www.carbideburr.net/sa-1-carbide-burr-die-grinder-bit/
