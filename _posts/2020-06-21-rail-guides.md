@@ -138,7 +138,7 @@ It's important to firmly attach rail guides to the airframe of your rocket but y
 - Use a Weld nut like the [low drag rail guides (RG10A) from Aero Pack][27]; other styles of weld nut can be [sourced from McMaster-Carr][28]
 - Use a DIY weld nut e.g. a piece of aluminum tapped for a machine screw, [Make: High Power Rockets][29] p. 56
 - Mount a T-nut on a small piece of plywood e.g. [Certify Level 1 by John Coker][30]
-- Mount a T-nut on a 3D printed plastic slug curved to fit the inside diameter of the airframe like the [Conformal Rail Button Nutes from Lab Rat Rocketry][31]
+- Mount a T-nut on a 3D printed plastic slug curved to fit the inside diameter of the airframe like the [Conformal Rail Button Nuts from Lab Rat Rocketry][31]
 - Glue a regular machine screw nut to the inside of the airframe with or without a plastic nut holder like the [Nut Holder Kit for 1010 Rail Buttons][32] from [SMT Designs][33]
 - Glue it to the surface of the airframe using a bonding epoxy or, in the case of the [ACME conformal rail guide][34], a strip of 3M permanent adhesive
 
