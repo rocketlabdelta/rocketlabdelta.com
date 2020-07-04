@@ -137,10 +137,10 @@ It's important to firmly attach rail guides to the airframe of your rocket but y
 - Screw it into an internal structure--a centering ring, for example--like the [blukhead mount (RG10B) rail guides from Aero Pack][27]
 - Use a Weld nut like the [low drag rail guides (RG10A) from Aero Pack][27]; other styles of weld nut can be [sourced from McMaster-Carr][28]
 - Use a DIY weld nut e.g. a piece of aluminum tapped for a machine screw, [Make: High Power Rockets][29] p. 56
-- Mount a T-nut on a small piece of plywood e.g. [Certify Level 1 by John Coker][32]
-- Mount a T-nut on a 3D printed plastic slug curved to fit the inside diameter of the airframe like the [Conformal Rail Button Nutes from Lab Rat Rocketry][38]
-- Glue a regular machine screw nut to the inside of the airframe with or without a plastic nut holder like the [Nut Holder Kit for 1010 Rail Buttons][31] by [SMT Designs][32]
-- Glue it to the surface of the airframe using a bonding epoxy or, in the case of the [ACME conformal rail guide][33], a strip of 3M permanent adhesive
+- Mount a T-nut on a small piece of plywood e.g. [Certify Level 1 by John Coker][30]
+- Mount a T-nut on a 3D printed plastic slug curved to fit the inside diameter of the airframe like the [Conformal Rail Button Nutes from Lab Rat Rocketry][31]
+- Glue a regular machine screw nut to the inside of the airframe with or without a plastic nut holder like the [Nut Holder Kit for 1010 Rail Buttons][32] from [SMT Designs][33]
+- Glue it to the surface of the airframe using a bonding epoxy or, in the case of the [ACME conformal rail guide][34], a strip of 3M permanent adhesive
 
 There isn't a clear winner here.
 The best anchoring method will depend on the size, weight, and configuration of the rocket.
@@ -150,12 +150,12 @@ I like to have the ability to remove and replace the rail guide if needed so I f
 
 Launch rails are better than launch rods for most rockets.
 There are a lot of options to choose from when selecting and mounting rail guides but there aren't many _bad_ ones.
-Pick any pair you like, or go with one of [my recommendations][37], [fasten them securely to your rocket][19], and fly higher & safer.
+Pick any pair you like, or go with one of [my recommendations][35], [fasten them securely to your rocket][19], and fly higher & safer.
 
 [^1]: I have heard of people using sailboat masts as improvised launch rails in the 90s. They sunk screws most of the way into the airframe and then slid the screw head down the channel of the mast.
 [^2]: Because they were the de facto standard, you still see "Blacksky compatible" in marketing copy for rails and rail guides on some rocketry vendor websites 20 years later.
 [^3]: My dad and I were early adopters of launch rails and used them with rockets down to 38mm in diameter. My dad also used them extensively with his [TARC teams][4].
-[^4]: Two rail guides are sufficient for typical rockets. I have seen 3 rail guides used on _very_ long, slender rockets and, occasionally, on two-stage rockets but those are exceptional cases. You might be able to get away with one, long rail guide--like the [PML linear rail lug][34]--on a small, squat rocket but I don't think it's worth it. Fly-away rail guides like the ones from [Apogee Components][35] or [Additive Aerospace][36] are a better choice if you are trying to minimize parasitic drag.
+[^4]: Two rail guides are sufficient for typical rockets. I have seen 3 rail guides used on _very_ long, slender rockets and, occasionally, on two-stage rockets but those are exceptional cases. You might be able to get away with one, long rail guide--like the [PML linear rail lug][36]--on a small, squat rocket but I don't think it's worth it. Fly-away rail guides like the ones from [Apogee Components][37] or [Additive Aerospace][38] are a better choice if you are trying to minimize parasitic drag.
 
 [1]:  https://estesrockets.com/product-category/rockets/launch-sets/
 [2]:  https://www.linkedin.com/in/scott-bartel-7a0b4236
@@ -186,12 +186,12 @@ Pick any pair you like, or go with one of [my recommendations][37], [fasten them
 [27]: https://aeropack.net/ldRailGuides.asp
 [28]: https://www.mcmaster.com/weld-nuts/
 [29]: https://www.oreilly.com/library/view/make-high-power-rockets/9781680454796/
-[30]: https://www.smtdesigns.com/store/6-32-nut-holder-kit-for-1010-rail-buttons
-[31]: https://www.smtdesigns.com/
-[32]: https://www.youtube.com/watch?v=Xtr3758PvzA
-[33]: https://giantleaprocketry.com/products/components_launch_systems.aspx#Acme_Conformal_Launch_Guides
-[34]: https://publicmissiles.com/product/hardware
-[35]: https://www.apogeerockets.com/Launch-Accessories/Fly-Away-Rail-Guides
-[36]: https://www.additiveaerospace.com/products/fly-away-rail-guides
-[37]: {{ "/notes/rail-guides/#selection" | absolute_url }}
-[38]: https://www.labratrocketry.com/product-page/conformal-rail-button-nuts
+[30]: https://www.youtube.com/watch?v=Xtr3758PvzA
+[31]: https://www.labratrocketry.com/product-page/conformal-rail-button-nuts
+[32]: https://www.smtdesigns.com/store/6-32-nut-holder-kit-for-1010-rail-buttons
+[33]: https://www.smtdesigns.com/
+[34]: https://giantleaprocketry.com/products/components_launch_systems.aspx#Acme_Conformal_Launch_Guides
+[35]: {{ "/notes/rail-guides/#selection" | absolute_url }}
+[36]: https://publicmissiles.com/product/hardware
+[37]: https://www.apogeerockets.com/Launch-Accessories/Fly-Away-Rail-Guides
+[38]: https://www.additiveaerospace.com/products/fly-away-rail-guides
