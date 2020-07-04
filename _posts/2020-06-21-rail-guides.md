@@ -97,19 +97,20 @@ They're cheaper than the Aero Pack guides and perfectly decent quality so they a
   <figcaption>The surface of the Rail-buttons.com molded rail guide (left) isn't <em>quite</em> as consistent as the Aero Pack machined rail guide (right)</figcaption>
 </figure>
 
-I've also had good luck using [ACME Conformal Rail guides][20] on minimum-diameter rockets.
+I've also had good luck using [ACME Conformal® Rail Guides][20] on minimum-diameter rockets.
 
 <figure class="r3x4">
   <div class="placeholder"></div>
   <img loading="lazy" src="{{ '/assets/photos/acme-conformal-rail-guide.jpg' | absolute_url }}" alt="Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe" />
-  <figcaption>Detail view of the ACME Conformal Rail guide (54mm offset) on the <a href="{{ '/fleet/optimistic/' | absolute_url }}">Optimistic</a></figcaption>
+  <figcaption>Detail view of the ACME Conformal® Rail Guide (54mm offset) on the <a href="{{ '/fleet/optimistic/' | absolute_url }}">Optimistic</a></figcaption>
 </figure>
 
-On the [Rocketry Forum][21], [Mike Mulligan][22] suggests [cutting the ACME conformal rail guides in half][23]. That sounds like a good idea to me!
+On the [Rocketry Forum][21], [Mike Mulligan][22] suggests [cutting an ACME Conformal® Rail Guide in half][23] and using the two halves for one rocket.
+That sounds like a good idea to me!
 
 <figure class="r3x4">
   <div class="placeholder"></div>
-  <img loading="lazy" src="{{ '/assets/photos/mugs914-rail-guide.jpg' | absolute_url }}" alt="Half an ACME conformal rail guide, pointy side up, near the aft end of a white rocket."/>
+  <img loading="lazy" src="{{ '/assets/photos/mugs914-rail-guide.jpg' | absolute_url }}" alt="Half an ACME Conformal® Rail Guide, pointy side up, near the aft end of a white rocket."/>
   <figcaption><cite>Good tip from <a href="https://www.rocketryforum.com/threads/buttons-or-conformal-rail-guides.159723/#post-2005202">Mike Mulligan (Mugs914) over at The Rocketry Forum</a></cite></figcaption>
 </figure>
 
@@ -140,7 +141,7 @@ It's important to firmly attach rail guides to the airframe of your rocket but y
 - Mount a T-nut on a small piece of plywood e.g. [Certify Level 1 by John Coker][30]
 - Mount a T-nut on a 3D printed plastic slug curved to fit the inside diameter of the airframe like the [Conformal Rail Button Nuts from Lab Rat Rocketry][31]
 - Glue a regular machine screw nut to the inside of the airframe with or without a plastic nut holder like the [Nut Holder Kit for 1010 Rail Buttons][32] from [SMT Designs][33]
-- Glue it to the surface of the airframe using a bonding epoxy or, in the case of the [ACME conformal rail guide][34], a strip of 3M permanent adhesive
+- Glue it to the surface of the airframe using a bonding epoxy or, in the case of the [ACME Conformal® Rail Guide][34], a strip of 3M permanent adhesive
 
 There isn't a clear winner here.
 The best anchoring method will depend on the size, weight, and configuration of the rocket.

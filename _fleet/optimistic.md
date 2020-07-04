@@ -57,7 +57,7 @@ I put it together with a few modifications:
   - Filleted with thickened West Systems epoxy
   - Fin roots were laminated with 2-inch-wide carbon fiber tape
   - Tip-to-tip laminated with 6oz fiberglass
-- Bonded a pair of 54mm offset[^4] rail [Acme Conformal® Launch Guides][1] directly to the airframe. I cut a hole for the lower rail guide in the fiberglass cloth fin reinforcement after it cured to the leather stage.
+- Bonded a pair of 54mm offset[^4] rail [ACME Conformal® Rail Guides][1] directly to the airframe. I cut a hole for the lower rail guide in the fiberglass cloth fin reinforcement after it cured to the leather stage.
 
 ## Flights
 
@@ -76,6 +76,13 @@ I put it together with a few modifications:
   <img loading="lazy" src="{{ "/assets/photos/2004-optimistic-recovery.jpg" | absolute_url }}" alt="After a successful recovery" />
   <figcaption>After a successful recovery at LDRS 23, 2004</figcaption>
 </figure>
+
+<figure class="r3x4">
+  <div class="placeholder"></div>
+  <img loading="lazy" src="{{ '/assets/photos/acme-conformal-rail-guide.jpg' | absolute_url }}" alt="Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe" />
+  <figcaption>Detail view of the ACME Conformal® Rail guide (54mm offset)</figcaption>
+</figure>
+
 
 ## Specifications
 
