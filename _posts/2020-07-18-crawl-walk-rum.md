@@ -1,4 +1,9 @@
-# Craw, Walk, Run
+---
+title:       "Crawl, Walk, Run"
+description: "Engineering processes in hobby rocketry"
+date:        2020-07-18 06:30:30 -0500
+category:    updates
+---
 
 In [Episode #93 of The Rocketry Show][1] they interviewed [Matt Steele][2] who has had a long career in the aerospace industry and runs [North Coast Rocketry][3] on the side. Their conversation touched on a lot of interesting things but two moments stood out to me:
 
