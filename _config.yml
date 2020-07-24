@@ -85,6 +85,7 @@ exclude:
   - package-lock.json
   - fleet-spec.md
   - projects/todo.md
+  - yarn.lock
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
