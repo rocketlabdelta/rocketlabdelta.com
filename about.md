@@ -59,7 +59,7 @@ This website is designed to be fast for you and cheap for me.
   <dt>Hosting</dt>
   <dd><a href="https://www.netlify.com/">Netlify</a> (Free HTTPS thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>.)</dd>
   <dt><a href="https://git-scm.com/">git</a> Hosting</dt>
-  <dd><a href="https://bitbucket.org/">BitBucket</a></dd>
+  <dd><a href="https://github.com/">Github</a>: <a href="https://github.com/rocketlabdelta">rocketlabdelta</a>/<a href="https://github.com/rocketlabdelta/rocketlabdelta.com">rocketlabdelta.com</a></dd>
   <dt>Site builder</dt>
   <dd><a href="https://jekyllrb.com/">Jekyll</a></dd>
   <dt>Typeface</dt>
