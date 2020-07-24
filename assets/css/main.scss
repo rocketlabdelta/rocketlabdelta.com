@@ -203,7 +203,7 @@ hr {
 }
 
 .previous-next + hr {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   margin-top: 2em;
 }
 
@@ -404,7 +404,6 @@ hr {
 .footnotes {
   border-top: 1px dotted $theme-color-highlight;
   margin-top: 3em;
-  padding-bottom: 1em;
   padding-top: 2em;
 
   ol {
