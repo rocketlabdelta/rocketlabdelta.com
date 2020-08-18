@@ -15,6 +15,10 @@ This encourages me to carve out small chucks of time from my day to spend time d
 
 I'll reassess in a few weeks but it's been working well for me so far.
 
+*UPDATE 2020-08-18* I have stopped using Beeminder for tracking my recreation time.
+I ended up stressing out about it thus diminishing its utility.
+For the foreseeable future, I will be juggling lots of things around the house that are more important than fulfilling a quota of hours for recreation.
+
 ---
 
 I know there's a lot of unrest in the world right now.
