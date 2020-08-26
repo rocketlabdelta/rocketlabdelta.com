@@ -10,11 +10,11 @@ Based on a [pre-launch checklist][1] by [RandyT0001][2] over on [The Rocketry Fo
 
 ### Pre-Flight Inspection
 
-- [ ] Make sure all glue and paint on model is dry.
-- [ ] Make sure motor mount is secured with no loose parts.
-- [ ] Examine shock cord or recovery harness. There should be no dry rot, no frayed or burnt fibers.
-- [ ] Check screw eye or plastic loop on nose cone. It should be securely attached.
-- [ ] Check eyebolts and/or quick-links if present. They should be securely attached.
+- [ ] All adhesive and paint is dry/cured
+- [ ] Motor mount is secure with no loose parts
+- [ ] Shock cord/recovery harness has no dry rot, frayed/burnt fibers, or other damage
+- [ ] All recovery harness attachment points are intact, secure, and can withstand a sharp tug
+- [ ] Jaws of quick-links are secureltswivels They should be securely attached.
 - [ ] Tug on both ends of the shock cord or recovery harness. It should be firmly attached.
 - [ ] Select a recovery device that is appropriate for rocket's size and weight.
 - [ ] Examine recovery device. Shroud lines should be of equal length, firmly attached and not tangled.
