@@ -2,91 +2,93 @@
 <html lang="en">
   {%- include head.html -%}
   <body>
-    <figure class="site-logo-splash" href="{{ "/" | absolute_url }}">
-      <img src="{{ "/assets/svg/RLD-drop-shadow.svg" | absolute_url }}" alt="Rocket Lab Delta">
-    </figure>
+    <div id="wrapper">
+      <figure class="site-logo-splash" href="{{ "/" | absolute_url }}">
+        <img src="{{ "/assets/svg/RLD-drop-shadow.svg" | absolute_url }}" alt="Rocket Lab Delta">
+      </figure>
 
-    <div role="banner" class="home-banner">
-      {%- include site_nav.html -%}
-    </div>
+      <div role="banner" class="home-banner">
+        {%- include site_nav.html -%}
+      </div>
 
-    <hr />
+      <hr />
 
-    <article class="latest-update">
-      <h2>Latest Update</h2>
-      <ul class="post-listing">
-        {% for post in site.posts limit:1 %}
-        <li class="post-summary">
-          <a href="{{ post.url }}" class="post-link">
-            <span class="post-title">{{ post.title }}</span>
-            {{ post.description }}
-          </a>
-          <nav>
-            <ul class="post-meta">
-            {% assign sortedCategories = post.categories | sort %}
-            {% for category in sortedCategories %}
-            <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
+      <article class="latest-update">
+        <h2>Latest Update</h2>
+        <ul class="post-listing">
+          {% for post in site.posts limit:1 %}
+          <li class="post-summary">
+            <a href="{{ post.url }}" class="post-link">
+              <span class="post-title">{{ post.title }}</span>
+              {{ post.description }}
+            </a>
+            <nav>
+              <ul class="post-meta">
+              {% assign sortedCategories = post.categories | sort %}
+              {% for category in sortedCategories %}
+              <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
+              {% endfor %}
+              <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
+              </ul>
+            </nav>
+          </li>
+          {% endfor %}
+        </ul>
+      </article>
+
+      <hr />
+
+      <section class="post-index">
+        <article class="post-listing">
+          <h2>Essays</h2>
+          <ul>
+            {% for post in site.categories['essays'] %}
+            <li class="post-summary">
+              <a href="{{ post.url }}" class="post-link">
+                <span class="post-title">{{ post.title }}</span>
+                {{ post.description }}
+              </a>
+              <nav>
+                <ul class="post-meta">
+                {% assign sortedCategories = post.categories | sort %}
+                {% for category in sortedCategories %}
+                <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
+                {% endfor %}
+                <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
+                </ul>
+              </nav>
+            </li>
             {% endfor %}
-            <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
-            </ul>
-          </nav>
-        </li>
-        {% endfor %}
-      </ul>
-    </article>
+          </ul>
+        </article>
 
-    <hr />
+        <article class="post-listing">
+          <h2>Notes</h2>
+          <ul>
+            {% for post in site.categories['notes'] %}
+            <li class="post-summary">
+              <a href="{{ post.url }}" class="post-link">
+                <span class="post-title">{{ post.title }}</span>
+                {{ post.description }}
+              </a>
+              <nav>
+                <ul class="post-meta">
+                {% assign sortedCategories = post.categories | sort %}
+                {% for category in sortedCategories %}
+                <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
+                {% endfor %}
+                <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
+                </ul>
+              </nav>
+            </li>
+            {% endfor %}
+          </ul>
+        </article>
+      </section>
 
-    <section class="post-index">
-      <article class="post-listing">
-        <h2>Essays</h2>
-        <ul>
-          {% for post in site.categories['essays'] %}
-          <li class="post-summary">
-            <a href="{{ post.url }}" class="post-link">
-              <span class="post-title">{{ post.title }}</span>
-              {{ post.description }}
-            </a>
-            <nav>
-              <ul class="post-meta">
-              {% assign sortedCategories = post.categories | sort %}
-              {% for category in sortedCategories %}
-              <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
-              {% endfor %}
-              <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
-              </ul>
-            </nav>
-          </li>
-          {% endfor %}
-        </ul>
-      </article>
-
-      <article class="post-listing">
-        <h2>Notes</h2>
-        <ul>
-          {% for post in site.categories['notes'] %}
-          <li class="post-summary">
-            <a href="{{ post.url }}" class="post-link">
-              <span class="post-title">{{ post.title }}</span>
-              {{ post.description }}
-            </a>
-            <nav>
-              <ul class="post-meta">
-              {% assign sortedCategories = post.categories | sort %}
-              {% for category in sortedCategories %}
-              <li class="post-tag"><a href="{{ category | absolute_url }}"><small>{{ category }}</small></a></li>
-              {% endfor %}
-              <li class="post-date"><small>{{ post.date | date: "%Y-%m-%d" }}</small></li>
-              </ul>
-            </nav>
-          </li>
-          {% endfor %}
-        </ul>
-      </article>
-    </section>
-
-    <main role="main">
-      {{ content }}
-    </main>
+      <main role="main">
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>

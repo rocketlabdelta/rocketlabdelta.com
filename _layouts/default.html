@@ -2,10 +2,12 @@
 <html lang="en">
   {%- include head.html -%}
   <body>
-    {%- include banner.html -%}
+    <div id="wrapper">
+      {%- include banner.html -%}
 
-    {{ content }}
+      {{ content }}
 
-    {%- include footer.html -%}
+      {%- include footer.html -%}
+    </div>
   </body>
 </html>
