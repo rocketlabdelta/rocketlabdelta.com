@@ -14,8 +14,8 @@ Based on a [pre-launch checklist][1] by [RandyT0001][2] over on [The Rocketry Fo
 - [ ] Motor mount is secure with no loose parts
 - [ ] Shock cord/recovery harness has no dry rot, frayed/burnt fibers, or other damage
 - [ ] All recovery harness attachment points are intact, secure, and can withstand a sharp tug
-- [ ] Jaws of quick-links are secureltswivels They should be securely attached.
-- [ ] Tug on both ends of the shock cord or recovery harness. It should be firmly attached.
+- [ ] Jaws of quick-links are securelly tightened and taped
+- [ ] Swivels can spin freely and are securely attached
 - [ ] Select a recovery device that is appropriate for rocket's size and weight.
 - [ ] Examine recovery device. Shroud lines should be of equal length, firmly attached and not tangled.
 - [ ] Parachute or streamer should be strong with no rips or tears.
