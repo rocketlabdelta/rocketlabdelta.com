@@ -35,6 +35,7 @@ $theme-active-color:     $theme-color-contrast;
 $print-text-color:       #000;
 
 html {
+  background-color: $theme-background-color;
   padding: 1em;
 }
 
