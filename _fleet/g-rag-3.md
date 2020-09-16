@@ -1,5 +1,5 @@
 ---
-description: "A 3-inch diameter kevlar & fiberglass reinforced rocket for radio telemetry payloads starting in 2001"
+description: "A 3-inch diameter kevlar & fiberglass reinforced rocket that flew radio telemetry payloads starting in 2001 and is now retired"
 title: GRAG 3
 specifications:
   make: Scratch-built
