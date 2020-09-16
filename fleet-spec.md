@@ -2,6 +2,12 @@
 
 Rocket attributes
 
+- Status
+  - Planning
+  - Under Construction
+  - Ready to Fly
+  - Retired
+  - Lost
 - Make
   - Manufacturer
   - Scratch built
