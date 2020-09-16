@@ -32,15 +32,25 @@ Rocket attributes
     - Fiberglass
 - Airframe
   - Diameter
+    - BT-5
     - BT-20
     - BT-50
     - BT-55
-    - 29mm
+    - BT-56
+    - BT-65 (29mm)
     - 38mm
+    - BT-60
     - 54mm
-    - 63mm
+    - BT-70
+    - BT-80
     - 75mm
     - 98mm
+    - 4.5 in
+    - 5.5 in
+    - 6 in
+    - 7.5 in
+    - 11.4 in
+    - Custom
   - Material
     - Cardboard
     - Phenolic
