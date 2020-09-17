@@ -13,18 +13,19 @@ These "tiny wings" will be able to generate more aerodynamic lift than their fla
 ## Design Criteria
 
 - Design for subsonic flights
-- Fly to an easily-recoverable altitude--say under 3000 feet--on a small H motor for a HPR Level 1 certification flight
+- Reach an easily-recoverable altitude--under 3000 feet--on a small H motor for an HPR Level 1 certification flight
 - Be able to fly well on small, HAZMAT-free reloads from Loki Research
 - Be able to fly well on long-burn I motors like the [AeroTech I59][2]
 - Have a payload bay that can accommodate a variety of video payloads
 - Serve as a test-bed for trying new (to me) adhesives and composite materials
 - Be as light as I can make it while being strong enough and durable enough for many flights
 - Be large enough in diameter that I can test a variety of recovery equipment
+- Have parts that would be good candidates for laser cutting
 
 My preliminary design for the aerostructure is:
 - Use a BT-80 equivalent airframe (LOC 2.56")
 - Have a 38mm motor mount
-- Favor light materials: thin styrene, cardboard, skeletonized plywood
+- Favor light materials: thin styrene, cardboard, skeletonized birch plywood
 - Reinforce with lightweight fiberglass lamination and expandable urethane foam
 
 <figure class="basic-frame">
