@@ -6,16 +6,16 @@ status:      "Planning"
 
 > This project is ongoing. See the [Notion project page][1] for working notes.
 
-Most hobby rockets have fins made out of flat material--balsa, basswood, birch plywood, G10, carbon plate, etc.--with the ends either rounded or beveled.
-I would like to shape the fins of this rockets with a real airfoil profile (or something as close as I can approximate).
-These "tiny wings" will be able to generate more aerodynamic lift than their flat-finned counterparts when the rocket needs to make adjustments mid flight, like encountering wind shear or leaving the launch rail
+Most hobby rockets have fins made out of flat material--balsa, basswood, birch plywood, G10, carbon plate, etc.--with the edges either rounded or beveled.
+I will shape the fins of this rockets using a [real NACA airfoil profile][2] (or something as close as I can approximate).
+These "tiny wings" will be able to generate more lift than their flat-finned counterparts when the rocket needs to make aerodynamic adjustments in flight--encountering winds aloft, leaving the launch rail, etc.--which should result in a more stable, more efficient flight profile.
 
 ## Design Criteria
 
 - Design for subsonic flights
 - Reach an easily-recoverable altitude--under 3000 feet--on a small H motor for an HPR Level 1 certification flight
 - Be able to fly well on small, HAZMAT-free reloads from Loki Research
-- Be able to fly well on long-burn I motors like the [AeroTech I59][2]
+- Be able to fly well on long-burn I motors like the [AeroTech I59][3]
 - Have a payload bay that can accommodate a variety of video payloads
 - Serve as a test-bed for trying new (to me) adhesives and composite materials
 - Be as light as I can make it while being strong enough and durable enough for many flights
@@ -34,4 +34,5 @@ My preliminary design for the aerostructure is:
 </figure>
 
 [1]: https://www.notion.so/rocketlabdelta/Tiny-Wings-735759a802c7463d80e9c062c92b8e26
-[2]: https://www.thrustcurve.org/motors/AeroTech/I59WN/
+[2]: http://www.airfoiltools.com/search/index?m%5BmaxCamber%5D=0&m%5Bsort%5D=5
+[3]: https://www.thrustcurve.org/motors/AeroTech/I59WN/
