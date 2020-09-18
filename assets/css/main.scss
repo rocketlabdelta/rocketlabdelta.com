@@ -34,7 +34,13 @@ $theme-active-color:     $theme-color-contrast;
 
 $print-text-color:       #000;
 
-html {
+
+html, body {
+  background-color: $theme-background-color;
+  color: $theme-text-color;
+  font-family: $base-typeface;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
   margin: 0;
   padding: 0;
 }
@@ -43,15 +49,6 @@ html {
   background-color: $theme-background-color;
   min-height: 98vh;
   padding: 2vh 1em 0;
-}
-
-body {
-  color: $theme-text-color;
-  font-family: $base-typeface;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  margin: 0;
-  padding: 0;
 }
 
 header,
