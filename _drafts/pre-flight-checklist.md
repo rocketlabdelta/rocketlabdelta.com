@@ -6,9 +6,11 @@ categories:  notes
 
 Based on a [pre-launch checklist][1] by [RandyT0001][2] over on [The Rocketry Forum][3].
 
-## At the Prep Table
+## Pre-Flight Inspection
 
-### Pre-Flight Inspection
+### Aerostructure
+### Avionics
+### Recovery
 
 - [ ] All adhesive and paint is dry/cured
 - [ ] Motor mount is secure with no loose parts
@@ -31,7 +33,7 @@ Based on a [pre-launch checklist][1] by [RandyT0001][2] over on [The Rocketry Fo
 - [ ] Make sure electronics has good batteries and that appropriate ejection charge(s) are used based on cavity size.
 - [ ] Make sure flameproof wadding is installed (Make sure baffles are clear of obstruction).
 
-### Flight Preparation
+## Flight Preparation
 
 - [ ] Recovery system should be folded loosely.
 - [ ] Install recovery system into rocket. It should slide out easily.
@@ -50,6 +52,7 @@ Based on a [pre-launch checklist][1] by [RandyT0001][2] over on [The Rocketry Fo
 - [ ] Baby wipes
 - [ ] Fine steel wool
 - [ ] #1 Phillips screw driver
+- [ ] #2 Phillips screw driver
 - [ ] Flush cutters
 - [ ] Adjustable wrench
 - [ ] Small level
