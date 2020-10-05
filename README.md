@@ -10,9 +10,14 @@ Data, photographs, and editorial content on the site are covered by a [Creative 
 I appreciate feedback of any kind; [my contact information is on the about page][6].
 Reporting content errors or ambiguity via issues and submitting new or altered content via pull requests is also welcome.
 
+## TODO
+
+- [ ] Implement [full bleed elements with CSS grid][7]
+
 [1]: https://jekyllrb.com/
 [2]: https://rocketlabdelta.com/
 [3]: https://www.netlify.com/
 [4]: https://www.danhorst.com/
 [5]: http://creativecommons.org/licenses/by/4.0/
 [6]: https://rocketlabdelta.com/about/#contact
+[7]: https://joshwcomeau.com/css/full-bleed/
