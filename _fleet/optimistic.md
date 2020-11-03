@@ -61,7 +61,8 @@ I put it together with a few modifications:
 
 ## Flights
 
-1. Aerotech J460 (???), 8300 feet at LDRS 23 in Geneseo, NY (2004)
+1. Aerotech J540R-L, 8300 feet, Mach 1 at LDRS 23 in Geneseo, NY (2004).
+   Peak altitude was cut short because the motor delay--even though it was the longest option--was too short.
 
 ## Gallery
 
