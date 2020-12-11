@@ -69,7 +69,7 @@ Based on a [pre-launch checklist][1] by [RandyT0001][2] over on [The Rocketry Fo
 - [ ] Load rocket onto rail
 - [ ] Return rocket to vertical
 - [ ] Ensure pad is appropriately anchored
-- [ ] Verify 90° orientation of rail with level and adjust as necessary
+- [ ] Verify 90&deg; orientation of rail with level and adjust as necessary
 - [ ] OPTIONAL: Use a disposable standoff to ensure the rocket is not resting on the blast deflector
 
 ### Prepare Avionics
