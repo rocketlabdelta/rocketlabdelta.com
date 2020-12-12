@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Making Time
 description: "It's OK to set aside time for recreation"
 date: 2020-06-09 07:55 -0400
