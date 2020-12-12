@@ -12,11 +12,12 @@ I was introduced to High Power Rocketry the next year by Kurt Cripe, a friend's 
 My first HPR launch was in Three Oaks, MI in the fall of 1996.
 My dad, Ken Horst, and I dove deep into rocketry after that.
 
-<figure class="r1x1">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/photos/1996-early-model-rocket-launch.jpg" | absolute_url }}" alt="Early model rocket launch in 1996" />
-  <figcaption>An early rocket launch with my dad & brother (left). The hood of the car is up because we used the car battery to set off the motor igniters. Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup</figcaption>
-</figure>
+{% picture
+  class: 'r1x1',
+  path: '/assets/photos/1996-early-model-rocket-launch.jpg',
+  caption: 'An early rocket launch with my dad & brother (left). The hood of the car is up because we used the car battery to set off the motor igniters. Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup',
+  alt: 'Early model rocket launch in 1996'
+%}
 
 The basement workshop of my parent's home was christened "The Rocket Lab" and it was outfitted with progressively larger power tools so that we could fabricate more sophisticated rockets.
 Over the next 8 years, I spent countless hours in the shop learning and practicing how to build rockets that could withstand the forces of high-power flight and recovery.
@@ -31,11 +32,12 @@ For the next four years, every year I was eligible to compete, my rocket was sel
 I still have two of my entries: a scratch-built 3" Ares (4×29mm), and a scratch-built 2-stage BT-60 WAC Corporal (3×18mm to 24mm).
 Neither one of them has flown but they were designed and built so that they could.
 
-<figure class="r1x1">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/photos/1998-4-H-WAC-Corporal.jpg" | absolute_url }}" alt="4-H WAC Corporal in 1998" />
-  <figcaption>My 4-H WAC Corporal. I turned both nose cones and built the telescoping stage coupler with heavy-gauge music wire and aluminum tubing.</figcaption>
-</figure>
+{% picture
+  class: 'r1x1',
+  path: '/assets/photos/1998-4-H-WAC-Corporal.jpg',
+  caption: 'My 4-H WAC Corporal. I turned both nose cones and built the telescoping stage coupler with heavy-gauge music wire and aluminum tubing.',
+  alt: '4-H WAC Corporal in 1998'
+%}
 
 My dad and I started using avionics early on in our HPR models.
 We tried many different altimeters but used the BlackSky AltAcc the most.
@@ -49,11 +51,12 @@ Our final project was featured in the January/February issue of Sport Rocketry i
 The [3-inch launch vehicle I built for that project][2] flew different payload configurations for several years starting in 2001.
 The rocket was retired after losing a fin to a hard landing in the Nevada desert at LDRS 26 (2007).
 
-<figure class="r2x3">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/photos/2001-G-RAG-3-payload.jpg" | absolute_url }}" alt="G-RAG 3 payload" />
-  <figcaption>Avionics &amp; telemetry payload and ground station for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then. See <a href="{{ "/essays/gps-telemetry-in-2020/" | absolute_url }}">GPS Telemtry in 2020</a> to see what you can do almost 20 years later.</figcaption>
-</figure>
+{% picture
+  class: 'r2x3',
+  path: '/assets/photos/2001-G-RAG-3-payload.jpg',
+  caption: 'Avionics &amp; telemetry payload and ground station for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then. See <a href="/essays/gps-telemetry-in-2020/">GPS Telemtry in 2020</a> to see what you can do almost 20 years later.',
+  alt: 'G-RAG 3 payload'
+%}
 
 My dad was a physics teacher at Goshen High School and coached at least one team for [The American Rocketry Challenge][3] from its inaugural year in 2002 until he retired in 2012.
 Several of his teams made it to nationals.
@@ -72,8 +75,8 @@ My last rocketry endeavors before the long break were:
 *[TRA]: Tripoli Rocketry Association
 
 [1]: https://www.danhorst.com
-[2]: {{ "/fleet/g-rag-3/" | absolute_url }}
+[2]: /fleet/g-rag-3/
 [3]: https://rocketcontest.org/
 [4]: https://www.nasa.gov/stem/studentlaunch/home/
-[5]: {{ "/fleet/overseer/" | absolute_url }}
-[6]: {{ "/fleet/optimistic/" | absolute_url }}
+[5]: /fleet/overseer/
+[6]: /fleet/optimistic/

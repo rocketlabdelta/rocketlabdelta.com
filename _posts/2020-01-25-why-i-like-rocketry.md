@@ -10,11 +10,12 @@ I like rocketry for two primary reasons:
 1. It is a way of concretely connecting with things I think are cool like space travel, powered flight, and stuff that goes super fast.
 2. It presents a wide variety of challenges that I have fun solving in different ways.
 
-<figure class="r4x3">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg" | absolute_url }}" alt="Family trip to Cape Canaveral" />
-  <figcaption>My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I</figcaption>
-</figure>
+{% picture
+  class: 'r4x3',
+  path: '/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg',
+  caption: 'My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I',
+  alt: 'Family trip to Cape Canaveral'
+%}
 
 Rocketry has a lot of engineering challenges that are accessible to people who aren't trained as engineers.
 For example, even the most technical sections of the [Handbook of Model Rocketry][1] employ high-school-level physics.
