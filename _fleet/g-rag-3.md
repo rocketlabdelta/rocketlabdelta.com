@@ -41,11 +41,12 @@ The rocket was retired after losing a fin to a hard landing in the Nevada desert
 
 ## Payload
 
-<figure class="r2x3">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/photos/2001-G-RAG-3-payload.jpg" | absolute_url }}" alt="G-RAG 3 payload" />
-  <figcaption>Avionics (dual BlackSky AltAcc) &amp; <a href="#telemetry-package">telemetry package</a>.</figcaption>
-</figure>
+{% picture
+  class: 'r2x3',
+  path: '/assets/photos/2001-G-RAG-3-payload.jpg',
+  alt: 'G-RAG 3 payload',
+  caption: 'Avionics (dual BlackSky AltAcc) &amp; <a href="#telemetry-package">telemetry package</a>.'
+%}
 
 We wanted to have real-time GPS telemetry while the rocket was in flight.
 To do this with off-the-shelf components in 2001 required:

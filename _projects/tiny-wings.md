@@ -29,10 +29,12 @@ My preliminary design for the aerostructure is:
 - Favor light materials: thin styrene, cardboard, skeletonized birch plywood
 - Reinforce with lightweight fiberglass lamination and expandable urethane foam
 
-<figure class="basic-frame">
-  <img src="{{ "/assets/images/tiny-wings-pdr.png" | absolute_url }}" alt="Tiny Wings preliminary design" />
-  <figcaption>Preliminary design of Tiny Wings loaded with an I59</figcaption>
-</figure>
+{% picture
+  path: '/assets/images/tiny-wings-pdr.png',
+  alt: 'Tiny Wings prrliminary design',
+  caption: 'Preliminary design of Tiny Wings loaded with an I59',
+  class: 'inline-image'
+%}
 
 [1]: https://www.notion.so/rocketlabdelta/Tiny-Wings-735759a802c7463d80e9c062c92b8e26
 [2]: http://www.airfoiltools.com/search/index?m%5BmaxCamber%5D=0&m%5Bsort%5D=5

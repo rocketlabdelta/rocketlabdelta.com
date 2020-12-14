@@ -349,11 +349,16 @@ hr {
   }
 }
 
-.basic-frame {
+.inline-image {
   margin: 1em;
+
+  .placeholder {
+    display: none;
+  }
 
   img {
     width: 100%;
+    position: relative;
   }
 }
 

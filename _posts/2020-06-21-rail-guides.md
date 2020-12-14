@@ -60,11 +60,12 @@ There are 4 sizes of commercially available rail guides:
 | Standard/1010 | [1010][9] (1"), Blacksky rails                  |
 | 1515          | [1515][10] (1.5")                               |
 
-<figure class="r3x4">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/images/terryg-rocket-rails.jpg" | absolute_url }}" alt="Common rail sizes for rocketry" />
-  <figcaption>Common rail sizes for rocketry <cite><a href="https://www.rocketryforum.com/threads/micro-and-mini-rail-buttons.148246/#post-1818567">from terryg over at The Rocketry Forum</a></cite></figcaption>
-</figure>
+{% picture
+  class: 'r3x4',
+  path: '/assets/images/terryg-rocket-rails.jpg',
+  alt: 'Common rail sizes for rocketry',
+  caption: 'Common rail sizes for rocketry <cite><a href="https://www.rocketryforum.com/threads/micro-and-mini-rail-buttons.148246/#post-1818567">from terryg over at The Rocketry Forum</a></cite>'
+%}
 
 The smaller two sizes--mini and micro--are available from [Rail-buttons.com][11].
 1010/starndard is the most common size so there are a variety of different styles and materials available from many different rocketry vendors.
@@ -91,28 +92,31 @@ My favorites are:
 The [new-style molded Delrin rail buttons from Rail-Buttons.com][18] are _almost_ as nice as the ones from Aero Pack but the surface finish isn't as smooth and they don't come with [an anchor][19] of any kind--just a machine screw.
 They're cheaper than the Aero Pack guides and perfectly decent quality so they are a good choice for most people.
 
-<figure class="r2x3">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ '/assets/photos/rail-guide-surface-comparison.jpg' | absolute_url }}" alt="Molded rail guide on the left, machiened rail guide on the right" />
-  <figcaption>The surface of the Rail-buttons.com molded rail guide (left) isn't <em>quite</em> as consistent as the Aero Pack machined rail guide (right)</figcaption>
-</figure>
+{% picture
+  class: 'r2x3',
+  path: '/assets/photos/rail-guide-surface-comparison.jpg',
+  alt: 'Molded rail guide on the left, machiened rail guide on the right',
+  caption: 'The surface of the Rail-buttons.com molded rail guide (left) isn&rsquo;t <em>quite</em> as consistent as the Aero Pack machined rail guide (right)'
+%}
 
 I've also had good luck using [ACME Conformal® Rail Guides][20] on minimum-diameter rockets.
 
-<figure class="r3x4">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ '/assets/photos/acme-conformal-rail-guide.jpg' | absolute_url }}" alt="Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe" />
-  <figcaption>Detail view of the ACME Conformal® Rail Guide (54mm offset) on the <a href="{{ '/fleet/optimistic/' | absolute_url }}">Optimistic</a></figcaption>
-</figure>
+{% picture
+  class: 'r3x4',
+  path: '/assets/photos/acme-conformal-rail-guide.jpg',
+  alt: 'Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe',
+  caption: 'Detail view of the ACME Conformal® Rail Guide (54mm offset) on the <a href="/fleet/optimistic/">Optimistic</a>'
+%}
 
 On the [Rocketry Forum][21], [Mike Mulligan][22] suggests [cutting an ACME Conformal® Rail Guide in half][23] and using the two halves for one rocket.
 That sounds like a good idea to me!
 
-<figure class="r3x4">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ '/assets/photos/mugs914-rail-guide.jpg' | absolute_url }}" alt="Half an ACME Conformal® Rail Guide, pointy side up, near the aft end of a white rocket."/>
-  <figcaption><cite>Good tip from <a href="https://www.rocketryforum.com/threads/buttons-or-conformal-rail-guides.159723/#post-2005202">Mike Mulligan (Mugs914) over at The Rocketry Forum</a></cite></figcaption>
-</figure>
+{% picture
+  class: 'r3x4',
+  path: '/assets/photos/mugs914-rail-guide.jpg',
+  alt: 'Half an ACME Conformal® Rail Guide, pointy side up, near the aft end of a white rocket.',
+  caption: '<cite>Good tip from <a href="https://www.rocketryforum.com/threads/buttons-or-conformal-rail-guides.159723/#post-2005202">Mike Mulligan (Mugs914) over at The Rocketry Forum</a></cite>'
+%}
 
 ## Placement
 

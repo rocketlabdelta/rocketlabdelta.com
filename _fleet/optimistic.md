@@ -66,23 +66,26 @@ I put it together with a few modifications:
 
 ## Gallery
 
-<figure class="r3x2">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/photos/2004-optimistic-pre-flight.jpg" | absolute_url }}" alt="At the pad at LDRS 23" />
-  <figcaption>At the pad at LDRS 23, 2004</figcaption>
-</figure>
+{% picture
+  class: 'r3x2',
+  path: '/assets/photos/2004-optimistic-pre-flight.jpg',
+  alt: 'At the pad at LDRS 23',
+  caption: 'At the pad at LDRS 23, 2004'
+%}
 
-<figure class="r3x2">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ "/assets/photos/2004-optimistic-recovery.jpg" | absolute_url }}" alt="After a successful recovery" />
-  <figcaption>After a successful recovery at LDRS 23, 2004</figcaption>
-</figure>
+{% picture
+  class: 'r3x2',
+  path: '/assets/photos/2004-optimistic-recovery.jpg',
+  alt: 'After a successful recovery',
+  caption: 'After a successful recovery at LDRS 23, 2004'
+%}
 
-<figure class="r3x4">
-  <div class="placeholder"></div>
-  <img loading="lazy" src="{{ '/assets/photos/acme-conformal-rail-guide.jpg' | absolute_url }}" alt="Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe" />
-  <figcaption>Detail view of the ACME Conformal® Rail guide (54mm offset)</figcaption>
-</figure>
+{% picture
+  class: 'r3x4',
+  path: '/assets/photos/acme-conformal-rail-guide.jpg',
+  alt: 'Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe',
+  caption: 'Detail view of the ACME Conformal® Rail guide (54mm offset)'
+%}
 
 
 ## Specifications
