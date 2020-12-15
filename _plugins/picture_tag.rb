@@ -20,12 +20,7 @@ class PictureTag < Liquid::Tag
   end
 
   def render(context)
-    html = if klass.nil? || klass.empty?
-             "<figure class=\"picture\">\n"
-           else
-             "<figure class=\"picture #{klass}\">\n"
-           end
-
+    html =  "<figure class=\"#{css_class}\">\n"
     html += '  <div class="placeholder"></div>'
     html += "  <img #{loading}class=\"picture__content\" src=\"#{path}\"#{alt_text}>\n"
     html += "  <figcaption class=\"picture__caption\">#{caption}</figcaption>\n" unless caption.nil? || caption.empty?
@@ -39,6 +34,11 @@ class PictureTag < Liquid::Tag
 
   def inline?
     klass == 'inline-image'
+  end
+
+  def css_class(base: 'picture', extended: klass)
+    return "#{base} #{extended}" unless extended.nil? || extended.empty?
+    base
   end
 
   def alt_text
