@@ -68,21 +68,21 @@ I put it together with a few modifications:
 
 {% picture
   class: 'r3x2',
-  path: '/assets/photos/2004-optimistic-pre-flight.jpg',
+  src: '/assets/photos/2004-optimistic-pre-flight.jpg',
   alt: 'At the pad at LDRS 23',
   caption: 'At the pad at LDRS 23, 2004'
 %}
 
 {% picture
   class: 'r3x2',
-  path: '/assets/photos/2004-optimistic-recovery.jpg',
+  src: '/assets/photos/2004-optimistic-recovery.jpg',
   alt: 'After a successful recovery',
   caption: 'After a successful recovery at LDRS 23, 2004'
 %}
 
 {% picture
   class: 'r3x4',
-  path: '/assets/photos/acme-conformal-rail-guide.jpg',
+  src: '/assets/photos/acme-conformal-rail-guide.jpg',
   alt: 'Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe',
   caption: 'Detail view of the ACME Conformal® Rail guide (54mm offset)'
 %}

@@ -43,7 +43,7 @@ The rocket was retired after losing a fin to a hard landing in the Nevada desert
 
 {% picture
   class: 'r2x3',
-  path: '/assets/photos/2001-G-RAG-3-payload.jpg',
+  src: '/assets/photos/2001-G-RAG-3-payload.jpg',
   alt: 'G-RAG 3 payload',
   caption: 'Avionics (dual BlackSky AltAcc) &amp; <a href="#telemetry-package">telemetry package</a>.'
 %}

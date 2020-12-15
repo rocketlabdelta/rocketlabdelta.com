@@ -1,8 +1,8 @@
 class PictureTag < Liquid::Tag
-  attr_reader :path, :caption, :alt, :klass
+  attr_reader :src, :caption, :alt, :klass
 
   # Use:
-  # {% picture path: '/path/to/picture.jpg', caption: 'Helpful caption', alt: 'Accessible description', class: 'css-class' %}
+  # {% picture src: '/path/to/picture.jpg', caption: 'Helpful caption', alt: 'Accessible description', class: 'css-class' %}
 
   def initialize(tag_name, input, tokens)
     super
@@ -10,19 +10,19 @@ class PictureTag < Liquid::Tag
 
     if has_args?
       set_args!
-      @path    = args[:path]
+      @src     = args[:src]
       @caption = args[:caption]
       @alt     = args[:alt]
       @klass   = args[:class]
     else
-      @path = user_input.strip
+      @src = user_input.strip
     end
   end
 
   def render(context)
     html =  "<figure class=\"#{css_class}\">\n"
     html += '  <div class="placeholder"></div>'
-    html += "  <img #{loading}class=\"picture__content\" src=\"#{path}\"#{alt_text}>\n"
+    html += "  <img #{loading}class=\"picture__content\" src=\"#{src}\"#{alt_text}>\n"
     html += "  <figcaption class=\"picture__caption\">#{caption}</figcaption>\n" unless caption.nil? || caption.empty?
     html += '</figure>'
     html
@@ -53,7 +53,7 @@ class PictureTag < Liquid::Tag
   end
 
   def has_args?
-    user_input.match?(/path:/)
+    user_input.match?(/src:/)
   end
 
   def set_args!

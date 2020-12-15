@@ -14,7 +14,7 @@ My dad, Ken Horst, and I dove deep into rocketry after that.
 
 {% picture
   class: 'r1x1',
-  path: '/assets/photos/1996-early-model-rocket-launch.jpg',
+  src: '/assets/photos/1996-early-model-rocket-launch.jpg',
   caption: 'An early rocket launch with my dad & brother (left). The hood of the car is up because we used the car battery to set off the motor igniters. Rockets featured: Estes Alpha III, Estes Nova (with Lego astronaut as payload), Estes Bull Pup',
   alt: 'Early model rocket launch in 1996'
 %}
@@ -34,7 +34,7 @@ Neither one of them has flown but they were designed and built so that they coul
 
 {% picture
   class: 'r1x1',
-  path: '/assets/photos/1998-4-H-WAC-Corporal.jpg',
+  src: '/assets/photos/1998-4-H-WAC-Corporal.jpg',
   caption: 'My 4-H WAC Corporal. I turned both nose cones and built the telescoping stage coupler with heavy-gauge music wire and aluminum tubing.',
   alt: '4-H WAC Corporal in 1998'
 %}
@@ -53,7 +53,7 @@ The rocket was retired after losing a fin to a hard landing in the Nevada desert
 
 {% picture
   class: 'r2x3',
-  path: '/assets/photos/2001-G-RAG-3-payload.jpg',
+  src: '/assets/photos/2001-G-RAG-3-payload.jpg',
   caption: 'Avionics &amp; telemetry payload and ground station for the G-RAG 3 rocket. Electronics have gotten a <em>lot</em> smaller since then. See <a href="/essays/gps-telemetry-in-2020/">GPS Telemtry in 2020</a> to see what you can do almost 20 years later.',
   alt: 'G-RAG 3 payload'
 %}

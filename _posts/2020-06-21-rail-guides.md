@@ -62,7 +62,7 @@ There are 4 sizes of commercially available rail guides:
 
 {% picture
   class: 'r3x4',
-  path: '/assets/images/terryg-rocket-rails.jpg',
+  src: '/assets/images/terryg-rocket-rails.jpg',
   alt: 'Common rail sizes for rocketry',
   caption: 'Common rail sizes for rocketry <cite><a href="https://www.rocketryforum.com/threads/micro-and-mini-rail-buttons.148246/#post-1818567">from terryg over at The Rocketry Forum</a></cite>'
 %}
@@ -94,7 +94,7 @@ They're cheaper than the Aero Pack guides and perfectly decent quality so they a
 
 {% picture
   class: 'r2x3',
-  path: '/assets/photos/rail-guide-surface-comparison.jpg',
+  src: '/assets/photos/rail-guide-surface-comparison.jpg',
   alt: 'Molded rail guide on the left, machiened rail guide on the right',
   caption: 'The surface of the Rail-buttons.com molded rail guide (left) isn&rsquo;t <em>quite</em> as consistent as the Aero Pack machined rail guide (right)'
 %}
@@ -103,7 +103,7 @@ I've also had good luck using [ACME Conformal® Rail Guides][20] on minimum-diam
 
 {% picture
   class: 'r3x4',
-  path: '/assets/photos/acme-conformal-rail-guide.jpg',
+  src: '/assets/photos/acme-conformal-rail-guide.jpg',
   alt: 'Silver aluminum rail guide bonded to a green filament-wound fiberglass airframe',
   caption: 'Detail view of the ACME Conformal® Rail Guide (54mm offset) on the <a href="/fleet/optimistic/">Optimistic</a>'
 %}
@@ -113,7 +113,7 @@ That sounds like a good idea to me!
 
 {% picture
   class: 'r3x4',
-  path: '/assets/photos/mugs914-rail-guide.jpg',
+  src: '/assets/photos/mugs914-rail-guide.jpg',
   alt: 'Half an ACME Conformal® Rail Guide, pointy side up, near the aft end of a white rocket.',
   caption: '<cite>Good tip from <a href="https://www.rocketryforum.com/threads/buttons-or-conformal-rail-guides.159723/#post-2005202">Mike Mulligan (Mugs914) over at The Rocketry Forum</a></cite>'
 %}

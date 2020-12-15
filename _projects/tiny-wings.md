@@ -30,7 +30,7 @@ My preliminary design for the aerostructure is:
 - Reinforce with lightweight fiberglass lamination and expandable urethane foam
 
 {% picture
-  path: '/assets/images/tiny-wings-pdr.png',
+  src: '/assets/images/tiny-wings-pdr.png',
   alt: 'Tiny Wings prrliminary design',
   caption: 'Preliminary design of Tiny Wings loaded with an I59',
   class: 'inline-image'

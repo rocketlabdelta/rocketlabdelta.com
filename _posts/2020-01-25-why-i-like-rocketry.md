@@ -12,7 +12,7 @@ I like rocketry for two primary reasons:
 
 {% picture
   class: 'r4x3',
-  path: '/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg',
+  src: '/assets/photos/1998-Cape-Canaveral-with-grandpa.jpg',
   caption: 'My grandpa, brother (center), and I outside a rocket garden in Cape Canaveral, FL in 1998. Rockets featured: Atlas Agina, Titan II, Thor-Able, Juno II, Juno I',
   alt: 'Family trip to Cape Canaveral'
 %}
