@@ -27,7 +27,7 @@ class PictureTag < Liquid::Tag
            end
 
     html += '  <div class="placeholder"></div>'
-    html += "  <img loading=\"lazy\" class=\"picture__content\" src=\"#{path}\"#{alt_text}>\n"
+    html += "  <img #{loading}class=\"picture__content\" src=\"#{path}\"#{alt_text}>\n"
     html += "  <figcaption class=\"picture__caption\">#{caption}</figcaption>\n" unless caption.nil? || caption.empty?
     html += '</figure>'
     html
@@ -37,10 +37,19 @@ class PictureTag < Liquid::Tag
 
   attr_reader :args, :user_input
 
+  def inline?
+    klass == 'inline-image'
+  end
+
   def alt_text
     return " alt=\"#{alt}\"" unless alt.nil? || alt.empty?
     return " alt=\"#{caption}\"" unless caption.nil? || caption.empty?
     ""
+  end
+
+  def loading
+    return '' if inline?
+    'loading="lazy" '
   end
 
   def has_args?
