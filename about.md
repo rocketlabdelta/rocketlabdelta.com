@@ -65,9 +65,11 @@ This website is designed to be fast for you and cheap for me.
   <dt>Typeface</dt>
   <dd><a href="https://www.shyfoundry.com/fonts/shareware/sfalienenc.html">Alien Encounters</a></dd>
   <dt><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></dt>
-  <dd>Based on <a href="https://www.nd.edu/">nd.edu</a> by <a href="https://erikrunyon.com/">Erik Runyon</a></dd>
+  <dd>Based on <a href="https://adactio.com/">adactio</a> by Jeremy Keith</dd>
   <dt>Performance auditing</dt>
   <dd><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></dd>
+  <dd><a href="https://www.webpagetest.org/">WebPageTest</a></dd>
+  <dd><a href="https://observatory.mozilla.org/">Mozilla Observatory</a></dd>
 </dl>
 
 Aside from the domain name registration, everything is free and I don't have to manage anything.
