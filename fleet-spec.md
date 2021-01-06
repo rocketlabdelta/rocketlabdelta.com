@@ -42,7 +42,7 @@ Rocket attributes
     - BT-60
     - 54mm
     - BT-70
-    - BT-80
+    - BT-80 (65mm; 2.6 in)
     - 75mm
     - 98mm
     - 4.5 in
