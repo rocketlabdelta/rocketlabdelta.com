@@ -34,6 +34,9 @@ $theme-active-color:     $theme-color-contrast;
 
 $print-text-color:       #000;
 
+:root {
+  color-scheme: dark;
+}
 
 html, body {
   background-color: $theme-background-color;
