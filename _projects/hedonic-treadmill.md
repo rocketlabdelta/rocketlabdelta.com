@@ -1,6 +1,6 @@
 ---
 title:       "Hedonic Treadmill"
-description: ""
+description: "Stepping through the levels of High Power Rocketry"
 status:      "Planning"
 ---
 
