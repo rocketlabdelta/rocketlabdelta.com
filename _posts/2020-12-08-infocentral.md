@@ -38,7 +38,7 @@ However, there are three problems with the legacy INFOcentral content:
 2. The site is a loose collection of articles, not a wiki-style knowledge base. The information architecture needs work.
 3. There is a lot of content that didn't age very well e.g. rules and regulations, anything about specific electronics, etc.
 
-Please [take a look around][5].
+Please [take a look around][1].
 There's a lot to explore!
 
 [^1]: If you look at the page sources of [some of the archived pages][9] you can see a reference to Darrel in the link to "infocentral.css"
