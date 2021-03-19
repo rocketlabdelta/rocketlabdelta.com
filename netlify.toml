@@ -4,4 +4,4 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' rocketlabdelta.com; style-src 'self'; script-src 'self' 'unsafe-hashes' 'sha256-zCj5Xpl+h047gZcIUhcqj/Gbj96vKarw7cAPPn4K5YQ='"
+    Content-Security-Policy = "default-src 'self' rocketlabdelta.com; style-src 'self'; script-src 'self'; script-src 'unsafe-hashes' 'sha256-zCj5Xpl+h047gZcIUhcqj/Gbj96vKarw7cAPPn4K5YQ='; object-src 'none'; require-trusted-types-for 'script';"
