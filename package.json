@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "standard": "^14.3.4"
+    "standard": "^14.3.4",
+    "yarn": "^1.22.10"
   },
   "standard": {
     "ignore": [
