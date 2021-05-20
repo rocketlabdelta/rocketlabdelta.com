@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.0.0'
+gem 'jekyll', '~> 4.2.0'
 
 group :jekyll_plugins do
   gem 'jekyll-compose'
@@ -9,7 +9,7 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'scss_lint'
+  gem 'scss_lint', require: false
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
