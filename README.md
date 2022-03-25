@@ -1,4 +1,4 @@
-![Rocket Lab Delta](https://raw.githubusercontent.com/rocketlabdelta/rocketlabdelta.com/master/assets/svg/RLD.svg)
+![Rocket Lab Delta](https://raw.githubusercontent.com/rocketlabdelta/rocketlabdelta.com/main/assets/svg/RLD.svg)
 
 # Website Source Code
 
