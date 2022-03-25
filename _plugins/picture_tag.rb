@@ -20,9 +20,11 @@ class PictureTag < Liquid::Tag
   end
 
   def render(context)
-    html = "<figure class=\"#{css_class} lightbox\">\n"
-    html += "  <div class=\"placeholder\"></div>\n"
-    html += "  <a class=\"picture__anchor\" href=\"#{src}\"><img #{loading}class=\"picture__content\" src=\"#{src}\"#{alt_text}></a>\n"
+    html = "<figure class=\"picture lightbox\">\n"
+    html += "  <a class=\"picture__anchor\ #{css_class}\" href=\"#{src}\">\n"
+    html += "    <div class=\"placeholder\"></div>\n"
+    html += "    <img #{loading}class=\"picture__content\" src=\"#{src}\"#{alt_text}>\n"
+    html += "  </a>\n"
     html += "  <figcaption class=\"picture__caption\">#{caption}</figcaption>\n" unless caption.nil? || caption.empty?
     html += "</figure>"
     html

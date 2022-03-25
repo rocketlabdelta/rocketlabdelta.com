@@ -64,34 +64,6 @@ main,
 
 main {
   padding-bottom: 1em;
-
-  figure {
-    color: $theme-color-highlight;
-    margin: 1em;
-    padding: 0;
-    position: relative;
-
-    img {
-      width: 100%;
-    }
-
-    figcaption {
-      display: block;
-      font-style: italic;
-      padding-top: .5em;
-
-      em {
-        font-style: normal;
-      }
-    }
-  }
-}
-
-.picture__anchor {
-  display: block;
-  left: 0;
-  position: absolute;
-  top: 0;
 }
 
 h1,
@@ -342,6 +314,31 @@ hr {
   }
 }
 
+.picture {
+  margin: 1em;
+  padding: 0;
+
+  img {
+    width: 100%;
+  }
+}
+
+.picture__caption {
+  color: $theme-color-highlight;
+  display: block;
+  font-style: italic;
+  padding: 1em 0;
+
+  em {
+    font-style: normal;
+  }
+}
+
+.picture__anchor {
+  display: block;
+  position: relative;
+}
+
 .placeholder {
   background: no-repeat center url('/assets/svg/placeholder.svg');
   border: 1px solid $theme-color-dark;
@@ -373,7 +370,7 @@ hr {
 }
 
 .r1x1 {
-  margin: 1em 2em;
+  margin: 1em 2em 0;
 
   .placeholder {
     padding-top: 100%;
@@ -381,7 +378,7 @@ hr {
 }
 
 .r4x3 {
-  margin: 1em 4em;
+  margin: 1em 4em 0;
 
   .placeholder {
     padding-top: 133.33%;
@@ -389,7 +386,7 @@ hr {
 }
 
 .r3x4 {
-  margin: 1em 2em;
+  margin: 1em 2em 0;
 
   .placeholder {
     padding-top: 75%;
@@ -397,7 +394,7 @@ hr {
 }
 
 .r3x2 {
-  margin: 1em 4em;
+  margin: 1em 4em 0;
 
   .placeholder {
     padding-top: 150%;
@@ -405,7 +402,7 @@ hr {
 }
 
 .r2x3 {
-  margin: 1em 2em;
+  margin: 1em 2em 0;
 
   .placeholder {
     padding-top: 66.66%;
@@ -413,7 +410,7 @@ hr {
 }
 
 .r9x16 {
-  margin: 1em 6em;
+  margin: 1em 6em 0;
 
   .placeholder {
     padding-top: 56.25%;
@@ -1073,27 +1070,27 @@ footer {
   }
 
   .r1x1 {
-    margin: 2em 4em;
+    margin: 2em 4em 0;
   }
 
   .r4x3 {
-    margin: 2em 6em;
+    margin: 2em 6em 0;
   }
 
   .r3x4 {
-    margin: 2em;
+    margin: 2em 0;
   }
 
   .r3x2 {
-    margin: 2em 8em;
+    margin: 2em 8em 0;
   }
 
   .r2x3 {
-    margin: 2em 3em;
+    margin: 2em 3em 0;
   }
 
   .r9x16 {
-    margin: 2em 0;
+    margin: 2em 0 0;
   }
 
   .social-link {
