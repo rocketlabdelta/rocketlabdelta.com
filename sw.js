@@ -26,7 +26,7 @@ function updateStaticCache () {
       staticCache.addAll([
         '/assets/fonts/sf-alien-encounters-italic-solid.woff2',
         '/assets/svg/placeholder.svg',
-        '/assets/svg/RLD-drop-shadow.svg'
+        '/assets/svg/RLD.svg'
       ])
       // These items must be cached for the Service Worker to complete installation
       return staticCache.addAll([
