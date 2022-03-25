@@ -4,7 +4,7 @@
 
 This repo contains the [Jekyll][1] site that is built into [rocketlabdelta.com][2] by [Netlify][3].
 
-The Rocket Lab Delta logo and branding are the creative property of [Dan Horst][4], are copyrighted material, and should not be used without expressed consent.
+The Rocket Lab Delta logo and branding are the creative property of [Dan Brubaker Horst][4], are copyrighted material, and should not be used without expressed consent.
 Data, photographs, and editorial content on the site are covered by a [Creative Commons Attribution 4.0 International License][5] unless another copyright holder has been explicitly identified.
 
 I appreciate feedback of any kind; [my contact information is on the about page][6].

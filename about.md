@@ -1,11 +1,11 @@
 ---
 title:       About
-description: "Rocket Lab Delta is the work of Dan Horst"
+description: "Rocket Lab Delta is the work of Dan Brubaker Horst"
 layout:      page
 permalink:   /about/
 ---
 
-Rocket Lab Delta is the work of [Dan Horst][1] [TRA][2] #8886, [NAR][3] #70699.
+Rocket Lab Delta is the work of [Dan Brubaker Horst][1] [TRA][2] #8886, [NAR][3] #70699.
 
 [My backstory][4] and ["Why I Like Rocketry"][5] talk about why hobby rocketry is important to me.
 

@@ -5,7 +5,7 @@ date:        2020-01-24 19:39:46 -0500
 categories:  essays
 ---
 
-My name is [Dan Horst][1] and I am a BAR.
+My name is [Dan Brubaker Horst][1] and I am a BAR.
 I reconnected with rocketry in 2020 after leaving the hobby in the early 2000s.
 My first rocket was an Estes Bull Pup I saw at Walmart as a seventh-grader in 1995.
 I was introduced to High Power Rocketry the next year by Kurt Cripe, a friend's dad.
