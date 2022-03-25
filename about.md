@@ -64,6 +64,8 @@ This website is designed to be fast for you and cheap for me.
   <dd><a href="https://jekyllrb.com/">Jekyll</a></dd>
   <dt>Typeface</dt>
   <dd><a href="https://www.shyfoundry.com/fonts/shareware/sfalienenc.html">Alien Encounters</a></dd>
+  <dt>Lightbox</dt>
+  <dd><a href="https://github.com/feimosi/baguetteBox.js">baguetteBox.js</a></dd>
   <dt><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></dt>
   <dd>Based on <a href="https://adactio.com/">adactio</a> by Jeremy Keith</dd>
   <dt>Performance auditing</dt>
