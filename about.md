@@ -53,13 +53,14 @@ There are no comments on this site but I'd still love to hear from you. The best
 
 This website is designed to be fast for you and cheap for me.
 
+<section class="colophon">
 <dl>
   <dt>DNS</dt>
   <dd><a href="https://www.hover.com">Hover</a></dd>
   <dt>Hosting</dt>
-  <dd><a href="https://www.netlify.com/">Netlify</a> (Free HTTPS thanks to <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a>.)</dd>
+  <dd><a href="https://www.netlify.com/">Netlify</a></dd>
   <dt><a href="https://git-scm.com/">git</a> Hosting</dt>
-  <dd><a href="https://github.com/">Github</a>: <a href="https://github.com/rocketlabdelta">rocketlabdelta</a>/<a href="https://github.com/rocketlabdelta/rocketlabdelta.com">rocketlabdelta.com</a></dd>
+  <dd><a href="https://github.com/rocketlabdelta/rocketlabdelta.com">GitHub</a></dd>
   <dt>Site builder</dt>
   <dd><a href="https://jekyllrb.com/">Jekyll</a></dd>
   <dt>Typeface</dt>
@@ -67,12 +68,13 @@ This website is designed to be fast for you and cheap for me.
   <dt>Lightbox</dt>
   <dd><a href="https://github.com/feimosi/baguetteBox.js">baguetteBox.js</a></dd>
   <dt><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a></dt>
-  <dd>Based on <a href="https://adactio.com/">adactio</a> by Jeremy Keith</dd>
-  <dt>Performance auditing</dt>
+  <dd>Based on <a href="https://adactio.com/">Adactio</a></dd>
+  <dt>Auditing</dt>
   <dd><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></dd>
   <dd><a href="https://www.webpagetest.org/">WebPageTest</a></dd>
   <dd><a href="https://observatory.mozilla.org/">Mozilla Observatory</a></dd>
 </dl>
+</section>
 
 Aside from the domain name registration, everything is free and I don't have to manage anything.
 
