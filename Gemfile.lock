@@ -68,28 +68,19 @@ GEM
       sass (~> 3.5, >= 3.5.5)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    thread_safe (0.3.6)
-    tzinfo (1.2.9)
-      thread_safe (~> 0.1)
-    tzinfo-data (1.2022.1)
-      tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4.2.0)
+  jekyll
   jekyll-compose
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   jekyll-redirect-from
   scss_lint
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
-  webrick (~> 1.7)
+  webrick
 
 BUNDLED WITH
-   2.3.10
+   2.3.8
