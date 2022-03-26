@@ -6,7 +6,7 @@ specifications:
   class: Level 1
   configuration: Single motor
   nose_cone:
-    shape: Ogive
+    shape: '3:1 Ogive'
     material: Fiberglass
   airframe:
     diameter: 65mm
@@ -15,7 +15,7 @@ specifications:
     - None
   fins:
     count: 3
-    material: Fiberglass
+    material: Balsa
     airfoil: Prandtl-D
     reinforcement:
       - Fiberglass
