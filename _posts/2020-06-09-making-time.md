@@ -6,7 +6,7 @@ categories:  updates
 ---
 
 I struggle with [time optimism][1][^1] (I think it will take me _way_ less time to do something than it actually does).
-This makes it easy to become demoralized because I consistently don't meet my own (unreasonable) expectations for my productivity.
+This makes it easy to become demoralized because I consistently fail to meet my own (unreasonable) expectations for my productivity.
 
 To help keep me accountable, I'm using [Beeminder][2] to track the [time I spend on rockets][3] (work on the website counts too).
 I set a goal of doing at least 4 hours a week.
