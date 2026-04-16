@@ -81,11 +81,12 @@ defaults:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - package.json
-  - package-lock.json
-  - fleet-spec.md
-  - projects/todo.md
   - README.md
+  - TODO.md
+  - fleet-spec.md
+  - package-lock.json
+  - package.json
+  - projects/todo.md
   - yarn.lock
 #   - .sass-cache/
 #   - .jekyll-cache/
